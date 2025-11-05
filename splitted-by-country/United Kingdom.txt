@@ -1,1 +1,0 @@
-vless://bf3e8944-8d26-47de-8748-b9aa74cce974@140.238.100.35:40721/?type=tcp&encryption=none&flow=&sni=yahoo.com&security=reality&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%A7-London-1105ms-Oracle%20Corporation
