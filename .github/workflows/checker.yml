@@ -1,0 +1,73 @@
+name: Check Top 100 Proxies by Country
+
+on:
+  # Позволяет запускать воркфлоу вручную с вкладки "Actions"
+  workflow_dispatch:
+  
+  # Запускает воркфлоу по расписанию, например, каждые 6 часов
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  check-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Клонируем репозиторий, чтобы иметь доступ к скрипту и возможность сделать коммит
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Устанавливаем Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3. Устанавливаем зависимости для скрипта
+      - name: Install dependencies
+        run: pip install requests
+
+      # 4. Подготовка списка прокси для проверки
+      - name: Prepare Proxy List
+        run: |
+          # Скачиваем полный список прокси. ИЗМЕНИТЕ URL, если нужно.
+          curl -s https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt -o all_proxies.txt
+          
+          # Берем первые 100 строк из скачанного файла и сохраняем их для проверки
+          head -n 100 all_proxies.txt > proxies_to_check.txt
+          
+          echo "Prepared a list of $(wc -l < proxies_to_check.txt) proxies for checking."
+
+      # 5. Запуск скрипта проверки
+      - name: Run Proxy Check
+        run: |
+          # Создаем папку для результатов
+          mkdir -p splitted-by-country
+          
+          # Запускаем скрипт, передавая ему файл с первыми 100 прокси и папку для результатов
+          python check_proxies.py proxies_to_check.txt splitted-by-country
+
+      # 6. Коммит и отправка результатов в репозиторий
+      - name: Commit and Push Results
+        run: |
+          # Настраиваем Git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Добавляем все изменения в папке с результатами
+          git add splitted-by-country/
+          
+          # Проверяем, есть ли изменения. Если нет, выходим, чтобы не создавать пустых коммитов.
+          if git diff --staged --quiet
+          then
+            echo "No changes to commit. The proxy list is up-to-date."
+          else
+            # Если изменения есть, создаем коммит и отправляем его
+            TOTAL_PROXIES=$(cat splitted-by-country/*.txt | wc -l || true)
+            COMMIT_MESSAGE="Update country-sorted proxies ($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
+            
+            echo "Creating commit with message: $COMMIT_MESSAGE"
+            git commit -m "$COMMIT_MESSAGE"
+            
+            echo "Pushing changes to the repository..."
+            git push
+          fi
