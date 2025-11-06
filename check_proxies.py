@@ -170,7 +170,7 @@ def check_proxy(proxy_url):
     ip_port = f"{parsed.get('address')}:{parsed.get('port')}"
     print(f"\n--- Checking {protocol.upper()} proxy: {ip_port} {remark[:50]}")
 
-    max_retries = 3
+    max_retries = 2
     retry_delay = 2
 
     for attempt in range(max_retries):
