@@ -1,4 +1,4 @@
-# check_proxies.py (универсальная версия с повторными попытками)
+# check_proxies.py (финальная версия с URL-декодированием)
 
 import requests
 import subprocess
@@ -115,24 +115,37 @@ def parse_vmess(proxy_url):
         }
     except Exception: return None
 
+# --- ИСПРАВЛЕННАЯ ФУНКЦИЯ ---
 def parse_ss(proxy_url):
     try:
         if not proxy_url.startswith("ss://"): return None
+        
         parsed_uri = urlparse(proxy_url)
         remark = unquote(parsed_uri.fragment) if parsed_uri.fragment else ''
         if '@' not in parsed_uri.netloc: return None
-        credentials_part = parsed_uri.netloc.split('@')[0]
+
+        credentials_part_url_encoded = parsed_uri.netloc.split('@')[0]
+        
+        # НОВОЕ: Сначала URL-декодируем, чтобы избавиться от %3D и т.д.
+        credentials_part = unquote(credentials_part_url_encoded)
+
+        # Теперь декодируем из Base64
         credentials_b64 = credentials_part + '=' * (-len(credentials_part) % 4)
         credentials_decoded = base64.b64decode(credentials_b64).decode('utf-8')
+        
         if ':' not in credentials_decoded: return None
         method, password = credentials_decoded.split(':', 1)
+        
         address, port = parsed_uri.hostname, parsed_uri.port
         if not address or not port: return None
+
         return {
             'protocol': 'shadowsocks', 'remark': remark, 'address': address,
             'port': port, 'method': method, 'password': password
         }
-    except Exception: return None
+    except Exception:
+        return None
+# -----------------------------
 
 def parse_proxy_url(proxy_url):
     if proxy_url.startswith("vless://"): return parse_vless_trojan(proxy_url)
@@ -153,7 +166,6 @@ def setup_xray():
         except Exception as e: print(f"Failed to setup Xray: {e}"); return None
     return './xray'
 
-# --- ИЗМЕНЕННАЯ ФУНКЦИЯ ---
 def check_proxy(proxy_url):
     parsed = parse_proxy_url(proxy_url)
     if not parsed:
@@ -165,12 +177,12 @@ def check_proxy(proxy_url):
     ip_port = f"{parsed.get('address')}:{parsed.get('port')}"
     print(f"\n--- Checking {protocol.upper()} proxy: {ip_port} {remark[:50]}")
 
-    # Параметры для повторных попыток
     max_retries = 3
-    retry_delay = 2 # в секундах
+    retry_delay = 2
 
     for attempt in range(max_retries):
         outbound = {"protocol": protocol, "settings": {}}
+        # ... (остальная часть функции check_proxy без изменений) ...
         if protocol == 'vless':
             outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "encryption": "none", "flow": parsed.get('flow', '')}] }]
             outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
@@ -203,7 +215,7 @@ def check_proxy(proxy_url):
             with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as f:
                 json.dump(config, f, indent=2); config_path = f.name
             xray_path = setup_xray()
-            if not xray_path: return None # Если Xray не удалось установить, выходим
+            if not xray_path: return None
             
             process = subprocess.Popen([xray_path, 'run', '-c', config_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             time.sleep(2)
@@ -218,7 +230,7 @@ def check_proxy(proxy_url):
                 country_match = re.search(r'loc=([A-Z]{2})', stdout_str)
                 country_code = country_match.group(1) if country_match else "Unknown"
                 print(f"SUCCESS (Attempt {attempt + 1}): Proxy is working. Latency: {latency:.2f} ms. Country: {country_code}")
-                return (proxy_url, country_code) # Успех, выходим из функции
+                return (proxy_url, country_code)
             else:
                 stderr_str = result.stderr.decode('utf-8', errors='ignore').strip()
                 print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): Proxy check failed. Stderr: {stderr_str}")
@@ -227,20 +239,16 @@ def check_proxy(proxy_url):
             print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): An error occurred: {e}")
         
         finally:
-            # Важно очищать процесс и файл после каждой попытки
             if process: process.terminate(); process.wait()
             if os.path.exists(config_path): os.unlink(config_path)
 
-        # Если это была не последняя попытка, ждем перед следующей
         if attempt < max_retries - 1:
             print(f"--- Waiting {retry_delay}s before retrying... ---")
             time.sleep(retry_delay)
     
-    # Если цикл завершился, значит все попытки провалились
     print(f"--- All {max_retries} attempts failed for this proxy. ---")
     return None
 
-# Функция main остается без изменений
 if __name__ == "__main__":
     if len(sys.argv) < 3: print("Usage: python check_proxies.py <input_file> <output_directory>"); sys.exit(1)
     input_file, output_dir = sys.argv[1], sys.argv[2]
