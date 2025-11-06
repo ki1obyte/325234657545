@@ -58,9 +58,11 @@ jobs:
             fi
           done
 
-          echo "Removing duplicate proxies..."
-          # Используем `grep` для очистки от пустых строк перед `sort`
-          grep -v -e '^$' combined_proxies.txt | sort -u > all_proxies.txt
+          echo "Removing duplicates and shuffling..."
+          # 1. Очищаем от пустых строк
+          # 2. Сортируем для удаления текстовых дубликатов
+          # 3. ПЕРЕМЕШИВАЕМ (shuf) для равномерного распределения
+          grep -v -e '^$' combined_proxies.txt | sort -u | shuf > all_proxies.txt
           
           TOTAL_FETCHED=$(wc -l < all_proxies.txt)
           echo "Total unique proxies fetched: $TOTAL_FETCHED"
