@@ -1,15 +1,19 @@
-name: Check Top 100 Proxies in Parallel
+name: Check Proxies in Parallel (Selectable)
+
+# --- ИЗМЕНЕНИЕ 1: ДОБАВЛЕНА СЕКЦИЯ env С ПЕРЕМЕННОЙ ---
+# Эта переменная будет доступна во всех заданиях воркфлоу.
+env:
+  # --- ПЕРЕМЕННАЯ ДЛЯ УПРАВЛЕНИЯ ---
+  # Установите 'true' для проверки ВСЕХ прокси из исходного файла.
+  # Установите 'false' (или любое другое значение) для проверки только ПЕРВЫХ 100 прокси.
+  CHECK_ALL_PROXIES: 'true'
+# -----------------------------------------------------------------
 
 on:
-  # Позволяет запускать воркфлоу вручную с вкладки "Actions"
   workflow_dispatch:
-  
-  # Запускает воркфлоу по расписанию, например, каждые 6 часов
   schedule:
     - cron: '0 */6 * * *'
 
-# Явно предоставляем права на запись в репозиторий для этого воркфлоу.
-# Это необходимо, чтобы шаг 'collect' мог выполнить `git push`.
 permissions:
   contents: write
 
@@ -24,9 +28,23 @@ jobs:
         id: split
         run: |
           curl -s https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt -o all_proxies.txt
-          head -n 100 all_proxies.txt > proxies_to_check.txt
           
-          NUM_JOBS=15
+          # --- ИЗМЕНЕНИЕ 2: ДОБАВЛЕНА ЛОГИКА if/else ---
+          # Проверяем значение переменной CHECK_ALL_PROXIES
+          if [ "${{ env.CHECK_ALL_PROXIES }}" = "true" ]; then
+            echo "РЕЖИМ: Проверка ВСЕХ прокси."
+            # Просто копируем весь файл для дальнейшей обработки
+            cp all_proxies.txt proxies_to_check.txt
+          else
+            echo "РЕЖИМ: Проверка ПЕРВЫХ 100 прокси."
+            # Берем только первые 100 строк из скачанного файла
+            head -n 100 all_proxies.txt > proxies_to_check.txt
+          fi
+          # ----------------------------------------------------
+          
+          echo "Подготовлено к проверке $(wc -l < proxies_to_check.txt) прокси."
+
+          NUM_JOBS=20
           split -d -n l/$NUM_JOBS proxies_to_check.txt proxies_chunk_
           
           JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num $NUM_JOBS)
@@ -38,7 +56,7 @@ jobs:
           name: proxy-chunks
           path: proxies_chunk_*
 
-  # ЗАДАНИЕ 2: ПАРАЛЛЕЛЬНАЯ ПРОВЕРКА
+  # ЗАДАНИЕ 2: ПАРАЛЛЕЛЬНАЯ ПРОВЕРКА (без изменений)
   check:
     runs-on: ubuntu-latest
     needs: prepare
@@ -55,22 +73,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      # --- ВОЗВРАЩЕННЫЕ ШАГИ КЭШИРОВАНИЯ ---
       - name: Get latest Xray version
         id: get_xray_version
-        # Получаем тег последней версии (например, v1.8.10) и сохраняем его
         run: echo "XRAY_VERSION=$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases/latest | jq -r .tag_name)" >> $GITHUB_ENV
       
       - name: Cache Xray binary
         id: cache-xray
         uses: actions/cache@v4
         with:
-          # Указываем, что нужно кэшировать файл с именем 'xray'
           path: xray
-          # Создаем уникальный ключ кэша, который включает версию Xray.
-          # Если версия изменится, кэш станет недействительным и скачается новый файл.
           key: ${{ runner.os }}-xray-core-${{ env.XRAY_VERSION }}
-      # ----------------------------------------
 
       - name: Install dependencies
         run: pip install requests
@@ -87,7 +99,6 @@ jobs:
           OUTPUT_DIR="results_dir_${{ matrix.job_index }}"
           
           if [ -f "$INPUT_FILE" ]; then
-            # Если кэш не сработал, скрипт сам скачает Xray
             mkdir -p "$OUTPUT_DIR"
             python check_proxies.py "$INPUT_FILE" "$OUTPUT_DIR"
           else
@@ -101,7 +112,7 @@ jobs:
           name: results-batch-${{ matrix.job_index }}
           path: results_dir_${{ matrix.job_index }}/
 
-  # ЗАДАНИЕ 3: СБОРКА РЕЗУЛЬТАТОВ И КОММИТ
+  # ЗАДАНИЕ 3: СБОРКА РЕЗУЛЬТАТОВ И КОММИТ (без изменений)
   collect:
     runs-on: ubuntu-latest
     needs: check
