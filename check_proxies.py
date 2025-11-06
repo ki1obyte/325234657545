@@ -1,4 +1,4 @@
-# check_proxies.py (универсальная версия с надежным парсером SS на основе urlparse)
+# check_proxies.py (универсальная версия с повторными попытками)
 
 import requests
 import subprocess
@@ -115,41 +115,24 @@ def parse_vmess(proxy_url):
         }
     except Exception: return None
 
-# --- ИСПРАВЛЕННАЯ ФУНКЦИЯ ---
 def parse_ss(proxy_url):
     try:
         if not proxy_url.startswith("ss://"): return None
-        
-        # Используем стандартный urlparse для надежного разбора
         parsed_uri = urlparse(proxy_url)
-        
         remark = unquote(parsed_uri.fragment) if parsed_uri.fragment else ''
-        
-        # credentials находятся в netloc до знака @
         if '@' not in parsed_uri.netloc: return None
         credentials_part = parsed_uri.netloc.split('@')[0]
-        
-        # Декодируем credentials
-        credentials_b64 = credentials_part
-        credentials_b64 += '=' * (-len(credentials_b64) % 4)
+        credentials_b64 = credentials_part + '=' * (-len(credentials_part) % 4)
         credentials_decoded = base64.b64decode(credentials_b64).decode('utf-8')
-        
         if ':' not in credentials_decoded: return None
         method, password = credentials_decoded.split(':', 1)
-        
-        # urlparse сам корректно извлекает hostname и port
-        address = parsed_uri.hostname
-        port = parsed_uri.port
-        
+        address, port = parsed_uri.hostname, parsed_uri.port
         if not address or not port: return None
-
         return {
             'protocol': 'shadowsocks', 'remark': remark, 'address': address,
             'port': port, 'method': method, 'password': password
         }
-    except Exception:
-        return None
-# -----------------------------
+    except Exception: return None
 
 def parse_proxy_url(proxy_url):
     if proxy_url.startswith("vless://"): return parse_vless_trojan(proxy_url)
@@ -170,6 +153,7 @@ def setup_xray():
         except Exception as e: print(f"Failed to setup Xray: {e}"); return None
     return './xray'
 
+# --- ИЗМЕНЕННАЯ ФУНКЦИЯ ---
 def check_proxy(proxy_url):
     parsed = parse_proxy_url(proxy_url)
     if not parsed:
@@ -181,59 +165,82 @@ def check_proxy(proxy_url):
     ip_port = f"{parsed.get('address')}:{parsed.get('port')}"
     print(f"\n--- Checking {protocol.upper()} proxy: {ip_port} {remark[:50]}")
 
-    outbound = {"protocol": protocol, "settings": {}}
-    if protocol == 'vless':
-        outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "encryption": "none", "flow": parsed.get('flow', '')}] }]
-        outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
-        if parsed['security'] == 'tls':
-            outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni'], "fingerprint": parsed.get('fp', 'chrome')}
-        if parsed['network'] == 'ws':
-            outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
-    elif protocol == 'vmess':
-        outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "alterId": parsed.get('alterId', 0), "security": "auto"}] }]
-        outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
-        if parsed['security'] == 'tls':
-            outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni']}
-        if parsed['network'] == 'ws':
-            outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
-    elif protocol == 'trojan':
-        outbound['settings']['servers'] = [{"address": parsed['address'], "port": parsed['port'], "password": parsed['id']}]
-        outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
-        if parsed['security'] == 'tls':
-            outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni']}
-        if parsed['network'] == 'ws':
-            outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
-    elif protocol == 'shadowsocks':
-        outbound['settings']['servers'] = [{"address": parsed['address'], "port": parsed['port'], "method": parsed['method'], "password": parsed['password']}]
+    # Параметры для повторных попыток
+    max_retries = 3
+    retry_delay = 2 # в секундах
 
-    local_port = random.randint(20000, 40000)
-    config = {"log": {"loglevel": "warning"}, "inbounds": [{"port": local_port, "listen": "127.0.0.1", "protocol": "socks"}], "outbounds": [outbound]}
-    config_path, process = '', None
-    try:
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as f:
-            json.dump(config, f, indent=2); config_path = f.name
-        xray_path = setup_xray()
-        if not xray_path: return None
-        process = subprocess.Popen([xray_path, 'run', '-c', config_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        time.sleep(2)
-        start_time = time.time()
-        curl_cmd = ['curl', '--socks5-hostname', f'127.0.0.1:{local_port}', 'https://www.cloudflare.com/cdn-cgi/trace', '-s', '--max-time', '10']
-        result = subprocess.run(curl_cmd, capture_output=True, timeout=15)
-        latency = (time.time() - start_time) * 1000
-        stdout_str = result.stdout.decode('utf-8', errors='ignore')
-        if result.returncode == 0 and 'fl=' in stdout_str:
-            country_match = re.search(r'loc=([A-Z]{2})', stdout_str)
-            country_code = country_match.group(1) if country_match else "Unknown"
-            print(f"SUCCESS: Proxy is working. Latency: {latency:.2f} ms. Country: {country_code}")
-            return (proxy_url, country_code)
-        else:
-            print(f"FAILURE: Proxy check failed."); return None
-    except Exception as e:
-        print(f"FAILURE: An error occurred: {e}"); return None
-    finally:
-        if process: process.terminate(); process.wait()
-        if os.path.exists(config_path): os.unlink(config_path)
+    for attempt in range(max_retries):
+        outbound = {"protocol": protocol, "settings": {}}
+        if protocol == 'vless':
+            outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "encryption": "none", "flow": parsed.get('flow', '')}] }]
+            outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
+            if parsed['security'] == 'tls':
+                outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni'], "fingerprint": parsed.get('fp', 'chrome')}
+            if parsed['network'] == 'ws':
+                outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
+        elif protocol == 'vmess':
+            outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "alterId": parsed.get('alterId', 0), "security": "auto"}] }]
+            outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
+            if parsed['security'] == 'tls':
+                outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni']}
+            if parsed['network'] == 'ws':
+                outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
+        elif protocol == 'trojan':
+            outbound['settings']['servers'] = [{"address": parsed['address'], "port": parsed['port'], "password": parsed['id']}]
+            outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
+            if parsed['security'] == 'tls':
+                outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni']}
+            if parsed['network'] == 'ws':
+                outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
+        elif protocol == 'shadowsocks':
+            outbound['settings']['servers'] = [{"address": parsed['address'], "port": parsed['port'], "method": parsed['method'], "password": parsed['password']}]
 
+        local_port = random.randint(20000, 40000)
+        config = {"log": {"loglevel": "warning"}, "inbounds": [{"port": local_port, "listen": "127.0.0.1", "protocol": "socks"}], "outbounds": [outbound]}
+        config_path, process = '', None
+        
+        try:
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as f:
+                json.dump(config, f, indent=2); config_path = f.name
+            xray_path = setup_xray()
+            if not xray_path: return None # Если Xray не удалось установить, выходим
+            
+            process = subprocess.Popen([xray_path, 'run', '-c', config_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            time.sleep(2)
+            
+            start_time = time.time()
+            curl_cmd = ['curl', '--socks5-hostname', f'127.0.0.1:{local_port}', 'https://www.cloudflare.com/cdn-cgi/trace', '-s', '--max-time', '10']
+            result = subprocess.run(curl_cmd, capture_output=True, timeout=15)
+            latency = (time.time() - start_time) * 1000
+            
+            stdout_str = result.stdout.decode('utf-8', errors='ignore')
+            if result.returncode == 0 and 'fl=' in stdout_str:
+                country_match = re.search(r'loc=([A-Z]{2})', stdout_str)
+                country_code = country_match.group(1) if country_match else "Unknown"
+                print(f"SUCCESS (Attempt {attempt + 1}): Proxy is working. Latency: {latency:.2f} ms. Country: {country_code}")
+                return (proxy_url, country_code) # Успех, выходим из функции
+            else:
+                stderr_str = result.stderr.decode('utf-8', errors='ignore').strip()
+                print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): Proxy check failed. Stderr: {stderr_str}")
+        
+        except Exception as e:
+            print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): An error occurred: {e}")
+        
+        finally:
+            # Важно очищать процесс и файл после каждой попытки
+            if process: process.terminate(); process.wait()
+            if os.path.exists(config_path): os.unlink(config_path)
+
+        # Если это была не последняя попытка, ждем перед следующей
+        if attempt < max_retries - 1:
+            print(f"--- Waiting {retry_delay}s before retrying... ---")
+            time.sleep(retry_delay)
+    
+    # Если цикл завершился, значит все попытки провалились
+    print(f"--- All {max_retries} attempts failed for this proxy. ---")
+    return None
+
+# Функция main остается без изменений
 if __name__ == "__main__":
     if len(sys.argv) < 3: print("Usage: python check_proxies.py <input_file> <output_directory>"); sys.exit(1)
     input_file, output_dir = sys.argv[1], sys.argv[2]
