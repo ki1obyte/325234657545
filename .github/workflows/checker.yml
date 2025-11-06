@@ -1,13 +1,18 @@
-name: Check Proxies in Parallel (Selectable)
+name: Check Proxies in Parallel (Multi-Source)
 
-# --- ИЗМЕНЕНИЕ 1: ДОБАВЛЕНА СЕКЦИЯ env С ПЕРЕМЕННОЙ ---
-# Эта переменная будет доступна во всех заданиях воркфлоу.
 env:
-  # --- ПЕРЕМЕННАЯ ДЛЯ УПРАВЛЕНИЯ ---
-  # Установите 'true' для проверки ВСЕХ прокси из исходного файла.
-  # Установите 'false' (или любое другое значение) для проверки только ПЕРВЫХ 100 прокси.
-  CHECK_ALL_PROXIES: 'true'
-# -----------------------------------------------------------------
+  # --- ИЗМЕНЕНИЕ 1: ДОБАВЛЕНА ПЕРЕМЕННАЯ ДЛЯ ИСТОЧНИКОВ ---
+  # Используйте формат YAML `|` для удобного добавления URL-адресов, каждый с новой строки.
+  # Вы можете добавлять, удалять или комментировать (#) источники.
+  PROXY_SOURCES: |
+    https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt
+    https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vmess.txt
+    https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/shadowsocks.txt
+    https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/trojan.txt
+    
+
+  # Переключатель для проверки всех или только первых 100 прокси
+  CHECK_ALL_PROXIES: 'false'
 
 on:
   workflow_dispatch:
@@ -27,20 +32,38 @@ jobs:
       - name: Prepare Proxy List
         id: split
         run: |
-          curl -s https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt -o all_proxies.txt
+          # --- ИЗМЕНЕНИЕ 2: ОБНОВЛЕНА ЛОГИКА СКАЧИВАНИЯ ---
+          echo "Fetching proxies from multiple sources..."
+          # Создаем пустой файл для объединения всех списков
+          > combined_proxies.txt
           
-          # --- ИЗМЕНЕНИЕ 2: ДОБАВЛЕНА ЛОГИКА if/else ---
-          # Проверяем значение переменной CHECK_ALL_PROXIES
+          # Читаем каждую строку из переменной PROXY_SOURCES и скачиваем данные
+          echo "${{ env.PROXY_SOURCES }}" | while IFS= read -r url; do
+            # Пропускаем пустые строки или закомментированные
+            if [[ -n "$url" && ! "$url" =~ ^\s*# ]]; then
+              echo "-> Downloading from: $url"
+              # Скачиваем и ДОПИСЫВАЕМ (>>) в конец общего файла. -L для редиректов.
+              curl -s -L "$url" >> combined_proxies.txt
+              # Добавляем перенос строки на случай, если исходный файл его не имеет
+              echo "" >> combined_proxies.txt
+            fi
+          done
+
+          # Удаляем дубликаты из объединенного списка для эффективности
+          echo "Removing duplicate proxies..."
+          sort -u combined_proxies.txt -o all_proxies.txt
+          
+          TOTAL_FETCHED=$(wc -l < all_proxies.txt)
+          echo "Total unique proxies fetched: $TOTAL_FETCHED"
+          # ----------------------------------------------------------------
+
           if [ "${{ env.CHECK_ALL_PROXIES }}" = "true" ]; then
             echo "РЕЖИМ: Проверка ВСЕХ прокси."
-            # Просто копируем весь файл для дальнейшей обработки
             cp all_proxies.txt proxies_to_check.txt
           else
             echo "РЕЖИМ: Проверка ПЕРВЫХ 100 прокси."
-            # Берем только первые 100 строк из скачанного файла
             head -n 100 all_proxies.txt > proxies_to_check.txt
           fi
-          # ----------------------------------------------------
           
           echo "Подготовлено к проверке $(wc -l < proxies_to_check.txt) прокси."
 
@@ -67,37 +90,30 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Get latest Xray version
         id: get_xray_version
         run: echo "XRAY_VERSION=$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases/latest | jq -r .tag_name)" >> $GITHUB_ENV
-      
       - name: Cache Xray binary
         id: cache-xray
         uses: actions/cache@v4
         with:
           path: xray
           key: ${{ runner.os }}-xray-core-${{ env.XRAY_VERSION }}
-
       - name: Install dependencies
         run: pip install requests
-        
       - name: Download specific proxy chunk
         uses: actions/download-artifact@v4
         with:
           name: proxy-chunks
           path: .
-          
       - name: Run proxy check on chunk
         run: |
           INPUT_FILE="proxies_chunk_$(printf "%02d" ${{ matrix.job_index }})"
           OUTPUT_DIR="results_dir_${{ matrix.job_index }}"
-          
           if [ -f "$INPUT_FILE" ]; then
             mkdir -p "$OUTPUT_DIR"
             python check_proxies.py "$INPUT_FILE" "$OUTPUT_DIR"
@@ -105,7 +121,6 @@ jobs:
             echo "Proxy chunk file $INPUT_FILE not found, skipping."
             mkdir -p "$OUTPUT_DIR"
           fi
-
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
@@ -119,43 +134,30 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Download all result batches
         uses: actions/download-artifact@v4
         with:
           pattern: results-batch-*
           path: temp_results/
-
       - name: Combine results and push to target repo
         run: |
           set -e
-          
           TARGET_DIR="splitted-by-country"
-          echo "Preparing target directory: $TARGET_DIR"
           mkdir -p "$TARGET_DIR"
           rm -rf "$TARGET_DIR"/*
-          
-          echo "Aggregating results by country..."
           find temp_results -type f -name "*.txt" | while read -r file; do
             filename=$(basename "$file")
             cat "$file" >> "$TARGET_DIR/$filename"
           done
-          
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
           git add "$TARGET_DIR/"
-          
           if git diff --staged --quiet
           then
             echo "No changes to commit. The proxy list is up-to-date."
           else
             TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
             COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
-            
-            echo "Creating commit with message: $COMMIT_MESSAGE"
             git commit -m "$COMMIT_MESSAGE"
-            
-            echo "Pushing changes to the repository..."
             git push
           fi
