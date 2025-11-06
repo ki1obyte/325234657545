@@ -11,6 +11,8 @@ on:
 jobs:
   check-and-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # 1. Клонируем репозиторий, чтобы иметь доступ к скрипту и возможность сделать коммит
       - name: Check out repository
