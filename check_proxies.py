@@ -1,4 +1,4 @@
-# check_proxies.py (универсальная версия с исправленным парсером SS)
+# check_proxies.py (универсальная версия с улучшенным парсером SS)
 
 import requests
 import subprocess
@@ -71,6 +71,7 @@ COUNTRY_CODES = {
     "WF": "Wallis and Futuna", "WS": "Samoa", "YE": "Yemen", "YT": "Mayotte", "ZA": "South Africa",
     "ZM": "Zambia", "ZW": "Zimbabwe"
 }
+
 def get_country_name(code): return COUNTRY_CODES.get(code.upper(), code.upper())
 
 def read_proxies_from_file(filepath):
@@ -119,19 +120,24 @@ def parse_ss(proxy_url):
     try:
         if not proxy_url.startswith("ss://"): return None
         
+        # Убираем префикс ss://
         main_part = proxy_url[5:]
         
+        # Сначала отделяем ремарку (#), если она есть
         if '#' in main_part:
             main_part, remark_part = main_part.split('#', 1)
             remark = unquote(remark_part)
         else:
             remark = ''
-        
-        if '@' not in main_part: return None
 
+        # НОВОЕ: Теперь отделяем и отбрасываем query string (?), если он есть
+        if '?' in main_part:
+            main_part, _ = main_part.split('?', 1)
+
+        # Дальнейшая логика остается прежней, но работает с уже очищенной строкой
+        if '@' not in main_part: return None
         credentials_part, server_part = main_part.rsplit('@', 1)
         
-        # Декодируем credentials
         credentials_b64 = credentials_part
         credentials_b64 += '=' * (-len(credentials_b64) % 4)
         credentials_decoded = base64.b64decode(credentials_b64).decode('utf-8')
