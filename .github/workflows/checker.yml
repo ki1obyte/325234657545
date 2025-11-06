@@ -1,4 +1,4 @@
-name: Check Top 100 Proxies by Country
+name: Check Top 100 Proxies in Parallel
 
 on:
   # Позволяет запускать воркфлоу вручную с вкладки "Actions"
@@ -8,64 +8,139 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 
+# Явно предоставляем права на запись в репозиторий для этого воркфлоу.
+# Это необходимо, чтобы шаг 'collect' мог выполнить `git push`.
+permissions:
+  contents: write
+
 jobs:
-  check-and-commit:
+  # ЗАДАНИЕ 1: ПОДГОТОВКА И РАЗДЕЛЕНИЕ
+  prepare:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    outputs:
+      job_matrix: ${{ steps.split.outputs.job_matrix }}
     steps:
-      # 1. Клонируем репозиторий, чтобы иметь доступ к скрипту и возможность сделать коммит
+      - name: Prepare Proxy List
+        id: split
+        run: |
+          curl -s https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt -o all_proxies.txt
+          head -n 100 all_proxies.txt > proxies_to_check.txt
+          
+          NUM_JOBS=15
+          split -d -n l/$NUM_JOBS proxies_to_check.txt proxies_chunk_
+          
+          JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num $NUM_JOBS)
+          echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
+
+      - name: Upload proxy chunks
+        uses: actions/upload-artifact@v4
+        with:
+          name: proxy-chunks
+          path: proxies_chunk_*
+
+  # ЗАДАНИЕ 2: ПАРАЛЛЕЛЬНАЯ ПРОВЕРКА
+  check:
+    runs-on: ubuntu-latest
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        job_index: ${{ fromJson(needs.prepare.outputs.job_matrix) }}
+    steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
-      # 2. Устанавливаем Python
+        
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # 3. Устанавливаем зависимости для скрипта
+      # --- ВОЗВРАЩЕННЫЕ ШАГИ КЭШИРОВАНИЯ ---
+      - name: Get latest Xray version
+        id: get_xray_version
+        # Получаем тег последней версии (например, v1.8.10) и сохраняем его
+        run: echo "XRAY_VERSION=$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases/latest | jq -r .tag_name)" >> $GITHUB_ENV
+      
+      - name: Cache Xray binary
+        id: cache-xray
+        uses: actions/cache@v4
+        with:
+          # Указываем, что нужно кэшировать файл с именем 'xray'
+          path: xray
+          # Создаем уникальный ключ кэша, который включает версию Xray.
+          # Если версия изменится, кэш станет недействительным и скачается новый файл.
+          key: ${{ runner.os }}-xray-core-${{ env.XRAY_VERSION }}
+      # ----------------------------------------
+
       - name: Install dependencies
         run: pip install requests
-
-      # 4. Подготовка списка прокси для проверки
-      - name: Prepare Proxy List
-        run: |
-          # Скачиваем полный список прокси. ИЗМЕНИТЕ URL, если нужно.
-          curl -s https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt -o all_proxies.txt
+        
+      - name: Download specific proxy chunk
+        uses: actions/download-artifact@v4
+        with:
+          name: proxy-chunks
+          path: .
           
-          # Берем первые 100 строк из скачанного файла и сохраняем их для проверки
-          head -n 100 all_proxies.txt > proxies_to_check.txt
-          
-          echo "Prepared a list of $(wc -l < proxies_to_check.txt) proxies for checking."
-
-      # 5. Запуск скрипта проверки
-      - name: Run Proxy Check
+      - name: Run proxy check on chunk
         run: |
-          # Создаем папку для результатов
-          mkdir -p splitted-by-country
+          INPUT_FILE="proxies_chunk_$(printf "%02d" ${{ matrix.job_index }})"
+          OUTPUT_DIR="results_dir_${{ matrix.job_index }}"
           
-          # Запускаем скрипт, передавая ему файл с первыми 100 прокси и папку для результатов
-          python check_proxies.py proxies_to_check.txt splitted-by-country
+          if [ -f "$INPUT_FILE" ]; then
+            # Если кэш не сработал, скрипт сам скачает Xray
+            mkdir -p "$OUTPUT_DIR"
+            python check_proxies.py "$INPUT_FILE" "$OUTPUT_DIR"
+          else
+            echo "Proxy chunk file $INPUT_FILE not found, skipping."
+            mkdir -p "$OUTPUT_DIR"
+          fi
 
-      # 6. Коммит и отправка результатов в репозиторий
-      - name: Commit and Push Results
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-batch-${{ matrix.job_index }}
+          path: results_dir_${{ matrix.job_index }}/
+
+  # ЗАДАНИЕ 3: СБОРКА РЕЗУЛЬТАТОВ И КОММИТ
+  collect:
+    runs-on: ubuntu-latest
+    needs: check
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download all result batches
+        uses: actions/download-artifact@v4
+        with:
+          pattern: results-batch-*
+          path: temp_results/
+
+      - name: Combine results and push to target repo
         run: |
-          # Настраиваем Git
+          set -e
+          
+          TARGET_DIR="splitted-by-country"
+          echo "Preparing target directory: $TARGET_DIR"
+          mkdir -p "$TARGET_DIR"
+          rm -rf "$TARGET_DIR"/*
+          
+          echo "Aggregating results by country..."
+          find temp_results -type f -name "*.txt" | while read -r file; do
+            filename=$(basename "$file")
+            cat "$file" >> "$TARGET_DIR/$filename"
+          done
+          
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Добавляем все изменения в папке с результатами
-          git add splitted-by-country/
+          git add "$TARGET_DIR/"
           
-          # Проверяем, есть ли изменения. Если нет, выходим, чтобы не создавать пустых коммитов.
           if git diff --staged --quiet
           then
             echo "No changes to commit. The proxy list is up-to-date."
           else
-            # Если изменения есть, создаем коммит и отправляем его
-            TOTAL_PROXIES=$(cat splitted-by-country/*.txt | wc -l || true)
-            COMMIT_MESSAGE="Update country-sorted proxies ($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
+            TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
+            COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
             
             echo "Creating commit with message: $COMMIT_MESSAGE"
             git commit -m "$COMMIT_MESSAGE"
