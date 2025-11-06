@@ -1,4 +1,4 @@
-# check_proxies.py (финальная версия с URL-декодированием)
+# check_proxies.py (финальная версия с умной дедупликацией)
 
 import requests
 import subprocess
@@ -88,7 +88,6 @@ def parse_vless_trojan(proxy_url):
     try:
         parsed_url = urlparse(proxy_url)
         params = parse_qs(parsed_url.query)
-        remark = unquote(parsed_url.fragment) if parsed_url.fragment else ''
         host, port_str = parsed_url.netloc.split('@')[1].rsplit(':', 1)
         return {
             'protocol': parsed_url.scheme, 'id': parsed_url.netloc.split('@')[0],
@@ -96,7 +95,7 @@ def parse_vless_trojan(proxy_url):
             'security': params.get('security', ['none'])[0], 'flow': params.get('flow', [''])[0],
             'sni': params.get('sni', [params.get('host', [''])[0]])[0] or host,
             'fp': params.get('fp', [''])[0], 'ws_path': params.get('path', ['/'])[0],
-            'ws_host': params.get('host', [''])[0] or host, 'remark': remark
+            'ws_host': params.get('host', [''])[0] or host
         }
     except Exception: return None
 
@@ -106,7 +105,7 @@ def parse_vmess(proxy_url):
         b64_data = proxy_url.replace("vmess://", "") + '=' * (-len(proxy_url.replace("vmess://", "")) % 4)
         json_data = json.loads(base64.b64decode(b64_data).decode('utf-8'))
         return {
-            'protocol': 'vmess', 'remark': json_data.get('ps', ''), 'address': json_data.get('add', ''),
+            'protocol': 'vmess', 'address': json_data.get('add', ''),
             'port': int(json_data.get('port', 0)), 'id': json_data.get('id', ''),
             'security': 'tls' if json_data.get('tls') == 'tls' else 'none',
             'network': json_data.get('net', 'tcp'), 'ws_path': json_data.get('path', '/'),
@@ -115,44 +114,38 @@ def parse_vmess(proxy_url):
         }
     except Exception: return None
 
-# --- ИСПРАВЛЕННАЯ ФУНКЦИЯ ---
 def parse_ss(proxy_url):
     try:
         if not proxy_url.startswith("ss://"): return None
-        
         parsed_uri = urlparse(proxy_url)
-        remark = unquote(parsed_uri.fragment) if parsed_uri.fragment else ''
         if '@' not in parsed_uri.netloc: return None
-
         credentials_part_url_encoded = parsed_uri.netloc.split('@')[0]
-        
-        # НОВОЕ: Сначала URL-декодируем, чтобы избавиться от %3D и т.д.
         credentials_part = unquote(credentials_part_url_encoded)
-
-        # Теперь декодируем из Base64
         credentials_b64 = credentials_part + '=' * (-len(credentials_part) % 4)
         credentials_decoded = base64.b64decode(credentials_b64).decode('utf-8')
-        
         if ':' not in credentials_decoded: return None
         method, password = credentials_decoded.split(':', 1)
-        
         address, port = parsed_uri.hostname, parsed_uri.port
         if not address or not port: return None
-
         return {
-            'protocol': 'shadowsocks', 'remark': remark, 'address': address,
+            'protocol': 'shadowsocks', 'address': address,
             'port': port, 'method': method, 'password': password
         }
-    except Exception:
-        return None
-# -----------------------------
+    except Exception: return None
 
 def parse_proxy_url(proxy_url):
-    if proxy_url.startswith("vless://"): return parse_vless_trojan(proxy_url)
-    if proxy_url.startswith("trojan://"): return parse_vless_trojan(proxy_url)
-    if proxy_url.startswith("vmess://"): return parse_vmess(proxy_url)
-    if proxy_url.startswith("ss://"): return parse_ss(proxy_url)
-    return None
+    # Убираем ремарку из парсинга, чтобы она не мешала
+    url_without_remark = proxy_url.split('#')[0]
+    if url_without_remark.startswith("vless://"): data = parse_vless_trojan(url_without_remark)
+    elif url_without_remark.startswith("trojan://"): data = parse_vless_trojan(url_without_remark)
+    elif url_without_remark.startswith("vmess://"): data = parse_vmess(url_without_remark)
+    elif url_without_remark.startswith("ss://"): data = parse_ss(url_without_remark)
+    else: data = None
+    
+    # Возвращаем ремарку в итоговый словарь, если парсинг удался
+    if data:
+        data['remark'] = unquote(proxy_url.split('#')[1]) if '#' in proxy_url else ''
+    return data
 
 def setup_xray():
     if not os.path.exists('xray'):
@@ -182,7 +175,7 @@ def check_proxy(proxy_url):
 
     for attempt in range(max_retries):
         outbound = {"protocol": protocol, "settings": {}}
-        # ... (остальная часть функции check_proxy без изменений) ...
+        # ... (логика генерации outbound без изменений) ...
         if protocol == 'vless':
             outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "encryption": "none", "flow": parsed.get('flow', '')}] }]
             outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
@@ -210,21 +203,17 @@ def check_proxy(proxy_url):
         local_port = random.randint(20000, 40000)
         config = {"log": {"loglevel": "warning"}, "inbounds": [{"port": local_port, "listen": "127.0.0.1", "protocol": "socks"}], "outbounds": [outbound]}
         config_path, process = '', None
-        
         try:
             with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8') as f:
                 json.dump(config, f, indent=2); config_path = f.name
             xray_path = setup_xray()
             if not xray_path: return None
-            
             process = subprocess.Popen([xray_path, 'run', '-c', config_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             time.sleep(2)
-            
             start_time = time.time()
             curl_cmd = ['curl', '--socks5-hostname', f'127.0.0.1:{local_port}', 'https://www.cloudflare.com/cdn-cgi/trace', '-s', '--max-time', '10']
             result = subprocess.run(curl_cmd, capture_output=True, timeout=15)
             latency = (time.time() - start_time) * 1000
-            
             stdout_str = result.stdout.decode('utf-8', errors='ignore')
             if result.returncode == 0 and 'fl=' in stdout_str:
                 country_match = re.search(r'loc=([A-Z]{2})', stdout_str)
@@ -234,37 +223,64 @@ def check_proxy(proxy_url):
             else:
                 stderr_str = result.stderr.decode('utf-8', errors='ignore').strip()
                 print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): Proxy check failed. Stderr: {stderr_str}")
-        
         except Exception as e:
             print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): An error occurred: {e}")
-        
         finally:
             if process: process.terminate(); process.wait()
             if os.path.exists(config_path): os.unlink(config_path)
-
         if attempt < max_retries - 1:
             print(f"--- Waiting {retry_delay}s before retrying... ---")
             time.sleep(retry_delay)
-    
     print(f"--- All {max_retries} attempts failed for this proxy. ---")
     return None
 
+# --- ИЗМЕНЕННЫЙ БЛОК MAIN ---
 if __name__ == "__main__":
     if len(sys.argv) < 3: print("Usage: python check_proxies.py <input_file> <output_directory>"); sys.exit(1)
     input_file, output_dir = sys.argv[1], sys.argv[2]
     os.makedirs(output_dir, exist_ok=True)
-    proxies_to_check = read_proxies_from_file(input_file)
+    
+    proxies_from_file = read_proxies_from_file(input_file)
+    
+    # --- Логика умной дедупликации ---
+    seen_proxies = set()
+    unique_proxies_to_check = []
+    for proxy_url in proxies_from_file:
+        parsed = parse_proxy_url(proxy_url)
+        if not parsed: continue
+
+        # Создаем уникальную "подпись" для прокси, игнорируя ремарку
+        protocol = parsed.get('protocol')
+        address = parsed.get('address')
+        port = parsed.get('port')
+        # Для vless, vmess, trojan - id, для ss - password
+        identifier = parsed.get('id') or parsed.get('password')
+        
+        signature = (protocol, address, port, identifier)
+        
+        if signature not in seen_proxies:
+            seen_proxies.add(signature)
+            unique_proxies_to_check.append(proxy_url)
+    
+    print(f"\nFound {len(proxies_from_file)} proxies, of which {len(unique_proxies_to_check)} are unique. Starting check...")
+    # ------------------------------------
+
     proxies_by_country = {}
     total_working = 0
-    for proxy_url in proxies_to_check:
+    # Проверяем только уникальные прокси
+    for proxy_url in unique_proxies_to_check:
         res = check_proxy(proxy_url)
         if res:
             url, country_code = res
             country_name = get_country_name(country_code)
             if country_name not in proxies_by_country: proxies_by_country[country_name] = []
             proxies_by_country[country_name].append(url)
+    
     for country, proxies in proxies_by_country.items():
         total_working += len(proxies)
         with open(os.path.join(output_dir, f"{country}.txt"), 'w', encoding='utf-8') as f: f.write('\n'.join(proxies) + '\n')
-    print(f"\n======================================"); print(f"Check complete. Found {total_working} working proxies.")
-    print(f"Results saved to directory: {output_dir}"); print(f"======================================")
+    
+    print(f"\n======================================")
+    print(f"Check complete. Found {total_working} working proxies.")
+    print(f"Results saved to directory: {output_dir}")
+    print(f"======================================")
