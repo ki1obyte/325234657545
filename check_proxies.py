@@ -1,4 +1,4 @@
-# check_proxies.py (универсальная версия с улучшенным парсером SS)
+# check_proxies.py (универсальная версия с надежным парсером SS на основе urlparse)
 
 import requests
 import subprocess
@@ -120,24 +120,16 @@ def parse_ss(proxy_url):
     try:
         if not proxy_url.startswith("ss://"): return None
         
-        # Убираем префикс ss://
-        main_part = proxy_url[5:]
+        # Используем стандартный urlparse для надежного разбора
+        parsed_uri = urlparse(proxy_url)
         
-        # Сначала отделяем ремарку (#), если она есть
-        if '#' in main_part:
-            main_part, remark_part = main_part.split('#', 1)
-            remark = unquote(remark_part)
-        else:
-            remark = ''
-
-        # НОВОЕ: Теперь отделяем и отбрасываем query string (?), если он есть
-        if '?' in main_part:
-            main_part, _ = main_part.split('?', 1)
-
-        # Дальнейшая логика остается прежней, но работает с уже очищенной строкой
-        if '@' not in main_part: return None
-        credentials_part, server_part = main_part.rsplit('@', 1)
+        remark = unquote(parsed_uri.fragment) if parsed_uri.fragment else ''
         
+        # credentials находятся в netloc до знака @
+        if '@' not in parsed_uri.netloc: return None
+        credentials_part = parsed_uri.netloc.split('@')[0]
+        
+        # Декодируем credentials
         credentials_b64 = credentials_part
         credentials_b64 += '=' * (-len(credentials_b64) % 4)
         credentials_decoded = base64.b64decode(credentials_b64).decode('utf-8')
@@ -145,12 +137,15 @@ def parse_ss(proxy_url):
         if ':' not in credentials_decoded: return None
         method, password = credentials_decoded.split(':', 1)
         
-        if ':' not in server_part: return None
-        address, port_str = server_part.rsplit(':', 1)
+        # urlparse сам корректно извлекает hostname и port
+        address = parsed_uri.hostname
+        port = parsed_uri.port
         
+        if not address or not port: return None
+
         return {
             'protocol': 'shadowsocks', 'remark': remark, 'address': address,
-            'port': int(port_str), 'method': method, 'password': password
+            'port': port, 'method': method, 'password': password
         }
     except Exception:
         return None
