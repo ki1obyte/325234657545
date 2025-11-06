@@ -33,15 +33,31 @@ jobs:
           
           echo "${{ env.PROXY_SOURCES }}" | while IFS= read -r url; do
             if [[ -n "$url" && ! "$url" =~ ^\s*# ]]; then
-              echo "-> Downloading from: $url"
-              curl -s -L "$url" >> combined_proxies.txt
+              echo "-> Processing source: $url"
+              # Скачиваем содержимое во временный файл
+              curl -s -L "$url" -o temp_source_content.txt
+
+              # --- ИЗМЕНЕНИЕ ЗДЕСЬ: УМНАЯ ОБРАБОТКА ---
+              # Проверяем, содержит ли файл обычные ссылки. 
+              # Если нет - считаем, что он закодирован в Base64.
+              if grep -q '://' temp_source_content.txt; then
+                echo "   Format: Plain text. Appending as is."
+                cat temp_source_content.txt >> combined_proxies.txt
+              else
+                echo "   Format: Looks like Base64. Decoding..."
+                # Декодируем и дописываем результат. -i игнорирует невалидные символы.
+                base64 -d -i temp_source_content.txt >> combined_proxies.txt
+              fi
+              # ----------------------------------------------
+
+              # Добавляем перенос строки для чистоты
               echo "" >> combined_proxies.txt
             fi
           done
 
-          # --- УПРОЩЕНО: Просто удаляем дубликаты, без фильтрации по протоколу ---
           echo "Removing duplicate proxies..."
-          sort -u combined_proxies.txt -o all_proxies.txt
+          # Используем `grep` для очистки от пустых строк перед `sort`
+          grep -v -e '^$' combined_proxies.txt | sort -u > all_proxies.txt
           
           TOTAL_FETCHED=$(wc -l < all_proxies.txt)
           echo "Total unique proxies fetched: $TOTAL_FETCHED"
@@ -55,7 +71,7 @@ jobs:
           fi
           
           echo "Подготовлено к проверке $(wc -l < proxies_to_check.txt) прокси."
-          NUM_JOBS=20
+          NUM_JOBS=15
           split -d -n l/$NUM_JOBS proxies_to_check.txt proxies_chunk_
           JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num $NUM_JOBS)
           echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
@@ -143,7 +159,7 @@ jobs:
             echo "No changes to commit. The proxy list is up-to-date."
           else
             TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
-            COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
+            COMMIT_MESSAGE="Update country-sorted proxies ($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
             git commit -m "$COMMIT_MESSAGE"
             git push
           fi
