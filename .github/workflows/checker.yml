@@ -12,7 +12,7 @@ env:
     
 
   # Переключатель для проверки всех или только первых 100 прокси
-  CHECK_ALL_PROXIES: 'false'
+  CHECK_ALL_PROXIES: 'true'
 
 on:
   workflow_dispatch:
