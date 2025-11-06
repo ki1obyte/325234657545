@@ -1,0 +1,14 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-480ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#4Kian-694
+vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617/?type=tcp&encryption=none&flow=#4Kian-9382
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589?note=--Telegram--@NetifyVPN--#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-2471ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-602ms-Alexhost%20SRL
+vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?security=none&encryption=none&headerType=none&type=tcp#4Kian-9383
+vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617/?type=tcp&encryption=none&flow=#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-841ms-Aeza%20International%20LTD
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-699ms-Alexhost%20SRL
+vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?security=none&encryption=none&headerType=none&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-831ms-Aeza%20International%20LTD
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-763ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-517ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-504ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589?note=--Telegram--@NetifyVPN--#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-744ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMEF1U1NFOWtxclpucEsxUmdjdVB0@78.40.116.11:50589?note=@freeOnlineVPN#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-T%C3%A4llberg-782ms-Alexhost%20SRL
