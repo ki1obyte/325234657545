@@ -1,4 +1,4 @@
-# check_proxies.py (финальная версия с умной дедупликацией)
+# check_proxies.py (финальная версия с правильной дедупликацией по ключевым параметрам)
 
 import requests
 import subprocess
@@ -12,7 +12,7 @@ import random
 import re
 import base64
 
-# --- Словарь стран остается без изменений ---
+# (Словарь COUNTRY_CODES остается без изменений)
 COUNTRY_CODES = {
     "AD": "Andorra", "AE": "United Arab Emirates", "AF": "Afghanistan", "AG": "Antigua and Barbuda",
     "AI": "Anguilla", "AL": "Albania", "AM": "Armenia", "AO": "Angola", "AQ": "Antarctica",
@@ -84,6 +84,7 @@ def read_proxies_from_file(filepath):
     except Exception as e:
         print(f"Error reading proxies from file: {e}"); return []
 
+# --- ИЗМЕНЕНО: Парсеры теперь извлекают ВСЕ ключевые параметры ---
 def parse_vless_trojan(proxy_url):
     try:
         parsed_url = urlparse(proxy_url)
@@ -91,11 +92,18 @@ def parse_vless_trojan(proxy_url):
         host, port_str = parsed_url.netloc.split('@')[1].rsplit(':', 1)
         return {
             'protocol': parsed_url.scheme, 'id': parsed_url.netloc.split('@')[0],
-            'address': host, 'port': int(port_str), 'network': params.get('type', ['tcp'])[0],
-            'security': params.get('security', ['none'])[0], 'flow': params.get('flow', [''])[0],
+            'address': host, 'port': int(port_str),
+            'network': params.get('type', ['tcp'])[0],
+            'security': params.get('security', ['none'])[0],
+            'flow': params.get('flow', [''])[0],
             'sni': params.get('sni', [params.get('host', [''])[0]])[0] or host,
-            'fp': params.get('fp', [''])[0], 'ws_path': params.get('path', ['/'])[0],
-            'ws_host': params.get('host', [''])[0] or host
+            'fp': params.get('fp', [''])[0],
+            'pbk': params.get('pbk', [''])[0],
+            'sid': params.get('sid', [''])[0],
+            'spx': params.get('spx', [''])[0],
+            'ws_path': params.get('path', ['/'])[0],
+            'ws_host': params.get('host', [''])[0] or host,
+            'grpc_serviceName': params.get('serviceName', [''])[0]
         }
     except Exception: return None
 
@@ -108,8 +116,10 @@ def parse_vmess(proxy_url):
             'protocol': 'vmess', 'address': json_data.get('add', ''),
             'port': int(json_data.get('port', 0)), 'id': json_data.get('id', ''),
             'security': 'tls' if json_data.get('tls') == 'tls' else 'none',
-            'network': json_data.get('net', 'tcp'), 'ws_path': json_data.get('path', '/'),
-            'ws_host': json_data.get('host', ''), 'sni': json_data.get('sni', json_data.get('host', '')),
+            'network': json_data.get('net', 'tcp'),
+            'ws_path': json_data.get('path', '/'),
+            'ws_host': json_data.get('host', ''),
+            'sni': json_data.get('sni', json_data.get('host', '')),
             'alterId': json_data.get('aid', 0)
         }
     except Exception: return None
@@ -128,26 +138,27 @@ def parse_ss(proxy_url):
         address, port = parsed_uri.hostname, parsed_uri.port
         if not address or not port: return None
         return {
-            'protocol': 'shadowsocks', 'address': address,
-            'port': port, 'method': method, 'password': password
+            'protocol': 'shadowsocks', 'address': address, 'port': port,
+            'method': method, 'password': password
         }
     except Exception: return None
 
 def parse_proxy_url(proxy_url):
-    # Убираем ремарку из парсинга, чтобы она не мешала
-    url_without_remark = proxy_url.split('#')[0]
-    if url_without_remark.startswith("vless://"): data = parse_vless_trojan(url_without_remark)
-    elif url_without_remark.startswith("trojan://"): data = parse_vless_trojan(url_without_remark)
-    elif url_without_remark.startswith("vmess://"): data = parse_vmess(url_without_remark)
-    elif url_without_remark.startswith("ss://"): data = parse_ss(url_without_remark)
+    # Теперь ремарка извлекается отдельно и не участвует в парсинге
+    url_part = proxy_url.split('#')[0]
+    remark = unquote(proxy_url.split('#')[1]) if '#' in proxy_url else ''
+
+    if url_part.startswith("vless://"): data = parse_vless_trojan(url_part)
+    elif url_part.startswith("trojan://"): data = parse_vless_trojan(url_part)
+    elif url_part.startswith("vmess://"): data = parse_vmess(url_part)
+    elif url_part.startswith("ss://"): data = parse_ss(url_part)
     else: data = None
     
-    # Возвращаем ремарку в итоговый словарь, если парсинг удался
-    if data:
-        data['remark'] = unquote(proxy_url.split('#')[1]) if '#' in proxy_url else ''
+    if data: data['remark'] = remark
     return data
 
 def setup_xray():
+    # ... (без изменений) ...
     if not os.path.exists('xray'):
         print("Xray not found, downloading...")
         url = 'https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip'
@@ -160,6 +171,7 @@ def setup_xray():
     return './xray'
 
 def check_proxy(proxy_url):
+    # ... (без изменений, но теперь получает `parsed` со всеми полями) ...
     parsed = parse_proxy_url(proxy_url)
     if not parsed:
         print(f"Failed to parse proxy URL: {proxy_url.split('#')[0]}#...")
@@ -170,19 +182,27 @@ def check_proxy(proxy_url):
     ip_port = f"{parsed.get('address')}:{parsed.get('port')}"
     print(f"\n--- Checking {protocol.upper()} proxy: {ip_port} {remark[:50]}")
 
-    max_retries = 2
+    max_retries = 3
     retry_delay = 2
 
     for attempt in range(max_retries):
         outbound = {"protocol": protocol, "settings": {}}
-        # ... (логика генерации outbound без изменений) ...
+        # vless now includes REALITY parameters from `parsed`
         if protocol == 'vless':
             outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "encryption": "none", "flow": parsed.get('flow', '')}] }]
-            outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
-            if parsed['security'] == 'tls':
-                outbound['streamSettings']['tlsSettings'] = {"serverName": parsed['sni'], "fingerprint": parsed.get('fp', 'chrome')}
-            if parsed['network'] == 'ws':
-                outbound['streamSettings']['wsSettings'] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
+            stream_settings = {"network": parsed['network'], "security": parsed['security']}
+            if parsed['security'] in ['tls', 'reality']:
+                tls_settings = {"serverName": parsed['sni']}
+                if parsed.get('fp'): tls_settings["utls"] = {"enabled": True, "fingerprint": parsed['fp']}
+                if parsed.get('security') == 'reality' and parsed.get('pbk'):
+                    stream_settings["security"] = "reality"
+                    stream_settings["realitySettings"] = {"show": False, "fingerprint": parsed.get('fp') or "chrome", "serverName": parsed['sni'], "publicKey": parsed['pbk'], "shortId": parsed.get('sid', ''), "spiderX": parsed.get('spx', '')}
+                else:
+                    stream_settings["security"] = "tls"
+                    stream_settings["tlsSettings"] = tls_settings
+            if parsed['network'] == 'ws': stream_settings["wsSettings"] = {"path": parsed['ws_path'], "headers": {"Host": parsed['ws_host']}}
+            if parsed['network'] == 'grpc': stream_settings["grpcSettings"] = {"serviceName": parsed['grpc_serviceName']}
+            outbound['streamSettings'] = stream_settings
         elif protocol == 'vmess':
             outbound['settings']['vnext'] = [{"address": parsed['address'], "port": parsed['port'], "users": [{"id": parsed['id'], "alterId": parsed.get('alterId', 0), "security": "auto"}] }]
             outbound['streamSettings'] = {"network": parsed['network'], "security": parsed['security']}
@@ -242,32 +262,57 @@ if __name__ == "__main__":
     
     proxies_from_file = read_proxies_from_file(input_file)
     
-    # --- Логика умной дедупликации ---
     seen_proxies = set()
     unique_proxies_to_check = []
     for proxy_url in proxies_from_file:
         parsed = parse_proxy_url(proxy_url)
         if not parsed: continue
 
-        # Создаем уникальную "подпись" для прокси, игнорируя ремарку
         protocol = parsed.get('protocol')
-        address = parsed.get('address')
-        port = parsed.get('port')
-        # Для vless, vmess, trojan - id, для ss - password
-        identifier = parsed.get('id') or parsed.get('password')
+        signature = None
+
+        # Создаем детальную подпись для каждого протокола
+        if protocol in ['vless', 'trojan']:
+            signature = (
+                protocol,
+                parsed.get('address'),
+                parsed.get('port'),
+                parsed.get('id'),
+                parsed.get('network'),
+                parsed.get('security'),
+                parsed.get('sni'),
+                parsed.get('pbk', ''),
+                parsed.get('ws_path', ''),
+                parsed.get('grpc_serviceName', '')
+            )
+        elif protocol == 'vmess':
+            signature = (
+                protocol,
+                parsed.get('address'),
+                parsed.get('port'),
+                parsed.get('id'),
+                parsed.get('network'),
+                parsed.get('security'),
+                parsed.get('sni'),
+                parsed.get('ws_path', '')
+            )
+        elif protocol == 'shadowsocks':
+            signature = (
+                protocol,
+                parsed.get('address'),
+                parsed.get('port'),
+                parsed.get('method'),
+                parsed.get('password')
+            )
         
-        signature = (protocol, address, port, identifier)
-        
-        if signature not in seen_proxies:
+        if signature and signature not in seen_proxies:
             seen_proxies.add(signature)
             unique_proxies_to_check.append(proxy_url)
     
     print(f"\nFound {len(proxies_from_file)} proxies, of which {len(unique_proxies_to_check)} are unique. Starting check...")
-    # ------------------------------------
 
     proxies_by_country = {}
     total_working = 0
-    # Проверяем только уникальные прокси
     for proxy_url in unique_proxies_to_check:
         res = check_proxy(proxy_url)
         if res:
@@ -278,7 +323,8 @@ if __name__ == "__main__":
     
     for country, proxies in proxies_by_country.items():
         total_working += len(proxies)
-        with open(os.path.join(output_dir, f"{country}.txt"), 'w', encoding='utf-8') as f: f.write('\n'.join(proxies) + '\n')
+        with open(os.path.join(output_dir, f"{country}.txt"), 'w', encoding='utf-8') as f:
+            f.write('\n'.join(proxies) + '\n')
     
     print(f"\n======================================")
     print(f"Check complete. Found {total_working} working proxies.")
