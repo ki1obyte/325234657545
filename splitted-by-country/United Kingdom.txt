@@ -4,4 +4,5 @@ trojan://YwuvGJk36B@creativecommons.org:2053?path=/yamtekodasayahhh&security=tls
 trojan://YwuvGJk36B@creativecommons.org:2053?path=/yamtekodasayahhh&security=tls&alpn=http/1.1&host=kotlet.arshiacomplus.dpdns.org&fp=chrome&type=ws&sni=kotlet.arshiacomplus.dpdns.org#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%A7-Maidenhead-723ms-Eclipse%20Networking%20Ltd.
 trojan://YwuvGJk36B@creativecommons.org:2053?path=/yamtekodasayahhh&security=tls&alpn=http/1.1&host=kotlet.arshiacomplus.dpdns.org&fp=chrome&type=ws&sni=kotlet.arshiacomplus.dpdns.org#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%A7-Maidenhead-734ms-Eclipse%20Networking%20Ltd.
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmdlVJY1J6Rm92RzRlNnRxQ3J4OWxs@78.129.140.11:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%A7-Maidenhead-347ms-Iomart%20Hosting%20Ltd
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmdlVJY1J6Rm92RzRlNnRxQ3J4OWxs@78.129.140.11:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%A7-Maidenhead-580ms-Iomart%20Hosting%20Ltd
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%A7-Erith-364ms-OVH%20SAS
