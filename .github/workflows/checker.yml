@@ -1,17 +1,13 @@
-name: Check Proxies in Parallel (Multi-Source)
+name: Check Proxies in Parallel (Multi-Protocol)
 
 env:
-  # --- ИЗМЕНЕНИЕ 1: ДОБАВЛЕНА ПЕРЕМЕННАЯ ДЛЯ ИСТОЧНИКОВ ---
-  # Используйте формат YAML `|` для удобного добавления URL-адресов, каждый с новой строки.
-  # Вы можете добавлять, удалять или комментировать (#) источники.
   PROXY_SOURCES: |
     https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vless.txt
     https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/vmess.txt
     https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/shadowsocks.txt
     https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/splitted-by-protocol/trojan.txt
-    
+    # Добавляйте сюда любые другие источники
 
-  # Переключатель для проверки всех или только первых 100 прокси
   CHECK_ALL_PROXIES: 'true'
 
 on:
@@ -23,7 +19,6 @@ permissions:
   contents: write
 
 jobs:
-  # ЗАДАНИЕ 1: ПОДГОТОВКА И РАЗДЕЛЕНИЕ
   prepare:
     runs-on: ubuntu-latest
     outputs:
@@ -32,30 +27,23 @@ jobs:
       - name: Prepare Proxy List
         id: split
         run: |
-          # --- ИЗМЕНЕНИЕ 2: ОБНОВЛЕНА ЛОГИКА СКАЧИВАНИЯ ---
           echo "Fetching proxies from multiple sources..."
-          # Создаем пустой файл для объединения всех списков
           > combined_proxies.txt
           
-          # Читаем каждую строку из переменной PROXY_SOURCES и скачиваем данные
           echo "${{ env.PROXY_SOURCES }}" | while IFS= read -r url; do
-            # Пропускаем пустые строки или закомментированные
             if [[ -n "$url" && ! "$url" =~ ^\s*# ]]; then
               echo "-> Downloading from: $url"
-              # Скачиваем и ДОПИСЫВАЕМ (>>) в конец общего файла. -L для редиректов.
               curl -s -L "$url" >> combined_proxies.txt
-              # Добавляем перенос строки на случай, если исходный файл его не имеет
               echo "" >> combined_proxies.txt
             fi
           done
 
-          # Удаляем дубликаты из объединенного списка для эффективности
+          # --- УПРОЩЕНО: Просто удаляем дубликаты, без фильтрации по протоколу ---
           echo "Removing duplicate proxies..."
           sort -u combined_proxies.txt -o all_proxies.txt
           
           TOTAL_FETCHED=$(wc -l < all_proxies.txt)
           echo "Total unique proxies fetched: $TOTAL_FETCHED"
-          # ----------------------------------------------------------------
 
           if [ "${{ env.CHECK_ALL_PROXIES }}" = "true" ]; then
             echo "РЕЖИМ: Проверка ВСЕХ прокси."
@@ -66,10 +54,8 @@ jobs:
           fi
           
           echo "Подготовлено к проверке $(wc -l < proxies_to_check.txt) прокси."
-
           NUM_JOBS=20
           split -d -n l/$NUM_JOBS proxies_to_check.txt proxies_chunk_
-          
           JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num $NUM_JOBS)
           echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
 
@@ -79,7 +65,7 @@ jobs:
           name: proxy-chunks
           path: proxies_chunk_*
 
-  # ЗАДАНИЕ 2: ПАРАЛЛЕЛЬНАЯ ПРОВЕРКА (без изменений)
+  # Задания 'check' и 'collect' остаются БЕЗ ИЗМЕНЕНИЙ
   check:
     runs-on: ubuntu-latest
     needs: prepare
@@ -127,7 +113,6 @@ jobs:
           name: results-batch-${{ matrix.job_index }}
           path: results_dir_${{ matrix.job_index }}/
 
-  # ЗАДАНИЕ 3: СБОРКА РЕЗУЛЬТАТОВ И КОММИТ (без изменений)
   collect:
     runs-on: ubuntu-latest
     needs: check
