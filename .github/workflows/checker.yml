@@ -74,7 +74,10 @@ jobs:
           
       - name: Run proxy check on chunk
         run: |
+          # --- ИСПРАВЛЕНИЕ ЗДЕСЬ: Добавлено .txt ---
           INPUT_FILE="proxies_chunk_$(printf "%02d" ${{ matrix.job_index }}).txt"
+          # ----------------------------------------
+          
           OUTPUT_DIR="results_dir_${{ matrix.job_index }}"
           if [ -f "$INPUT_FILE" ]; then
             mkdir -p "$OUTPUT_DIR"
@@ -96,77 +99,34 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Download all result batches
         uses: actions/download-artifact@v4
         with:
           pattern: results-batch-*
           path: temp_results/
-
-      - name: Combine results and commit individually per country
+      - name: Combine results and push to target repo
         run: |
           set -e
-          if [ ! -d "temp_results" ] || [ -z "$(find temp_results -type f -name '*.txt')" ]; then
+          if [ ! -d "temp_results" ] || [ -z "$(ls -A temp_results)" ]; then
             echo "No result artifacts were downloaded. Nothing to commit."
             exit 0
           fi
-
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
           TARGET_DIR="splitted-by-country"
-          TEMP_AGGREGATE_DIR="temp_aggregate"
-          
-          rm -rf "$TEMP_AGGREGATE_DIR"
-          mkdir -p "$TEMP_AGGREGATE_DIR"
-
-          find temp_results -type f -name "*.txt" -print0 | while IFS= read -r -d $'\0' file; do
+          mkdir -p "$TARGET_DIR"
+          rm -rf "$TARGET_DIR"/*
+          find temp_results -type f -name "*.txt" | while read -r file; do
             filename=$(basename "$file")
-            cat "$file" >> "$TEMP_AGGREGATE_DIR/$filename"
+            cat "$file" >> "$TARGET_DIR/$filename"
           done
-
-          # --- ИСПРАВЛЕНИЕ ЗДЕСЬ: Используем `while read` для безопасной обработки имен файлов с пробелами ---
-          # 1. Обработка удаленных файлов
-          git ls-files -z "$TARGET_DIR/" | while IFS= read -r -d $'\0' repo_file; do
-            filename=$(basename "$repo_file")
-            if [ ! -f "$TEMP_AGGREGATE_DIR/$filename" ]; then
-              echo "Deleting removed country file: $filename"
-              git rm "$repo_file"
-            fi
-          done
-          # -------------------------------------------------------------------------------------------------
-          
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: Remove country files with no working proxies"
-          fi
-
-          # Этот цикл уже был безопасным, так как `for file in path/*` корректно обрабатывает пробелы
-          for new_file in "$TEMP_AGGREGATE_DIR"/*.txt; do
-            # Проверяем, существует ли файл, чтобы избежать ошибки, если директория пуста
-            [ -e "$new_file" ] || continue
-            
-            filename=$(basename "$new_file")
-            dest_file="$TARGET_DIR/$filename"
-            
-            mkdir -p "$(dirname "$dest_file")"
-            
-            if [ ! -f "$dest_file" ] || ! cmp -s "$new_file" "$dest_file"; then
-              mv "$new_file" "$dest_file"
-              proxy_count=$(wc -l < "$dest_file" | awk '{print $1}')
-              country_name=$(basename "$dest_file" .txt)
-              COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${country_name} - ${proxy_count} working"
-              
-              git add "$dest_file"
-              git commit -m "$COMMIT_MESSAGE"
-              echo "Committed change for $country_name with $proxy_count proxies."
-            else
-              echo "No content change for $country_name. Skipping commit."
-            fi
-          done
-          
-          if git rev-list @{u}..HEAD | grep -q .; then
-             echo "Pushing all new commits..."
-             git push
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add "$TARGET_DIR/"
+          if git diff --staged --quiet
+          then
+            echo "No changes to commit. The proxy list is up-to-date."
           else
-             echo "No new commits to push."
+            TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
+            COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
+            git commit -m "$COMMIT_MESSAGE"
+            git push
           fi
