@@ -34,7 +34,9 @@ jobs:
         run: |
           python prepare_proxies.py ${{ env.NUM_JOBS }}
           JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num ${{ env.NUM_JOBS }})
-          echo "job_matrix=$GITHUB_OUTPUT" >> $GITHUB_OUTPUT
+          # --- ИСПРАВЛЕНИЕ ЗДЕСЬ ---
+          echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
+          # ------------------------
       - name: Upload proxy chunks
         uses: actions/upload-artifact@v4
         with:
@@ -106,31 +108,25 @@ jobs:
       - name: Combine results and commit individually per country
         run: |
           set -e
-          # Проверяем, есть ли результаты для обработки
           if [ ! -d "temp_results" ] || [ -z "$(find temp_results -type f -name '*.txt')" ]; then
             echo "No result artifacts were downloaded. Nothing to commit."
             exit 0
           fi
 
-          # Настраиваем Git
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
           TARGET_DIR="splitted-by-country"
           TEMP_AGGREGATE_DIR="temp_aggregate"
-
-          # Создаем чистую временную директорию для новых результатов
+          
           rm -rf "$TEMP_AGGREGATE_DIR"
           mkdir -p "$TEMP_AGGREGATE_DIR"
 
-          # Объединяем результаты из всех частей во временную директорию
           find temp_results -type f -name "*.txt" -print0 | while IFS= read -r -d $'\0' file; do
             filename=$(basename "$file")
             cat "$file" >> "$TEMP_AGGREGATE_DIR/$filename"
           done
 
-          # 1. Обработка удаленных файлов
-          # Ищем файлы, которые есть в репозитории, но отсутствуют в новых результатах
           files_in_repo=$(git ls-files "$TARGET_DIR/")
           if [ -n "$files_in_repo" ]; then
             for repo_file in $files_in_repo; do
@@ -141,21 +137,17 @@ jobs:
               fi
             done
           fi
-
-          # Создаем один коммит для всех удалений, если они есть
+          
           if ! git diff --staged --quiet; then
             git commit -m "chore: Remove country files with no working proxies"
           fi
 
-          # 2. Обработка добавленных/измененных файлов
-          # Проходим по всем файлам в агрегированных результатах
           for new_file in "$TEMP_AGGREGATE_DIR"/*.txt; do
             filename=$(basename "$new_file")
             dest_file="$TARGET_DIR/$filename"
             
             mkdir -p "$(dirname "$dest_file")"
             
-            # Проверяем, отличается ли содержимое нового файла от старого
             if [ ! -f "$dest_file" ] || ! cmp -s "$new_file" "$dest_file"; then
               mv "$new_file" "$dest_file"
               proxy_count=$(wc -l < "$dest_file" | awk '{print $1}')
@@ -170,7 +162,6 @@ jobs:
             fi
           done
           
-          # Отправляем изменения в репозиторий, только если они есть
           if git rev-list @{u}..HEAD | grep -q .; then
              echo "Pushing all new commits..."
              git push
