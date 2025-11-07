@@ -18,7 +18,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
@@ -134,7 +134,7 @@ jobs:
             echo "No changes to commit. The proxy list is up-to-date."
           else
             TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
-            COMMIT_MESSAGE="Update country-sorted proxies ($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
+            COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
             git commit -m "$COMMIT_MESSAGE"
             git push
           fi
