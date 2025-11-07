@@ -120,16 +120,13 @@ jobs:
           rm -rf "$TEMP_AGGREGATE_DIR"
           mkdir -p "$TEMP_AGGREGATE_DIR"
 
-          # Объединяем результаты в временную папку
           find temp_results -type f -name "*.txt" -print0 | while IFS= read -r -d $'\0' file; do
             filename=$(basename "$file")
             cat "$file" >> "$TEMP_AGGREGATE_DIR/$filename"
           done
 
-          # 1. Обрабатываем удаленные файлы (если страна больше не имеет рабочих прокси)
           git ls-files -z "$TARGET_DIR/" | while IFS= read -r -d $'\0' repo_file; do
             filename=$(basename "$repo_file")
-            # Игнорируем файл с общим количеством
             if [[ "$filename" == "_total.txt" ]]; then continue; fi
             if [ ! -f "$TEMP_AGGREGATE_DIR/$filename" ]; then
               echo "Deleting removed country file: $filename"
@@ -137,12 +134,11 @@ jobs:
             fi
           done
           
-          # Создаем один коммит для всех удалений, если они были
           if ! git diff --staged --quiet; then
             git commit -m "chore: Remove country files with no working proxies"
           fi
 
-          # 2. Создаем индивидуальные коммиты для каждого измененного файла страны
+          # Создаем индивидуальные коммиты для каждого измененного файла страны
           for new_file in "$TEMP_AGGREGATE_DIR"/*.txt; do
             [ -e "$new_file" ] || continue
             filename=$(basename "$new_file")
@@ -150,36 +146,30 @@ jobs:
             
             mkdir -p "$(dirname "$dest_file")"
             
-            # Если файл новый или изменился, создаем коммит
             if [ ! -f "$dest_file" ] || ! cmp -s "$new_file" "$dest_file"; then
               mv "$new_file" "$dest_file"
               proxy_count=$(wc -l < "$dest_file" | awk '{print $1}')
-              country_name=$(basename "$dest_file" .txt)
-              COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${country_name} - ${proxy_count} working"
+              
+              # --- ИЗМЕНЕНИЕ ЗДЕСЬ: Убрана переменная country_name из сообщения коммита ---
+              COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${proxy_count} working"
               
               git add "$dest_file"
               git commit -m "$COMMIT_MESSAGE"
-              echo "Committed change for $country_name with $proxy_count proxies."
+              echo "Committed change for $filename with $proxy_count proxies."
             fi
           done
           
-          # --- НОВАЯ ЛОГИКА ДЛЯ СУММАРНОГО КОММИТА ---
-          # 3. Проверяем, были ли вообще какие-либо коммиты (изменения)
+          # Проверяем, были ли какие-либо коммиты (изменения)
           if git rev-list @{u}..HEAD | grep -q .; then
              echo "Changes detected. Creating summary commit..."
              
-             # Считаем общее количество прокси во всех файлах
-             # `|| true` предотвращает ошибку, если файлов нет
              TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
              
-             # Создаем или обновляем файл с общим количеством, чтобы создать финальный коммит
              echo "Total working proxies: $TOTAL_PROXIES" > "$TARGET_DIR/_total.txt"
              git add "$TARGET_DIR/_total.txt"
              
-             # Создаем сообщение для коммита папки
              SUMMARY_COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
              
-             # Создаем финальный коммит
              git commit -m "$SUMMARY_COMMIT_MESSAGE"
              
              echo "Pushing all commits..."
