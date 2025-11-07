@@ -34,9 +34,7 @@ jobs:
         run: |
           python prepare_proxies.py ${{ env.NUM_JOBS }}
           JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num ${{ env.NUM_JOBS }})
-          # --- ИСПРАВЛЕНИЕ ЗДЕСЬ ---
           echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
-          # ------------------------
       - name: Upload proxy chunks
         uses: actions/upload-artifact@v4
         with:
@@ -127,22 +125,26 @@ jobs:
             cat "$file" >> "$TEMP_AGGREGATE_DIR/$filename"
           done
 
-          files_in_repo=$(git ls-files "$TARGET_DIR/")
-          if [ -n "$files_in_repo" ]; then
-            for repo_file in $files_in_repo; do
-              filename=$(basename "$repo_file")
-              if [ ! -f "$TEMP_AGGREGATE_DIR/$filename" ]; then
-                echo "Deleting removed country file: $filename"
-                git rm "$repo_file"
-              fi
-            done
-          fi
+          # --- ИСПРАВЛЕНИЕ ЗДЕСЬ: Используем `while read` для безопасной обработки имен файлов с пробелами ---
+          # 1. Обработка удаленных файлов
+          git ls-files -z "$TARGET_DIR/" | while IFS= read -r -d $'\0' repo_file; do
+            filename=$(basename "$repo_file")
+            if [ ! -f "$TEMP_AGGREGATE_DIR/$filename" ]; then
+              echo "Deleting removed country file: $filename"
+              git rm "$repo_file"
+            fi
+          done
+          # -------------------------------------------------------------------------------------------------
           
           if ! git diff --staged --quiet; then
             git commit -m "chore: Remove country files with no working proxies"
           fi
 
+          # Этот цикл уже был безопасным, так как `for file in path/*` корректно обрабатывает пробелы
           for new_file in "$TEMP_AGGREGATE_DIR"/*.txt; do
+            # Проверяем, существует ли файл, чтобы избежать ошибки, если директория пуста
+            [ -e "$new_file" ] || continue
+            
             filename=$(basename "$new_file")
             dest_file="$TARGET_DIR/$filename"
             
