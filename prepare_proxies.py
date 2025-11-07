@@ -89,11 +89,12 @@ def get_proxy_signature(proxy_url):
     return None
 
 if __name__ == "__main__":
-    # ... (вся остальная часть скрипта prepare_proxies.py остается БЕЗ ИЗМЕНЕНИЙ) ...
+    # Получаем переменные окружения и аргументы
     sources_str = os.getenv('PROXY_SOURCES', '')
     check_all = os.getenv('CHECK_ALL_PROXIES', 'false').lower() == 'true'
     num_jobs = int(sys.argv[1]) if len(sys.argv) > 1 else 15
 
+    # 1. Скачиваем прокси из всех источников
     print("Fetching proxies from multiple sources...")
     all_lines = []
     for url in sources_str.strip().split('\n'):
@@ -102,15 +103,16 @@ if __name__ == "__main__":
                 print(f"-> Downloading from: {url}")
                 response = requests.get(url, timeout=30)
                 content = response.text
-                if '://' in content:
+                if '://' in content: # Простой текст
                     all_lines.extend(content.strip().split('\n'))
-                else:
+                else: # Вероятно Base64
                     print("   Format: Looks like Base64. Decoding...")
                     decoded_content = base64.b64decode(content).decode('utf-8')
                     all_lines.extend(decoded_content.strip().split('\n'))
             except Exception as e:
                 print(f"   Failed to process source {url}: {e}")
 
+    # 2. Глобальная дедупликация
     print("\nDeduplicating proxies...")
     seen_signatures = set()
     unique_proxies = []
@@ -124,8 +126,10 @@ if __name__ == "__main__":
     
     print(f"Found {len(all_lines)} raw proxies, of which {len(unique_proxies)} are unique.")
 
+    # 3. Перемешивание
     random.shuffle(unique_proxies)
     
+    # 4. Выборка (все или первые 100)
     if check_all:
         proxies_to_split = unique_proxies
         print(f"РЕЖИМ: Проверка ВСЕХ {len(proxies_to_split)} уникальных прокси.")
@@ -133,13 +137,27 @@ if __name__ == "__main__":
         proxies_to_split = unique_proxies[:100]
         print(f"РЕЖИМ: Проверка ПЕРВЫХ 100 из {len(unique_proxies)} уникальных прокси.")
 
+    # 5. Разделение на части (УЛУЧШЕННАЯ ЛОГИКА)
     if not proxies_to_split:
         print("No proxies to split. Exiting.")
     else:
-        chunk_size = (len(proxies_to_split) + num_jobs - 1) // num_jobs
+        total_proxies = len(proxies_to_split)
+        base_chunk_size = total_proxies // num_jobs
+        remainder = total_proxies % num_jobs
+        
+        start_index = 0
         for i in range(num_jobs):
-            chunk = proxies_to_split[i * chunk_size:(i + 1) * chunk_size]
-            if chunk:
-                with open(f'proxies_chunk_{i:02d}.txt', 'w', encoding='utf-8') as f:
+            # Первые `remainder` частей получают на 1 элемент больше
+            chunk_size = base_chunk_size + (1 if i < remainder else 0)
+            chunk_end = start_index + chunk_size
+            
+            chunk = proxies_to_split[start_index:chunk_end]
+            
+            # Создаем файл, даже если он пустой (на случай, если заданий больше, чем прокси)
+            with open(f'proxies_chunk_{i:02d}.txt', 'w', encoding='utf-8') as f:
+                if chunk:
                     f.write('\n'.join(chunk) + '\n')
-        print(f"Split proxies into {num_jobs} chunks.")
+            
+            start_index = chunk_end
+            
+        print(f"Split proxies into {num_jobs} chunks more evenly.")
