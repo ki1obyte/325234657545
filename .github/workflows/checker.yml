@@ -7,11 +7,12 @@ env:
 
 
   CHECK_ALL_PROXIES: 'true'
+  NUM_JOBS: 20
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
 
 permissions:
   contents: write
@@ -22,64 +23,31 @@ jobs:
     outputs:
       job_matrix: ${{ steps.split.outputs.job_matrix }}
     steps:
-      - name: Prepare Proxy List
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies for preparation
+        run: pip install requests
+      
+      - name: Download, Deduplicate, Shuffle, and Split Proxies
         id: split
         run: |
-          echo "Fetching proxies from multiple sources..."
-          > combined_proxies.txt
-          
-          echo "${{ env.PROXY_SOURCES }}" | while IFS= read -r url; do
-            if [[ -n "$url" && ! "$url" =~ ^\s*# ]]; then
-              echo "-> Processing source: $url"
-              # Скачиваем содержимое во временный файл
-              curl -s -L "$url" -o temp_source_content.txt
-
-              # --- ИЗМЕНЕНИЕ ЗДЕСЬ: УМНАЯ ОБРАБОТКА ---
-              # Проверяем, содержит ли файл обычные ссылки. 
-              # Если нет - считаем, что он закодирован в Base64.
-              if grep -q '://' temp_source_content.txt; then
-                echo "   Format: Plain text. Appending as is."
-                cat temp_source_content.txt >> combined_proxies.txt
-              else
-                echo "   Format: Looks like Base64. Decoding..."
-                # Декодируем и дописываем результат. -i игнорирует невалидные символы.
-                base64 -d -i temp_source_content.txt >> combined_proxies.txt
-              fi
-              # ----------------------------------------------
-
-              # Добавляем перенос строки для чистоты
-              echo "" >> combined_proxies.txt
-            fi
-          done
-
-          echo "Removing duplicates and shuffling..."
-          # 1. Очищаем от пустых строк
-          # 2. Сортируем для удаления текстовых дубликатов
-          # 3. ПЕРЕМЕШИВАЕМ (shuf) для равномерного распределения
-          grep -v -e '^$' combined_proxies.txt | sort -u | shuf > all_proxies.txt
-          
-          TOTAL_FETCHED=$(wc -l < all_proxies.txt)
-          echo "Total unique proxies fetched: $TOTAL_FETCHED"
-
-          if [ "${{ env.CHECK_ALL_PROXIES }}" = "true" ]; then
-            echo "РЕЖИМ: Проверка ВСЕХ прокси."
-            cp all_proxies.txt proxies_to_check.txt
-          else
-            echo "РЕЖИМ: Проверка ПЕРВЫХ 100 прокси."
-            head -n 100 all_proxies.txt > proxies_to_check.txt
-          fi
-          
-          echo "Подготовлено к проверке $(wc -l < proxies_to_check.txt) прокси."
-          NUM_JOBS=20
-          split -d -n l/$NUM_JOBS proxies_to_check.txt proxies_chunk_
-          JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num $NUM_JOBS)
+          # Запускаем новый скрипт подготовки
+          python prepare_proxies.py ${{ env.NUM_JOBS }}
+          # Генерируем матрицу для параллельных заданий
+          JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num ${{ env.NUM_JOBS }})
           echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
 
       - name: Upload proxy chunks
         uses: actions/upload-artifact@v4
         with:
           name: proxy-chunks
-          path: proxies_chunk_*
+          path: proxies_chunk_*.txt
 
   # Задания 'check' и 'collect' остаются БЕЗ ИЗМЕНЕНИЙ
   check:
@@ -158,7 +126,7 @@ jobs:
             echo "No changes to commit. The proxy list is up-to-date."
           else
             TOTAL_PROXIES=$(cat "$TARGET_DIR"/*.txt | wc -l || true)
-            COMMIT_MESSAGE="($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
+            COMMIT_MESSAGE="Update country-sorted proxies ($(date +'%Y-%m-%d %H:%M')) - ${TOTAL_PROXIES} working"
             git commit -m "$COMMIT_MESSAGE"
             git push
           fi
