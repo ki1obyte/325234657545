@@ -1,4 +1,4 @@
-# prepare_proxies.py (финальная версия с детальной статистикой по источникам)
+# prepare_proxies.py (финальная версия с улучшенной дедупликацией для vmess, vless и trojan)
 
 import sys
 import os
@@ -7,8 +7,6 @@ import base64
 import random
 import json
 from urllib.parse import urlparse, parse_qs, unquote
-
-# ... (все функции парсинга и get_proxy_signature остаются без изменений) ...
 
 def parse_vmess(proxy_url):
     try:
@@ -70,11 +68,13 @@ def get_proxy_signature(proxy_url):
     if protocol == 'shadowsocks':
         return (protocol, parsed.get('address'), parsed.get('port'))
     elif protocol in ['vless', 'trojan']:
-        return (protocol, parsed.get('address'), parsed.get('port'), parsed.get('id'),
+        # --- ИЗМЕНЕНИЕ ЗДЕСЬ: ID убран из подписи ---
+        return (protocol, parsed.get('address'), parsed.get('port'),
                 parsed.get('network'), parsed.get('security'), parsed.get('sni'),
                 parsed.get('pbk'), parsed.get('grpc_serviceName'))
     elif protocol == 'vmess':
-        return (protocol, parsed.get('address'), parsed.get('port'), parsed.get('id'),
+        # --- ИЗМЕНЕНИЕ ЗДЕСЬ: ID убран из подписи ---
+        return (protocol, parsed.get('address'), parsed.get('port'),
                 parsed.get('network'), parsed.get('security'), parsed.get('sni'), parsed.get('ws_path'))
     return None
 
@@ -83,7 +83,6 @@ if __name__ == "__main__":
     check_all = os.getenv('CHECK_ALL_PROXIES', 'false').lower() == 'true'
     num_jobs = int(sys.argv[1]) if len(sys.argv) > 1 else 15
 
-    # --- ИЗМЕНЕНИЕ ЗДЕСЬ: Добавляем детальную статистику ---
     print("Fetching and processing proxies from multiple sources...")
     all_unique_proxies = {} # Словарь для хранения уникальных прокси {подпись: ссылка}
     total_raw_proxies = 0
@@ -111,7 +110,6 @@ if __name__ == "__main__":
         total_raw_proxies += source_raw_count
         newly_added_count = 0
         
-        # Дедупликация "на лету" для каждого источника
         for line in source_raw_lines:
             line = line.strip()
             if not line: continue
@@ -130,8 +128,7 @@ if __name__ == "__main__":
     print("----------------------------------------\n")
     
     unique_proxies = list(all_unique_proxies.values())
-    # ----------------------------------------------------
-
+    
     random.shuffle(unique_proxies)
     
     if check_all:
