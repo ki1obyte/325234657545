@@ -1,4 +1,4 @@
-# check_proxies.py (финальная версия с ротацией целей и улучшенным логгированием)
+# check_proxies.py (финальная версия со счетчиком в логах)
 
 import requests
 import subprocess
@@ -12,7 +12,7 @@ import random
 import re
 import base64
 
-# --- Словарь COUNTRY_CODES (без изменений) ---
+# --- Словарь COUNTRY_CODES ---
 COUNTRY_CODES = {
     "AD": "Andorra", "AE": "United Arab Emirates", "AF": "Afghanistan", "AG": "Antigua and Barbuda",
     "AI": "Anguilla", "AL": "Albania", "AM": "Armenia", "AO": "Angola", "AQ": "Antarctica",
@@ -208,51 +208,27 @@ def check_proxy(proxy_url, counter_str=""):
             if not xray_path: return None
             process = subprocess.Popen([xray_path, 'run', '-c', config_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             time.sleep(2)
-            
-            # --- ИЗМЕНЕНИЕ: Ротация целей для проверки ---
-            test_urls = [
-                'https://www.cloudflare.com/cdn-cgi/trace',
-                'https://api.ipify.org',
-                'https://api.ip.sb/ip',
-                'http://ifconfig.me/ip'
-            ]
-            test_url = random.choice(test_urls)
-            print(f"--- (Attempt {attempt + 1}) Using test URL: {test_url} ---")
-            
             start_time = time.time()
-            curl_cmd = ['curl', '--socks5-hostname', f'127.0.0.1:{local_port}', test_url, '-s', '--max-time', '10']
+            curl_cmd = ['curl', '--socks5-hostname', f'127.0.0.1:{local_port}', 'https://www.cloudflare.com/cdn-cgi/trace', '-s', '--max-time', '10']
             result = subprocess.run(curl_cmd, capture_output=True, timeout=15)
             latency = (time.time() - start_time) * 1000
             stdout_str = result.stdout.decode('utf-8', errors='ignore')
-            
-            # --- ИЗМЕНЕНИЕ: Гибкое условие успеха ---
-            is_successful = result.returncode == 0 and \
-                            ('loc=' in stdout_str or re.match(r'^\d{1,3}(\.\d{1,3}){3}$', stdout_str.strip()))
-
-            if is_successful:
+            if result.returncode == 0 and 'fl=' in stdout_str:
                 country_match = re.search(r'loc=([A-Z]{2})', stdout_str)
                 country_code = country_match.group(1) if country_match else "Unknown"
                 print(f"SUCCESS (Attempt {attempt + 1}): Proxy is working. Latency: {latency:.2f} ms. Country: {country_code}")
                 return (proxy_url, country_code)
             else:
-                # --- ИЗМЕНЕНИЕ: Улучшенное логирование при ошибке ---
                 stderr_str = result.stderr.decode('utf-8', errors='ignore').strip()
-                stdout_str_on_fail = result.stdout.decode('utf-8', errors='ignore').strip()
-                print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): Proxy check failed.")
-                print(f"   Curl return code: {result.returncode}")
-                print(f"   Curl stderr: {stderr_str}")
-                print(f"   Curl stdout on fail: {stdout_str_on_fail[:250]}") # Показать первые 250 символов ответа
-
+                print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): Proxy check failed. Stderr: {stderr_str}")
         except Exception as e:
             print(f"FAILURE (Attempt {attempt + 1}/{max_retries}): An error occurred: {e}")
         finally:
             if process: process.terminate(); process.wait()
             if os.path.exists(config_path): os.unlink(config_path)
-            
         if attempt < max_retries - 1:
             print(f"--- Waiting {retry_delay}s before retrying... ---")
             time.sleep(retry_delay)
-            
     print(f"--- All {max_retries} attempts failed for this proxy. ---")
     return None
 
