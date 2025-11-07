@@ -1,4 +1,4 @@
-# prepare_proxies.py (финальная версия с улучшенной дедупликацией для vmess, vless и trojan)
+# prepare_proxies.py (финальная версия с максимально агрессивной дедупликацией)
 
 import sys
 import os
@@ -65,18 +65,14 @@ def get_proxy_signature(proxy_url):
     
     if not parsed: return None
     protocol = parsed.get('protocol')
+    
+    # --- ИЗМЕНЕНИЕ ЗДЕСЬ: Максимально упрощенная подпись ---
+    # Для Shadowsocks оставляем как есть, т.к. там нет таких вариаций
     if protocol == 'shadowsocks':
         return (protocol, parsed.get('address'), parsed.get('port'))
-    elif protocol in ['vless', 'trojan']:
-        # --- ИЗМЕНЕНИЕ ЗДЕСЬ: ID убран из подписи ---
-        return (protocol, parsed.get('address'), parsed.get('port'),
-                parsed.get('network'), parsed.get('security'), parsed.get('sni'),
-                parsed.get('pbk'), parsed.get('grpc_serviceName'))
-    elif protocol == 'vmess':
-        # --- ИЗМЕНЕНИЕ ЗДЕСЬ: ID убран из подписи ---
-        return (protocol, parsed.get('address'), parsed.get('port'),
-                parsed.get('network'), parsed.get('security'), parsed.get('sni'), parsed.get('ws_path'))
-    return None
+    
+    # Для всех остальных протоколов используем только адрес, порт и тип сети
+    return (protocol, parsed.get('address'), parsed.get('port'), parsed.get('network'))
 
 if __name__ == "__main__":
     sources_str = os.getenv('PROXY_SOURCES', '')
