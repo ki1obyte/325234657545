@@ -25,22 +25,18 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install dependencies for preparation
         run: pip install requests
-      
       - name: Download, Deduplicate, Shuffle, and Split Proxies
         id: split
         run: |
           python prepare_proxies.py ${{ env.NUM_JOBS }}
           JOB_MATRIX=$(jq -nc '[range(0; $num)]' --argjson num ${{ env.NUM_JOBS }})
           echo "job_matrix=$JOB_MATRIX" >> $GITHUB_OUTPUT
-
       - name: Upload proxy chunks
         uses: actions/upload-artifact@v4
         with:
@@ -72,19 +68,18 @@ jobs:
           key: ${{ runner.os }}-xray-core-${{ env.XRAY_VERSION }}
       - name: Install dependencies
         run: pip install requests
-        
-      # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
       - name: Download specific proxy chunk
         uses: actions/download-artifact@v4
         with:
           name: proxy-chunks
-          # Указываем `path: .`, чтобы файлы скачались в текущую директорию
           path: .
-      # ------------------------
-
+          
       - name: Run proxy check on chunk
         run: |
-          INPUT_FILE="proxies_chunk_$(printf "%02d" ${{ matrix.job_index }})"
+          # --- ИСПРАВЛЕНИЕ ЗДЕСЬ: Добавлено .txt ---
+          INPUT_FILE="proxies_chunk_$(printf "%02d" ${{ matrix.job_index }}).txt"
+          # ----------------------------------------
+          
           OUTPUT_DIR="results_dir_${{ matrix.job_index }}"
           if [ -f "$INPUT_FILE" ]; then
             mkdir -p "$OUTPUT_DIR"
@@ -100,11 +95,7 @@ jobs:
           path: results_dir_${{ matrix.job_index }}/
 
   collect:
-    # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
-    # Добавляем `if: success()` чтобы этот шаг запускался, только если
-    # все предыдущие шаги `check` успешно завершились (даже если они ничего не нашли)
     if: success()
-    # ------------------------
     runs-on: ubuntu-latest
     needs: check
     steps:
@@ -118,15 +109,10 @@ jobs:
       - name: Combine results and push to target repo
         run: |
           set -e
-          
-          # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
-          # Добавляем проверку, были ли вообще скачаны какие-либо результаты
           if [ ! -d "temp_results" ] || [ -z "$(ls -A temp_results)" ]; then
             echo "No result artifacts were downloaded. Nothing to commit."
             exit 0
           fi
-          # ------------------------
-
           TARGET_DIR="splitted-by-country"
           mkdir -p "$TARGET_DIR"
           rm -rf "$TARGET_DIR"/*
