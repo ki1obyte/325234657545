@@ -256,69 +256,26 @@ def check_proxy(proxy_url):
 
 # --- ИЗМЕНЕННЫЙ БЛОК MAIN ---
 if __name__ == "__main__":
-    if len(sys.argv) < 3: print("Usage: python check_proxies.py <input_file> <output_directory>"); sys.exit(1)
+    if len(sys.argv) < 3:
+        print("Usage: python check_proxies.py <input_file> <output_directory>")
+        sys.exit(1)
+
     input_file, output_dir = sys.argv[1], sys.argv[2]
     os.makedirs(output_dir, exist_ok=True)
     
-    proxies_from_file = read_proxies_from_file(input_file)
-    
-    seen_proxies = set()
-    unique_proxies_to_check = []
-    for proxy_url in proxies_from_file:
-        parsed = parse_proxy_url(proxy_url)
-        if not parsed: continue
-
-        protocol = parsed.get('protocol')
-        signature = None
-
-        # Создаем детальную подпись для каждого протокола
-        if protocol in ['vless', 'trojan']:
-            signature = (
-                protocol,
-                parsed.get('address'),
-                parsed.get('port'),
-                parsed.get('id'),
-                parsed.get('network'),
-                parsed.get('security'),
-                parsed.get('sni'),
-                parsed.get('pbk', ''),
-                parsed.get('ws_path', ''),
-                parsed.get('grpc_serviceName', '')
-            )
-        elif protocol == 'vmess':
-            signature = (
-                protocol,
-                parsed.get('address'),
-                parsed.get('port'),
-                parsed.get('id'),
-                parsed.get('network'),
-                parsed.get('security'),
-                parsed.get('sni'),
-                parsed.get('ws_path', '')
-            )
-        elif protocol == 'shadowsocks':
-            signature = (
-                protocol,
-                parsed.get('address'),
-                parsed.get('port'),
-                parsed.get('method'),
-                parsed.get('password')
-            )
-        
-        if signature and signature not in seen_proxies:
-            seen_proxies.add(signature)
-            unique_proxies_to_check.append(proxy_url)
-    
-    print(f"\nFound {len(proxies_from_file)} proxies, of which {len(unique_proxies_to_check)} are unique. Starting check...")
+    # Скрипт теперь слепо доверяет входному файлу
+    proxies_to_check = read_proxies_from_file(input_file)
+    print(f"Starting check on {len(proxies_to_check)} proxies from {input_file}...")
 
     proxies_by_country = {}
     total_working = 0
-    for proxy_url in unique_proxies_to_check:
+    for proxy_url in proxies_to_check:
         res = check_proxy(proxy_url)
         if res:
             url, country_code = res
             country_name = get_country_name(country_code)
-            if country_name not in proxies_by_country: proxies_by_country[country_name] = []
+            if country_name not in proxies_by_country:
+                proxies_by_country[country_name] = []
             proxies_by_country[country_name].append(url)
     
     for country, proxies in proxies_by_country.items():
@@ -327,6 +284,6 @@ if __name__ == "__main__":
             f.write('\n'.join(proxies) + '\n')
     
     print(f"\n======================================")
-    print(f"Check complete. Found {total_working} working proxies.")
+    print(f"Check complete. Found {total_working} working proxies in this batch.")
     print(f"Results saved to directory: {output_dir}")
     print(f"======================================")
