@@ -2,7 +2,7 @@ name: Check Proxies in Parallel (Multi-Protocol)
 
 env:
   PROXY_SOURCES: |
-     https://raw.githubusercontent.com/ki1obyte/325234657545/refs/heads/main/test2.txt
+     https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt
      
 
 
