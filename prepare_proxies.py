@@ -1,4 +1,4 @@
-# prepare_proxies.py
+# prepare_proxies.py (финальная версия с дедупликацией по IP:PORT)
 
 import sys
 import os
@@ -7,7 +7,7 @@ import base64
 import random
 from urllib.parse import urlparse, parse_qs, unquote
 
-# --- Копируем парсеры из основного скрипта, чтобы создать подписи ---
+# ... (парсеры parse_vless_trojan, parse_vmess, parse_ss остаются без изменений) ...
 
 def parse_vless_trojan(proxy_url):
     try:
@@ -54,7 +54,7 @@ def parse_ss(proxy_url):
     except Exception: return None
 
 def get_proxy_signature(proxy_url):
-    """Создает детальную и надежную подпись для прокси."""
+    """Создает подпись для прокси, группируя SS по IP:PORT."""
     url_part = proxy_url.split('#')[0]
     parsed = None
     if url_part.startswith("vless://"): parsed = parse_vless_trojan(url_part)
@@ -65,25 +65,35 @@ def get_proxy_signature(proxy_url):
     if not parsed: return None
 
     protocol = parsed.get('protocol')
-    if protocol in ['vless', 'trojan']:
+    
+    # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
+    if protocol == 'shadowsocks':
+        # Для SS уникальность определяется только по адресу и порту
+        return (
+            protocol,
+            parsed.get('address'),
+            parsed.get('port')
+        )
+    # -----------------------
+
+    elif protocol in ['vless', 'trojan']:
+        # Для VLESS и Trojan оставляем детальную проверку
         return (protocol, parsed.get('address'), parsed.get('port'), parsed.get('id'),
                 parsed.get('network'), parsed.get('security'), parsed.get('sni'),
                 parsed.get('pbk'), parsed.get('grpc_serviceName'))
     elif protocol == 'vmess':
+        # Для VMESS тоже оставляем детальную проверку
         return (protocol, parsed.get('address'), parsed.get('port'), parsed.get('id'),
                 parsed.get('network'), parsed.get('security'), parsed.get('sni'), parsed.get('ws_path'))
-    elif protocol == 'shadowsocks':
-        return (protocol, parsed.get('address'), parsed.get('port'),
-                parsed.get('method'), parsed.get('password'))
+    
     return None
 
 if __name__ == "__main__":
-    # Получаем переменные окружения и аргументы
+    # ... (вся остальная часть скрипта prepare_proxies.py остается БЕЗ ИЗМЕНЕНИЙ) ...
     sources_str = os.getenv('PROXY_SOURCES', '')
     check_all = os.getenv('CHECK_ALL_PROXIES', 'false').lower() == 'true'
     num_jobs = int(sys.argv[1]) if len(sys.argv) > 1 else 15
 
-    # 1. Скачиваем прокси из всех источников
     print("Fetching proxies from multiple sources...")
     all_lines = []
     for url in sources_str.strip().split('\n'):
@@ -92,16 +102,15 @@ if __name__ == "__main__":
                 print(f"-> Downloading from: {url}")
                 response = requests.get(url, timeout=30)
                 content = response.text
-                if '://' in content: # Простой текст
+                if '://' in content:
                     all_lines.extend(content.strip().split('\n'))
-                else: # Вероятно Base64
+                else:
                     print("   Format: Looks like Base64. Decoding...")
                     decoded_content = base64.b64decode(content).decode('utf-8')
                     all_lines.extend(decoded_content.strip().split('\n'))
             except Exception as e:
                 print(f"   Failed to process source {url}: {e}")
 
-    # 2. Глобальная дедупликация
     print("\nDeduplicating proxies...")
     seen_signatures = set()
     unique_proxies = []
@@ -115,10 +124,8 @@ if __name__ == "__main__":
     
     print(f"Found {len(all_lines)} raw proxies, of which {len(unique_proxies)} are unique.")
 
-    # 3. Перемешивание
     random.shuffle(unique_proxies)
     
-    # 4. Выборка (все или первые 100)
     if check_all:
         proxies_to_split = unique_proxies
         print(f"РЕЖИМ: Проверка ВСЕХ {len(proxies_to_split)} уникальных прокси.")
@@ -126,7 +133,6 @@ if __name__ == "__main__":
         proxies_to_split = unique_proxies[:100]
         print(f"РЕЖИМ: Проверка ПЕРВЫХ 100 из {len(unique_proxies)} уникальных прокси.")
 
-    # 5. Разделение на части
     if not proxies_to_split:
         print("No proxies to split. Exiting.")
     else:
