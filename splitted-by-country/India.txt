@@ -1,6 +1,8 @@
-vless://ef246c6f-6e7d-4286-af33-5485544b0ba8@45.88.183.164:49355/?type=tcp&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-898ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-Mumbai-614ms-Melbikomas%20UAB
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&encryption=none&headerType=none&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-913ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.209.147.198:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-Bengaluru-595ms-DigitalOcean%20LLC
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.92:57456#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-Mumbai-2423ms-Melbikomas%20UAB
-vless://d3daa900-0377-4575-9ebc-c4d88cb8486c@45.88.183.158:44629?security=&type=tcp&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-927ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
+vless://5f39f871-2fae-446e-99ad-719fa8be687c@194.61.31.126:443?mode=gun&security=reality&encryption=none&pbk=L3UuY_lketYWBrW_naLct9-VFIAGwdtMplkubdHdEHQ&fp=safari&type=grpc&serviceName=78e691d782c9b9b2cd3c5621&sni=www.microsoft.com&sid=ce874361e8dfcd4e#4Jadi-7187
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#4Jadi-148
+vless://6eef4a01-455b-472f-a337-9983956cad92@13.204.17.137:443/?type=ws&encryption=none&flow=&path=%2Fnews#4Jadi-7494
+vless://d3daa900-0377-4575-9ebc-c4d88cb8486c@45.88.183.158:44629?security=&type=tcp&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-966ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
+vmess://eyJhZGQiOiIxNzYyNjU5MTQxLmJpbGliaWxpYXBwLmNuIiwiYWlkIjoiMCIsImhvc3QiOiJvNWVjOHZmNmUuc3BlZWQueWRpbmRkZC5jY2NwLnVzZXJhYWNhLnBwLnVhIiwiaWQiOiJmNzQ0Y2Q4My1lY2M0LTQ2YzUtYTJhZC1jZjNkZmE5ZTEyYTAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoiaHR0cHM6Ly90Lm1lL0ZvcmNlUnVuVlBOLfCfh67wn4ezLUh5ZGVyYWJhZC0yMjA0bXMtT3JhY2xlIENvcnBvcmF0aW9uIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.92:57456#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-Mumbai-1006ms-Melbikomas%20UAB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.209.147.198:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-Bengaluru-672ms-DigitalOcean%20LLC
+vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&encryption=none&headerType=none&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B3-NewDelhi-983ms-NETRANEX%20TECHNOLOGIES%20%28INDIA%29%20PRIVATE%20LIMITED
