@@ -1,6 +1,9 @@
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#4Jadi-965
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-419ms-Datacamp%20Limited
-ss://YWVzLTEyOC1nY206MTAwODY@153.121.43.183:10087#4Jadi-938
-vmess://eyJhZGQiOiI4LjIxMS4xNjQuMjE1IiwiYWlkIjowLCJob3N0IjoiIiwiaWQiOiI3MzE5M2NjZS03Y2ExLTRiMDgtOTNmZi00ZWU4YjAxNDczNzQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdGVsZWdyYW1fQHNzd2lhIiwicG9ydCI6MjA1MjIsInBzIjoiaHR0cHM6Ly90Lm1lL0ZvcmNlUnVuVlBOLfCfh6/wn4e1LVRva3lvLTU4NG1zLUFsaWJhYmEgKFVTKSBUZWNobm9sb2d5IENvLiBMdGQuIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6ImF1dG8ifQ==
-ss://YWVzLTEyOC1nY206MTAwODY@160.16.123.124:10087#4Jadi-939
-vless://a0a866bd-8c0c-464c-9b96-c6dafa154419@5.253.41.223:80?path=/vless/&security=&encryption=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-1061ms-PQ%20HOSTING%20PLUS%20S.R.L.
+vless://ed242313-b502-4a4a-97f4-336da621a837@45.12.134.217:80?type=ws&path=/vless/?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-ShibuyaCity-3375ms-PQ%20HOSTING%20PLUS%20S.R.L.
+ss://YWVzLTEyOC1nY206MTAwODY@153.121.43.183:10087#4Jadi-932
+ss://YWVzLTEyOC1nY206MTAwODY@160.16.123.124:10087#4Jadi-933
+vmess://eyJhZGQiOiAiOC4yMTEuMTY0LjIxNSIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiNzMxOTNjY2UtN2NhMS00YjA4LTkzZmYtNGVlOGIwMTQ3Mzc0IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi90ZWxlZ3JhbV9Ac3N3aWEiLCAicG9ydCI6ICIyMDUyMiIsICJwcyI6ICI0SmFkaS0xNTA0NCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInYiOiAiMiJ9
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-412ms-Datacamp%20Limited
+vless://a0a866bd-8c0c-464c-9b96-c6dafa154419@5.253.41.223:80?path=%2Fvless%2F&security=&encryption=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-1069ms-PQ%20HOSTING%20PLUS%20S.R.L.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUXEwNU82a2JRbVdjY0o5cWhkYUl6@91.194.160.151:1235?note=--Telegram--@NetifyVPN--#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-415ms-PQ%20HOSTING%20PLUS%20S.R.L.
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#4Jadi-959
+vmess://eyJhZGQiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgImlkIjogIjM0MmJhY2ZkLTJiOGYtM2Y0OS1hMTZlLTQzOWRiNWIwYjlkNSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvNTY0ZGZhMjAvIiwgInBvcnQiOiAiNTI1MTIiLCAicHMiOiAiNEphZGktMTUzNTAiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
