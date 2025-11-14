@@ -1,5 +1,3 @@
-vless://678bbdc1-7307-4cf2-bec1-bcdbd8efdbe5@italy.pocomacho.ru:443?security=reality&encryption=none&pbk=w8fmqaWzMuOLi9qoV5ueSdrVel8xgr2R2Z1ayUE48EI&headerType=none&fp=chrome&spx=/D2j6eFVa56guYTK&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=40b4681581dae8#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Milan-2596ms-Global%20Connectivity%20Solutions%20LLP
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@176.126.83.158:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Florence-357ms-BrainStorm%20Network%20Inc
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@212.102.54.45:990#4Jadi-248
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%92%F0%9F%87%92-Unknown-2428ms-Unknown
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Milan-7803ms-M247%20Europe%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Milan-11596ms-M247%20Europe%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@212.102.54.45:990#4Jadi-240
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@176.126.83.158:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Florence-4798ms-BrainStorm%20Network%20Inc
