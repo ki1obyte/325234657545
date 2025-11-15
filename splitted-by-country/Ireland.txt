@@ -1,1 +1,1 @@
-vless://d811ecf9-4029-4794-a43e-3611c3575b9e@34.254.224.37:48056?encryption=none&security=tls&sni=34.254.224.37&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=www.bing.com&mode=gun#4Jadi-9929
+vless://c27bdfe9-929c-45cd-a917-aa47dae1cff7@172.67.166.211:443?path=/eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560&security=tls&encryption=none&host=soft98m.dpdns.org&fp=chrome&type=ws&sni=soft98m.dPdNS.OrG#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-SanJose-605ms-Cloudflare%20Inc.
