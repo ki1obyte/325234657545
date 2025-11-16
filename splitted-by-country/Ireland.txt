@@ -1,1 +1,0 @@
-vless://c27bdfe9-929c-45cd-a917-aa47dae1cff7@172.67.166.211:443?path=/eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560&security=tls&encryption=none&host=soft98m.dpdns.org&fp=chrome&type=ws&sni=soft98m.dPdNS.OrG#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-SanJose-605ms-Cloudflare%20Inc.
