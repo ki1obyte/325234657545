@@ -1,2 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeVYySHFWc2prM2NFTXZkTjlpS3RO@77.83.246.74:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B5%F0%9F%87%B1-Warsaw-507ms-Global%20Connectivity%20Solutions%20LLP
-vless://a39f52e2-0ce3-4232-8a74-37a87bcaaeb4@alhilal.com:443?security=tls&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B5%F0%9F%87%B1-Warsaw-1255ms-OVH%20SAS
+vless://a39f52e2-0ce3-4232-8a74-37a87bcaaeb4@alhilal.com:443?security=tls&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B5%F0%9F%87%B1-Warsaw-1442ms-OVH%20SAS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeVYySHFWc2prM2NFTXZkTjlpS3RO@77.83.246.74:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B5%F0%9F%87%B1-Warsaw-544ms-Global%20Connectivity%20Solutions%20LLP
