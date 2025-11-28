@@ -1,1 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeFB5bUZtYTZQN1U0MXdrOU1OUDd6blBudmF4M21qZA@45.89.55.173:443#4Sarina-862
+vless://d3e684e2-1b3a-41a2-ba19-5a84a8ca2122@srb.himikvpn.online:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-21.userapi.com&fp=chrome&security=reality&pbk=4vPl52HiNbbbjW2sHRR6QG0q1A5qgqSy6fWdqNvcUWI&sid=e9d1a61673d8d4#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-FrankfurtAmMain-1156ms-xorek.cloud%20International%20LTD
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeFB5bUZtYTZQN1U0MXdrOU1OUDd6blBudmF4M21qZA@45.89.55.173:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%B8-Belgrade-514ms-WorkTitans%20B.V.
