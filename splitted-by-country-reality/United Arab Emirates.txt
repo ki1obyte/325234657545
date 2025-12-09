@@ -1,0 +1,1 @@
+vless://1437fec7-064b-4f8f-98f4-8c9aad3738b0@dubai.fonixapp.org:443?security=reality&encryption=none&pbk=HZM7SXNCsT5M_zWuBURZfplLY-L5Gqww5qRPJZAP8C4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=754dc2#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-1246ms-G-Core%20Labs%20S.A.

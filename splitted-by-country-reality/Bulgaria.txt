@@ -1,1 +1,0 @@
-vless://c1853115-eb6b-4592-b01f-05037d33505d@bg.fasssst.ru:443?security=reality&encryption=none&pbk=v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=bg.fasssst.ru&sid=f5b76860a3c9c3f5#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-1047ms-BlueVPS%20OU
