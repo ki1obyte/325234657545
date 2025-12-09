@@ -1,2 +1,1 @@
-vless://1b796671-eb73-4e18-b624-5b8c138b8c39@star-logic-epsilon-nova-zone.dlcnamatike7.com:7071?mode=gun&security=reality&encryption=none&pbk=4-1-sRlmXLbSDEMgWAaKmzGZEyclAGRoqvQke8cutmg&fp=firefox&spx=%2F&type=grpc&serviceName=%40V2rayHapp&sni=media.steampowered.com&sid=821047#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-1554ms-Dmitry%20Vorozhtsov
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKR3Y2MTZoTVdkamZ1WjAwallmcTdYa0JISlpyT0JyZw@87.121.162.249:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-Kriftel-448ms-Albanian%20Hosting%20SH.P.K.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKR3Y2MTZoTVdkamZ1WjAwallmcTdYa0JISlpyT0JyZw@87.121.162.249:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-Kriftel-522ms-Albanian%20Hosting%20SH.P.K.
