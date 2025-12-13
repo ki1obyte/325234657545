@@ -1,0 +1,1 @@
+vless://89bb09d7-5a4b-4f6a-b73f-0ea67cb6f3a6@208.69.79.250:443/?type=grpc&encryption=none&flow=&serviceName=dec6e47307154ae6e0d07503&sni=www.microsoft.com&fp=chrome&security=reality&pbk=ZnHyH5mL_cimo8JOfiosIRp-_IqvRVCzinNClSmsbVk&sid=9b4be2de2162366d#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%A6-Toronto-789ms-Ontario%20Inc.
