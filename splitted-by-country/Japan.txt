@@ -1,10 +1,7 @@
-vless://456c916d-1241-4a5a-bd2b-c4abc69fd9ed@23andme.com:443?security=tls&sni=rAyAn-cOnFiG-jp-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-jp-1.pArSa.dPdNs.oRg&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-ShibuyaCity-1625ms-WorkTitans%20B.V.
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@103.106.228.247:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-425ms-BrainStorm%20Network%20Inc
-ss://YWVzLTI1Ni1nY206YzY5Mzc0ZGEtMjIwOC00Y2JkLWI4MWUtY2RmODhiNWU3ZjUz@ss.030.node-for-bigairport.win:10079#4Sarina-2773
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4Z29Pc3l5QnYyWW40dzBoU3Fqc05xZjVJR2JJRVRaNg@5.253.41.46:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-415ms-WorkTitans%20B.V.
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-438ms-Datacamp%20Limited
-vless://bc9a8522-d884-41cd-de9c-9a29812b55ef@138.2.50.155:38487?security=reality&encryption=none&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=icloud.cdn-apple.com#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Osaka-1018ms-Oracle%20Corporation
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#4Sarina-1052
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTE9ydkxXa0NCQkJ4THFTRWU5UzhsbkM1UExzTmZSaA@103.75.118.125:443#4Sarina-669
-vless://d6b62381-8d75-4a0c-9946-bf8f40772afe@178.239.126.118:2443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=pizzastrada.jp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Akiruno-5118ms-Bage%20Cloud%20LLC
-vless://456c916d-1241-4a5a-bd2b-c4abc69fd9ed@al-akhbar.com:443?security=tls&sni=rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg&encryption=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%92%F0%9F%87%92-Unknown-5702ms-Unknown
+vless://bc9a8522-d884-41cd-de9c-9a29812b55ef@138.2.50.155:38487?security=reality&encryption=none&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=icloud.cdn-apple.com#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Osaka-982ms-Oracle%20Corporation
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4Z29Pc3l5QnYyWW40dzBoU3Fqc05xZjVJR2JJRVRaNg@5.253.41.46:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-373ms-WorkTitans%20B.V.
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-383ms-Datacamp%20Limited
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#4Sarina-1058
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTE9ydkxXa0NCQkJ4THFTRWU5UzhsbkM1UExzTmZSaA@103.75.118.125:443#4Sarina-671
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@103.106.228.247:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AF%F0%9F%87%B5-Tokyo-394ms-BrainStorm%20Network%20Inc
+vless://456c916d-1241-4a5a-bd2b-c4abc69fd9ed@al-akhbar.com:443?security=tls&sni=rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-jp-1.pAriSa.dPdNs.oRg&encryption=none#4Sarina-7040
