@@ -1,1 +1,1 @@
-vless://ad7a9316-1953-439a-854f-66355100a004@uk.nebesniy.com:993/?type=grpc&encryption=none&flow=&serviceName=VK&sni=eh.vk.com&fp=chrome&security=reality&pbk=ZARzkGY_wTuuFLAwjqlbouomKUTAzsV27toisTH4qlM&sid=c59406dc#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-6904ms-Cloudflare%20Inc.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNcnlYUnlaOU1ZcjQ5eTJPdkVZVlJx@78.40.116.165:30604#4Sarina-586
