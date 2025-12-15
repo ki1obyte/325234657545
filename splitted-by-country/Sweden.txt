@@ -1,1 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNcnlYUnlaOU1ZcjQ5eTJPdkVZVlJx@78.40.116.165:30604#4Sarina-586
+vless://edb3d24d-1a55-42f7-8752-6ae216f18cf4@89.23.123.15:4443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=github.com&fp=chrome&security=reality&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&sid=aa7e96542880027a#4Sarina-11921
+vless://edb3d24d-1a55-42f7-8752-6ae216f18cf4@89.23.123.8:4443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=github.com&fp=chrome&security=reality&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&sid=aa7e96542880027a#4Sarina-11930
