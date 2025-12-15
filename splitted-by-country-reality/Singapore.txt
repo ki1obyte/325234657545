@@ -1,1 +1,0 @@
-vless://ef4d7a6a-a7f0-48e1-8c77-cd305fdca732@38.134.189.186:443/?type=grpc&encryption=none&flow=&serviceName=8959780c31813fd40c6beecf&sni=www.microsoft.com&fp=chrome&security=reality&pbk=F4KWtAmQsQrJ0AyVED81hZQq5GQL64pXHG2SWBEpfFg&sid=b2580c3d0fae6019#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AC-Singapore-1873ms-Cogent%20Communications
