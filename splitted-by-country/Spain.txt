@@ -1,9 +1,9 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYmhxc1N0bkZRVDFjVFpZQ2RzbWt1Z0dVQzZHVDZycA@213.159.67.124:443#4Sarina-845
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.70.207.97:990#4Sarina-218
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@45.154.206.192:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-529ms-BrainStorm%20Network%20Inc
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpha3ZKUXpaQ2FUZGlzU3l1U3kzYVJteXZLQzUzWDFkM1BhQXNiOXhVOG41VFk5aFNCMURLNWU2U1BtOTIxaWdIY1JzQ1RDdmYxcFd1ZlRKNUxpOFBpaVFHNHZZZHl5TTc@94.131.22.134:40565#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-NewYork-5126ms-NetAssist%20LLC
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpha3ZKUXpaQ2FUZGlzU3l1U3kzYVJteXZLQzUzWDFkM1BhQXNiOXhVOG41VFk5aFNCMURLNWU2U1BtOTIxaWdIY1JzQ1RDdmYxcFd1ZlRKNUxpOFBpaVFHNHZZZHl5TTc@imap.roomyinmita.name:40565#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%92%F0%9F%87%92-Unknown-13988ms-Unknown
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@37.143.130.203:990#4Sarina-245
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@45.154.206.192:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-367ms-BrainStorm%20Network%20Inc
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.58:990#4Sarina-237
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.30:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B2%F0%9F%87%A6-Fes-609ms-BrainStorm%20Network%20Inc
-vless://ecc97810-557a-44ef-9957-ba078d0ac414@45.12.150.145:15470/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY&sid=e08a28#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Magaluf-1669ms-WorkTitans%20B.V.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.30:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B2%F0%9F%87%A6-Fes-408ms-BrainStorm%20Network%20Inc
+vless://ecc97810-557a-44ef-9957-ba078d0ac414@45.12.150.145:15470/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY&sid=e08a28#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Magaluf-1156ms-WorkTitans%20B.V.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYmhxc1N0bkZRVDFjVFpZQ2RzbWt1Z0dVQzZHVDZycA@213.159.67.124:443#4Sarina-836
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.70.207.97:990#4Sarina-219
+vless://fef9d39c-fb20-4921-8eb5-1e80806a18cd@tunnyl.ru:8443?security=reality&type=tcp&sni=google.com&fp=chrome&flow=xtls-rprx-vision&sid=b88841a3&pbk=B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk&encryption=none#4Sarina-12331
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRTFhrRXE1OTdpM29HQUd6akU0cVM2NHVQR2hqeFdwUGlxd3dCQXJLYnNxWVBVTnBRQndkZ0hMNktvRFNSR0U5YmpTZG4zcDRVYURZTVZtNnMxd01vaWZhdm5pclI1Tjg@94.131.22.134:40565#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%92%F0%9F%87%92-Unknown-1349ms-Unknown
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@37.143.130.203:990#4Sarina-245
