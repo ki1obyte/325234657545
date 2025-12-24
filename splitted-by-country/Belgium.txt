@@ -1,1 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnNVJRb3hRdVZ0bkZ2M1h4c2E4ZWRQaXNYTlBueVdLeQ@45.83.20.206:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AA-Brussels-2708ms-WorkTitans%20B.V.
+vless://55556b1f-7b61-49ee-bfcc-10ed900f1b61@178.154.205.5:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&security=reality&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6#4Sarina-7703
