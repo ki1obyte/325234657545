@@ -1,1 +1,0 @@
-vless://f3dc78d2-a8cb-3f6e-bebd-b223dfa91691@s596.okgfwbackxyz.xyz:443?encryption=none&type=tcp&headerType=none&fp=random&host=s596.okgfwbackxyz.xyz&path=&flow=xtls-rprx-vision&security=tls&sni=u720947ue094s596.okgfwbackxyz.xyz&serviceName=&mode=&alpn=#4Sarina-12696
