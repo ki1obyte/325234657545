@@ -1,4 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.223.20.79:990#4Sarina-244
-vless://e258977b-e413-4718-a3af-02d75492c349@162.159.62.23:2087?path=/?ed=2560&security=tls&encryption=none&insecure=0&host=tw.xmm9527.xyz&type=ws&allowInsecure=0&sni=tw.xmm9527.xyz#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-SanJose-560ms-Cloudflare%20Inc.
+vless://e258977b-e413-4718-a3af-02d75492c349@162.159.62.23:2087?path=/?ed=2560&security=tls&encryption=none&insecure=0&host=tw.xmm9527.xyz&type=ws&allowInsecure=0&sni=tw.xmm9527.xyz#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-SanJose-550ms-Cloudflare%20Inc.
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@223.165.4.173:990#4Sarina-812
-vless://5a2c16f9-e365-4080-8d38-6924c3835586@www.perplexity.ai:443?security=tls&type=ws&path=%2F&host=snippets.kkii.eu.org&sni=snippets.kkii.eu.org&fp=chrome&encryption=none#4Sarina-8186
+vless://5a2c16f9-e365-4080-8d38-6924c3835586@cdn.204910.best:443?encryption=none&security=tls&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=%2F#4Sarina-8251
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.223.20.79:990#4Sarina-244
