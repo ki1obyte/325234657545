@@ -1,2 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@103.163.218.2:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-Nh%C3%A0B%C3%A8-571ms-LAM%20A%20Architecture%20Construction%20Company%20Limited
-vless://1112352c-3a6d-3581-8260-24e8d8104bba@103.173.155.212:443?encryption=none&type=tcp&headerType=none&fp=random&host=s525.okgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u709014u5e31s525.okgfw.top&serviceName=&mode=&alpn=#4Sarina-5349
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@103.163.218.2:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-Nh%C3%A0B%C3%A8-585ms-LAM%20A%20Architecture%20Construction%20Company%20Limited
