@@ -1,1 +1,0 @@
-vless://a0af2643-a236-463c-8056-3f71d05eed53@www.visa.com:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=shomal-g74f3znf-v2.shomal-321.workers.dev&fp=randomized&type=ws#4Sarina-7066
