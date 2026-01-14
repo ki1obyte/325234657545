@@ -1,1 +1,2 @@
-vless://7ea4c8e3-0f76-3231-b5c8-27fed8bbe326@s460.okgg.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s460.okgg.top&path=&flow=xtls-rprx-vision&security=tls&sni=u726759u6422s460.okgg.top&serviceName=&mode=&alpn=#4Sarina-6664
+vless://e258977b-e413-4718-a3af-02d75492c349@47.89.235.210:443?encryption=none&security=tls&sni=ww20.allxniu.qzz.io&type=ws&host=ww20.allxniu.qzz.io&path=%2F%3Fed%3D2560#4Sarina-7826
+vless://e258977b-e413-4718-a3af-02d75492c349@50.62.172.10:443?encryption=none&security=tls&sni=ww20.allxniu.qzz.io&type=ws&host=ww20.allxniu.qzz.io&path=%2F%3Fed%3D2560#4Sarina-7827
