@@ -1,2 +1,1 @@
-vless://e258977b-e413-4718-a3af-02d75492c349@47.89.235.210:443?encryption=none&security=tls&sni=ww20.allxniu.qzz.io&type=ws&host=ww20.allxniu.qzz.io&path=%2F%3Fed%3D2560#4Sarina-7826
-vless://e258977b-e413-4718-a3af-02d75492c349@50.62.172.10:443?encryption=none&security=tls&sni=ww20.allxniu.qzz.io&type=ws&host=ww20.allxniu.qzz.io&path=%2F%3Fed%3D2560#4Sarina-7827
+vless://e258977b-e413-4718-a3af-02d75492c349@50.62.172.23:443?encryption=none&security=tls&sni=all.aniuge.qzz.io&type=ws&host=all.aniuge.qzz.io&path=%2F%3Fed%3D2560#4Sarina-7792
