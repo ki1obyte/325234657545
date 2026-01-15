@@ -1,2 +1,1 @@
-vless://7ea4c8e3-0f76-3231-b5c8-27fed8bbe326@s449.okgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s449.okgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u726759ucd5fs449.okgfw.top&serviceName=&mode=&alpn=#4Sarina-6563
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.205.159.100:990#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%A9-Jakarta-603ms-Kaopu%20Cloud%20HK%20Limited
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.205.159.100:990#4Sarina-793
