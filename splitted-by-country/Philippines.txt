@@ -1,1 +1,1 @@
-vless://e258977b-e413-4718-a3af-02d75492c349@50.62.172.23:443?encryption=none&security=tls&sni=all.aniuge.qzz.io&type=ws&host=all.aniuge.qzz.io&path=%2F%3Fed%3D2560#4Sarina-7792
+vless://e258977b-e413-4718-a3af-02d75492c349@45.82.176.46:443/?type=ws&encryption=none&flow=&host=ww20.allxniu.qzz.io&path=%2F%3Fed%3D2560&security=tls&sni=ww20.allxniu.qzz.io&allowInsecure=1&fp=chrome#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B3%F0%9F%87%B1-Amsterdam-858ms-Cloudflare%20Inc.
