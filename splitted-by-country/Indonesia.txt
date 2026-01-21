@@ -1,1 +1,1 @@
-vless://e32f9c43-b141-3d58-b879-15c6a402e119@s449.okgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s449.okgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u730537ucd5fs449.okgfw.top&serviceName=&mode=&alpn=#4Sarina-7544
+vless://e32f9c43-b141-3d58-b879-15c6a402e119@s449.okgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s449.okgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u730537ucd5fs449.okgfw.top&serviceName=&mode=&alpn=#4Sarina-7631
