@@ -1,2 +1,1 @@
-vless://4371ad14-b981-4699-bedf-83fb79bde3e6@217.13.104.134:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=hu.jojack.ru&fp=chrome&security=reality&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&sid=e55fd8f9c9a9a0ca#4Sarina-5593
-vless://1dcea73b-a19f-4c6f-8878-ba4f4b9bd49a@83.166.236.240:8443?security=reality&encryption=none&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com&sid=2715592069f36fe7#4Sarina-5058
+vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?security=reality&encryption=none&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=4ae260#4Jadi-5614
