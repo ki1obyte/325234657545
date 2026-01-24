@@ -1,1 +1,1 @@
-vless://d6b1327d-2bec-4366-a3a1-9b1284f95841@109.120.188.30:1488?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=6ba85179e30d4fc2#4Jadi-8062
+vless://8ad4523c-032e-4ec3-94ea-182638c8e688@37.252.4.176:35979?path=%2F&security=none&encryption=none&type=ws#4Sarina-7089
