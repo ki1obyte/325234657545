@@ -1,0 +1,1 @@
+vless://c7fd7017-71cf-4bfa-bc4f-bff8534c250b@185.234.57.169:443?security=reality&encryption=none&pbk=oXJYDXF6d8Bfx04xUNcI6SFSRyQ9SpBhU0Xf3tw4yy8&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=wikiportal.su&sid=a5dc63d78eb0b1c9#4Jadi-8010
