@@ -1,2 +1,1 @@
-vless://e32f9c43-b141-3d58-b879-15c6a402e119@s480.ccgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s480.ccgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u730537ue6f4s480.ccgfw.top&serviceName=&mode=&alpn=#4Jadi-8400
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTJlZTliY2M5NTcwMDk1@163.171.148.71:11201#4Jadi-210
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTJlZTliY2M5NTcwMDk1@163.171.148.71:11201#4Jadi-208
