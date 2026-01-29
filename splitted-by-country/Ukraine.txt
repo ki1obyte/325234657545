@@ -1,0 +1,1 @@
+vless://5bcc9ea0-b76c-4049-af62-ce10fe56a38b@188.166.159.141:31212?security=reality&encryption=none&pbk=CptKL5jRuLHXRCctK3pXzCbx-ksw8Tda3DgVYv6rIH0&headerType=none&fp=chrome&type=tcp&sni=starlink.com&sid=2b2da49cdf#4Sarina-6745
