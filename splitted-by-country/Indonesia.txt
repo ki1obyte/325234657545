@@ -1,0 +1,1 @@
+vless://21f9985c-d363-4eee-957f-720e9e9f9b8d@172.67.194.187:443?encryption=none&security=tls&sni=teams.live.com.afrcloud1.c01.kr&type=ws&host=teams.live.com.afrcloud1.c01.kr&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-Wheaton-592ms-Cloudflare%20Inc.
