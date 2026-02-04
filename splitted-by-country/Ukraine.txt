@@ -1,7 +1,7 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47393#4Jadi-682
-vless://5bcc9ea0-b76c-4049-af62-ce10fe56a38b@188.166.159.141:31212?security=reality&encryption=none&pbk=CptKL5jRuLHXRCctK3pXzCbx-ksw8Tda3DgVYv6rIH0&headerType=none&fp=chrome&type=tcp&sni=starlink.com&sid=2b2da49cdf#4Jadi-6703
-vless://bbed94d9-1120-4b54-8a9c-72d81e411fb8@144.31.131.192:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=VGvu_q0ReJ-Of3rHuYR7RdNnGhcrurMvOrm9EA3dtzM&security=reality&sid=d73c7f7b13a6a076&sni=google.com&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Lviv-1007ms-H2nexus%20LTD
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47392#4Jadi-681
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZDAwODRjNmU0NTAyYWI3@163.171.137.76:48436#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-1842ms-Meteverse%20Limited.
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47394#4Jadi-683
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47395#4Jadi-684
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47392#4Sarina-682
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47395#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-433ms-Meteverse%20Limited.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZDAwODRjNmU0NTAyYWI3@163.171.137.76:48436#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-454ms-Meteverse%20Limited.
+vless://bbed94d9-1120-4b54-8a9c-72d81e411fb8@144.31.131.192:443?security=reality&encryption=none&pbk=VGvu_q0ReJ-Of3rHuYR7RdNnGhcrurMvOrm9EA3dtzM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=d73c7f7b13a6a076#4Sarina-8227
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47394#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-445ms-Meteverse%20Limited.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47393#4Sarina-683
+vless://5bcc9ea0-b76c-4049-af62-ce10fe56a38b@188.166.159.141:31212?security=reality&encryption=none&pbk=CptKL5jRuLHXRCctK3pXzCbx-ksw8Tda3DgVYv6rIH0&headerType=none&fp=chrome&type=tcp&sni=starlink.com&sid=2b2da49cdf#4Sarina-6618
