@@ -1,2 +1,0 @@
-vless://d89d6641-3b1a-4f51-a194-9c9109fd21b6@108.162.198.154:443?encryption=none&security=tls&sni=DiprOX.pages.DEV&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=diprox.pages.dev&path=/Tel-@V2rayAlpha#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-SanJose-596ms-Cloudflare%20Inc.
-vless://d89d6641-3b1a-4f51-a194-9c9109fd21b6@104.20.5.134:443?path=/assets&security=tls&encryption=none&insecure=0&host=diprox.pages.dev&type=ws&allowInsecure=0&sni=DiprOX.pages.DEV#4Sarina-9369
