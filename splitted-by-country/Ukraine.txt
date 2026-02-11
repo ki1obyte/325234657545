@@ -1,7 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47393#4Jadi-681
-vless://193c75c1-1af1-484a-84ec-14de4828d209@ua.griffon-guard.com:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg&security=reality&sni=apple.com&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-1726ms-Green%20Floid%20LLC
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47395#4Jadi-683
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47394#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-733ms-Meteverse%20Limited.
-vless://5bcc9ea0-b76c-4049-af62-ce10fe56a38b@188.166.159.141:31212?security=reality&encryption=none&pbk=CptKL5jRuLHXRCctK3pXzCbx-ksw8Tda3DgVYv6rIH0&headerType=none&fp=chrome&type=tcp&sni=starlink.com&sid=2b2da49cdf#4Jadi-7112
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZDAwODRjNmU0NTAyYWI3@163.171.137.76:48436#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-2021ms-Meteverse%20Limited.
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47392#4Jadi-680
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47395#4Jadi-676
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47393#4Jadi-674
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47394#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-708ms-Meteverse%20Limited.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZDAwODRjNmU0NTAyYWI3@163.171.137.76:48436#4Jadi-47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47392#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Kyiv-480ms-Meteverse%20Limited.
