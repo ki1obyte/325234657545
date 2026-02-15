@@ -1,10 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTRmMGI2OTE2ZjY3YmRj@38.54.14.156:11201#4Jadi-662
-vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@103.81.86.158:443?encryption=none&type=grpc&headerType=none&fp=ios&host=s276.okgfw.top&path=&flow=&security=tls&sni=u729804u5cd8s276.okgfw.top&serviceName=ssp&mode=gun&alpn=#4Jadi-9108
-vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@s256.okgfw.top:443?encryption=none&type=grpc&headerType=none&fp=ios&host=s256.okgfw.top&path=&flow=&security=tls&sni=u729804u049ds256.okgfw.top&serviceName=ssp&mode=gun&alpn=#4Jadi-9144
-vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@s249.okgfw.top:443?encryption=none&type=grpc&headerType=none&fp=ios&host=s249.okgfw.top&path=&flow=&security=tls&sni=u729804u3374s249.okgfw.top&serviceName=ssp&mode=gun&alpn=#4Jadi-9143
-vmess://eyJhZGQiOiIxNjAuMTkxLjI0NS40OCIsImFpZCI6IjAiLCJob3N0IjoiIiwiaWQiOiI4ZDc0ODAzZS1hYTc0LTQ3ZWYtZTNhZS0yM2VlYWE5NmY4OWQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiI1ODYyMyIsInBzIjoiaHR0cHM6Ly90Lm1lL0ZvcmNlUnVuVlBOLfCfh7vwn4ezLcSQ4buRU8ahbi01NjVtcy1Ib2FuZyBEaWV1IENsb3VkIENvbXB1dGluZyBDb21wYW55IExpbWl0ZWQiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45312#4Jadi-679
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#4Jadi-680
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZDdiMGQxNGI1OTBiY2Vi@112.197.26.106:26417#4Jadi-749
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#4Jadi-678
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#4Jadi-677
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#4Sarina-636
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45312#4Sarina-638
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTRmMGI2OTE2ZjY3YmRj@38.54.14.156:11201#4Sarina-621
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZDdiMGQxNGI1OTBiY2Vi@112.197.26.106:26417#4Sarina-703
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#4Sarina-637
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#4Sarina-639
