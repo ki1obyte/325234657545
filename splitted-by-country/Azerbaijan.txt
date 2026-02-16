@@ -1,2 +1,0 @@
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@172.66.47.45:2096?path=/&security=tls&encryption=none&insecure=0&host=ca.adobe-connect.top&type=ws&allowInsecure=0&sni=ca.adobe-connect.top#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Geneva-1046ms-Infomaniak%20Network%20SA
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.185.26:2096?path=/&security=tls&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Geneva-1046ms-Infomaniak%20Network%20SA
