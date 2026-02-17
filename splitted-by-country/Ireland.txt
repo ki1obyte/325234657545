@@ -1,1 +1,1 @@
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.180.152.210:8881#4Jadi-3038
+vless://eb071647-72a6-46be-8e89-ff3d228d52f6@ie.cdn.stun.su:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ie.cdn.stun.su&fp=chrome&security=reality&pbk=0ebq2jNFPvHs8HvOoCViKBLnUdhSDd1bG9Jeb7f_82k&sid=9f6c7ec9f6434a4f#4Sarina-10600
