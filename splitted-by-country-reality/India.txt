@@ -1,0 +1,2 @@
+vless://54a41073-e798-488b-af16-28533e612ec1@50.7.176.72:91?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs&security=reality&sid=feedbacc&sni=id.fasti.win&type=tcp#4Kian-7420
+vless://54a41073-e798-488b-af16-28533e612ec1@id.fasti.win:91?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs&sid=feedbacc&sni=id.fasti.win#4Kian-7423
