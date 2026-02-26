@@ -1,7 +1,7 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZTY4ZDRiZDAwMjQzN2Fi@149.104.71.134:11201#4Jadi-187
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MzhiYjA1ZWFiMzVhZGVj@163.171.207.11:19688#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%A6-Jeddah-603ms-Meteverse%20Limited.
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29463#4Jadi-713
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29461#4Jadi-711
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29462#4Jadi-712
-vless://e332f028-d343-5b44-8016-b3130f39e133@81.208.170.142:1500/?type=grpc&encryption=none&flow=&sni=www.ebay.com&fp=chrome&security=reality&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%A6-Jeddah-1472ms-Oracle%20Corporation
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29464#4Jadi-714
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29461#4Jadi-723
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29464#4Jadi-726
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MzhiYjA1ZWFiMzVhZGVj@163.171.207.11:19688#4Jadi-44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZTY4ZDRiZDAwMjQzN2Fi@149.104.71.134:11201#4Jadi-198
+vless://e332f028-d343-5b44-8016-b3130f39e133@81.208.170.142:1500/?type=grpc&encryption=none&flow=&sni=www.ebay.com&fp=chrome&security=reality&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%A6-Jeddah-1535ms-Oracle%20Corporation
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29463#4Jadi-725
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29462#4Jadi-724
