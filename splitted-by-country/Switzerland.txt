@@ -1,2 +1,4 @@
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@v1.dabache.top:2096/?type=ws&encryption=none&host=ca.adobe-connect.top&path=/&security=tls&sni=ca.adobe-connect.top&fp=chrome#4Sarina-8628
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-704ms-Private%20Layer%20INC
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%92%F0%9F%87%92-Unknown-6372ms-Unknown
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@v1.dabache.top:2096/?type=ws&encryption=none&host=ca.adobe-connect.top&path=/&security=tls&sni=ca.adobe-connect.top&fp=chrome#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-Nuremberg-1386ms-Hetzner%20Online%20GmbH
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@172.66.47.45:2096?path=/?ed=512&security=tls&encryption=none&host=ca.adobe-connect.top&type=ws&sni=ca.adobe-connect.top#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-Nuremberg-1292ms-Hetzner%20Online%20GmbH
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@172.66.44.211:2096/?type=ws&encryption=none&host=ca.adobe-connect.top&path=/&security=tls&sni=ca.adobe-connect.top&alpn=channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-&fp=chrome#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-Nuremberg-1351ms-Hetzner%20Online%20GmbH
