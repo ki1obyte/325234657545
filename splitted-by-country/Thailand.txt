@@ -1,2 +1,3 @@
-vless://4dc817f7-2595-4330-a1b0-e35e7c6b803a@www.ptnk.sry-vpn.com:80?path=/vless&security=none&encryption=none&host=www.ptnk.sry-vpn.com&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-SaphanSung-1156ms-DEXSERVER
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@119.59.127.129:990#4Sarina-268
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@119.59.127.129:990#4Sarina-249
+vless://8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e@s133.ayxj.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s133.ayxj.top&path=&flow=xtls-rprx-vision&security=tls&sni=u708330u8661s133.ayxj.top&serviceName=&mode=&alpn=#4Sarina-8614
+vless://4dc817f7-2595-4330-a1b0-e35e7c6b803a@www.ptnk.sry-vpn.com:80?&fp=chrome&type=ws&headerType=none&host=www.ptnk.sry-vpn.com&path=/vless#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-SaphanSung-1273ms-DEXSERVER
