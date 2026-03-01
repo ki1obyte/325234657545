@@ -1,2 +1,0 @@
-vless://8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e@s348.ccgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s348.ccgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u708330u57e3s348.ccgfw.top&serviceName=&mode=&alpn=#4Sarina-8620
-vless://8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e@s501.ccgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s501.ccgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u708330u05c4s501.ccgfw.top&serviceName=&mode=&alpn=#4Sarina-8622
