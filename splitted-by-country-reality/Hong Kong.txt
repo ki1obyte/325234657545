@@ -1,1 +1,0 @@
-vless://be69896f-e641-41d9-bfc8-1e30885263d2@141.98.234.40:62520?security=reality&encryption=none&pbk=OTbIHKT0UyR2T2ooCpI0Ozivr1JHUwOs29LQHtYltkk&headerType=none&fp=chrome&spx=/&type=tcp&sni=yandex.ru&sid=46319295d140d75d#4Kian-9345

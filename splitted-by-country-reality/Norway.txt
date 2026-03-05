@@ -1,1 +1,2 @@
-vless://1218c022-dca8-49e5-b7d4-a04f3023db81@nr-01.opsvpnvless.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=2ryk_zFs_pzxv-bL9FkOk0Jb5oQw1jAbyXjp6oh96R0&sid=4e249e62&sni=stats.vk-portal.net#4Kian-5632
+vless://21c3bf6f-c415-454c-ab7d-f5a670d62ec8@176.122.27.49:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=belkacar.ru&pbk=KZvWAhkTcdXO5_pJCX9h0AzKL1ime5_ZHrHj9lYI-Fc&sid=90be2e15b4#4Kian-5736
+vless://21c3bf6f-c415-454c-ab7d-f5a670d62ec8@176.122.27.49:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=KZvWAhkTcdXO5_pJCX9h0AzKL1ime5_ZHrHj9lYI-Fc&sid=90be2e15b4#4Kian-5737
