@@ -1,8 +1,7 @@
-vless://2c979473-1e8b-4200-aeac-5aaa0291c6a7@cloudflare.182682.xyz:8080?encryption=none&security=none&type=ws&host=telephony-planet-packages-soon.trycloudflare.com&path=2c979473#4Jadi-6116
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45312#4Jadi-652
-vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=%2F&security=none&encryption=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-Qu%E1%BA%ADnB%C3%ACnhTh%E1%BA%A1nh-1228ms-LPTECH
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-605ms-SaiGon%20Tourist%20cable%20Televition%20Company
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-601ms-SaiGon%20Tourist%20cable%20Televition%20Company
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTRmMGI2OTE2ZjY3YmRj@38.54.14.156:11201#4Jadi-636
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-604ms-SaiGon%20Tourist%20cable%20Televition%20Company
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZDdiMGQxNGI1OTBiY2Vi@112.197.26.106:26417#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-585ms-SaiGon%20Tourist%20cable%20Televition%20Company
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45312#4Jadi-643
+vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=/&security=none&encryption=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-Qu%E1%BA%ADnB%C3%ACnhTh%E1%BA%A1nh-1166ms-LPTECH
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTRmMGI2OTE2ZjY3YmRj@38.54.14.156:11201#4Jadi-627
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-550ms-SaiGon%20Tourist%20cable%20Televition%20Company
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-557ms-SaiGon%20Tourist%20cable%20Televition%20Company
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-552ms-SaiGon%20Tourist%20cable%20Televition%20Company
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZDdiMGQxNGI1OTBiY2Vi@112.197.26.106:26417#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-HoChiMinhCity-540ms-SaiGon%20Tourist%20cable%20Televition%20Company
