@@ -1,0 +1,4 @@
+vless://15b3ebe9-9b85-4274-b79a-4e4d39dec9c9@italy.sbrf-cdn342.ru:4241?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=-8Dc8Dm5YzxVvllu8W5Uc7N9rq27_A3McxYXArNyJQs&sid=0a381e1fa219&sni=google.com&path=&host=#4Mohsen-5556
+vless://348f7317-3f1e-44da-a4f4-148f04cd63c9@130.193.49.35:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=6419bed7fd0a2cff#4Mohsen-6349
+vless://348f7317-3f1e-44da-a4f4-148f04cd63c9@130.193.49.35:51101?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=m.vk.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#4Mohsen-6351
+vless://348f7317-3f1e-44da-a4f4-148f04cd63c9@130.193.49.35:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM&sid=4ffc99daad0f261f#4Mohsen-6353
