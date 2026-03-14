@@ -1,0 +1,2 @@
+vless://2563b829-866c-4c0f-8270-a91cffbfe852@lt08.tcpdoor.net:7443?type=grpc&security=reality&fp=firefox&pbk=-aYYOZ3t8L1J5B7qSR45-IjwNTQq6RuE5yzv-rQbOhM&sid=b566e851&sni=www.vk.com&serviceName=grpc#4Sarina-6175
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5aHJITURnWjJlZ0tmdHZyZWN2a3BVUHFwVVR5YWM3cQ@195.66.25.220:8388#4Jadi-250
