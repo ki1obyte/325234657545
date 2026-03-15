@@ -1,4 +1,1 @@
-vless://2969013f-492b-4ecb-90e9-802a9c611968@158.160.168.74:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#4Kian-6039
-vless://2969013f-492b-4ecb-90e9-802a9c611968@158.160.168.74:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#4Kian-6041
-vless://1bf0c341-4134-43a6-83e1-2bb1f8f3f708@158.160.168.74:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#4Kian-5732
-vless://1bf0c341-4134-43a6-83e1-2bb1f8f3f708@158.160.168.74:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#4Kian-5734
+vless://2563b829-866c-4c0f-8270-a91cffbfe852@lt08.tcpdoor.net:7443?type=grpc&security=reality&encryption=none&fp=chrome&pbk=-aYYOZ3t8L1J5B7qSR45-IjwNTQq6RuE5yzv-rQbOhM&sid=b566e851&sni=www.vk.com&mode=gun&serviceName=grpc#4Kian-6089
