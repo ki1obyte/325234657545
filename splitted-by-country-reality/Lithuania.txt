@@ -1,1 +1,1 @@
-vless://2563b829-866c-4c0f-8270-a91cffbfe852@lt08.tcpdoor.net:7443?type=grpc&security=reality&encryption=none&fp=chrome&pbk=-aYYOZ3t8L1J5B7qSR45-IjwNTQq6RuE5yzv-rQbOhM&sid=b566e851&sni=www.vk.com&mode=gun&serviceName=grpc#4Kian-6089
+vless://a04c351d-3efc-43de-99db-b5188cd04531@93.115.26.56:22230?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ajNtNrFThLn2_WyWnv1Zkf676_i95nCABb2gX7OlHEI&security=reality&sid=a9725715bf4c62ff&sni=deepl.com&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%B9-%C5%A0iauliai-983ms-Cherry%20Servers
