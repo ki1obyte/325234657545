@@ -1,1 +1,1 @@
-vless://2979477a-f96a-45e0-be6b-c24db8af2026@195.172.138.224:20882?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.tesla.com&pbk=b31oHYKY9-2rPQOsrwvfnImU2GB2BcAc2WryZl5NEA0&sid=153d40c36343cd#4Kian-6014
+vless://590527eb-9d06-4e99-a82f-80fd3df7b1d1@sg-sin-2.blook.network:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=eLJZDr57FFoNrBKhF3Lx5aZBoqc_1sVRrPMZLgy3Kgk&security=reality&sid=a0be6214&sni=sg-sin-2.blook.network&type=tcp#4Kian-7302
