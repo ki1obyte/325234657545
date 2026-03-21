@@ -1,1 +1,1 @@
-vless://590527eb-9d06-4e99-a82f-80fd3df7b1d1@sg-sin-2.blook.network:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=eLJZDr57FFoNrBKhF3Lx5aZBoqc_1sVRrPMZLgy3Kgk&security=reality&sid=a0be6214&sni=sg-sin-2.blook.network&type=tcp#4Kian-7302
+vless://a16bd0e2-ff2e-4e4c-a955-0c684255a065@sg.fasti.win:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs&security=reality&sid=feedbacc&sni=sg.fasti.win&type=tcp#4Kian-8619
