@@ -1,1 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5aHJITURnWjJlZ0tmdHZyZWN2a3BVUHFwVVR5YWM3cQ@195.66.25.220:8388#4Sarina-259
+vless://3fe48a33-aac8-41cd-b2db-fdeeafced0aa@2.27.54.146:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=stats.vk-portal.net&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=868419504747f6de#4Jadi-6249
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5aHJITURnWjJlZ0tmdHZyZWN2a3BVUHFwVVR5YWM3cQ@195.66.25.220:8388#4Jadi-236
