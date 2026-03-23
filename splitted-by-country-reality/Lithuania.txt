@@ -1,0 +1,2 @@
+vless://3fe48a33-aac8-41cd-b2db-fdeeafced0aa@2.27.54.145:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=stats.vk-portal.net&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=868419504747f6de#4Kian-6066
+vless://3fe48a33-aac8-41cd-b2db-fdeeafced0aa@2.27.54.146:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=stats.vk-portal.net&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&sid=868419504747f6de#4Kian-6067
