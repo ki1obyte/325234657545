@@ -1,6 +1,7 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.58:990#4Sarina-284
-vless://130e98f6-18ad-4505-9a6e-6e00424bd058@172.64.146.102:443?allowInsecure=1&encryption=none&host=639073677251729790.corolla-perma.info&path=%2Fjsdrzrws&security=tls&sni=639073677251729790.corolla-perma.info&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-M%C3%A1laga-1215ms-WorkTitans%20B.V.
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@37.143.130.203:990#4Sarina-287
-vless://130e98f6-18ad-4505-9a6e-6e00424bd058@172.64.146.163:443?allowInsecure=1&encryption=none&host=639073677251729790.corolla-perma.info&path=%2Fjsdrzrws&security=tls&sni=639073677251729790.corolla-perma.info&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-M%C3%A1laga-1114ms-WorkTitans%20B.V.
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.30:990#4Sarina-283
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.70.207.97:990#4Sarina-275
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.58:990#4Jadi-294
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@37.143.130.203:990#4Jadi-297
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.70.207.97:990#4Jadi-285
+vless://130e98f6-18ad-4505-9a6e-6e00424bd058@172.64.146.102:443?allowInsecure=1&encryption=none&host=639073677251729790.corolla-perma.info&path=%2Fjsdrzrws&security=tls&sni=639073677251729790.corolla-perma.info&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-M%C3%A1laga-1356ms-WorkTitans%20B.V.
+vless://130e98f6-18ad-4505-9a6e-6e00424bd058@172.64.146.163:443?allowInsecure=1&encryption=none&host=639073677251729790.corolla-perma.info&path=%2Fjsdrzrws&security=tls&sni=639073677251729790.corolla-perma.info&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-M%C3%A1laga-1061ms-WorkTitans%20B.V.
+vless://130e98f6-18ad-4505-9a6e-6e00424bd058@172.64.147.227:443?allowInsecure=1&encryption=none&host=639073677251729790.corolla-perma.info&path=%2Fjsdrzrws&security=tls&sni=639073677251729790.corolla-perma.info&type=ws#4Jadi-5099
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@188.214.157.30:990#4Jadi-293
