@@ -1,1 +1,0 @@
-vless://0d0a5a50-e18e-496d-8b33-517222872af0@83.166.232.140:9887?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=io.ozone.ru&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4#4Jadi-5016
