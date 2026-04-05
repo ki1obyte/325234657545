@@ -1,2 +1,1 @@
-vless://035c975e-a2e9-46cf-8aaa-69f8f3686972@37.139.41.179:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ir-3.ozone.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#4Jadi-4955
-vless://49fa0466-d28c-478e-9d2b-7e139597dc3e@37.139.41.179:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=2cfb5a0ae8ab0cb0#4Jadi-6081
+vless://ca05976a-2dea-11f1-9ec5-baabcd4be2cd@46.202.191.75:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&security=reality&sid=cafe01234567&sni=www.apple.com&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%B9-Vilnius-933ms-HOSTINGER%20LT
