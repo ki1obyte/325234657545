@@ -1,3 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZaY1JvUElaWnRCZG5JRUw@89.44.197.181:31348#4Jadi-282
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.180.2.141:5499#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-533ms-M247%20Europe%20SRL
-vless://197a0c0a-574d-497a-9e44-7bec185f8662@84.201.173.212:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=IbBORC7a_sjJeYsjQl85KFsgh1GBEDZDsI5JsxeoaRQ&sid=b81e3a4f#4Jadi-5292
+vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@149.33.16.242:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#4Jadi-7429
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.180.2.141:5499#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-366ms-M247%20Europe%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZaY1JvUElaWnRCZG5JRUw@89.44.197.181:31348#4Jadi-277
+vless://197a0c0a-574d-497a-9e44-7bec185f8662@84.201.173.212:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=IbBORC7a_sjJeYsjQl85KFsgh1GBEDZDsI5JsxeoaRQ&sid=b81e3a4f#4Jadi-5183
