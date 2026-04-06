@@ -1,3 +1,2 @@
-vless://289ca022-fd53-4830-af16-59e8abccd3d9@146.185.240.172:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&sid=445ab326fc7c90ac#4Jadi-5346
-vless://6946cf76-2c1e-4fbc-a28a-e2beeb7c29cb@89.125.95.110:443?security=reality&encryption=none&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&host=www.yandex.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yandex.com&sid=6ba85179e30d4fc2#4Jadi-6471
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-367ms-Private%20Layer%20INC
+vless://319d13da-ffb1-4a1f-b810-d444eee7a7f5@146.185.240.172:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&sid=d515d6cfdfe60b02#4Sarina-5537
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-447ms-Private%20Layer%20INC
