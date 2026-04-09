@@ -1,1 +1,1 @@
-vless://53821f3c-5b03-456a-89f3-f8379f130752@77.92.145.222:443?encryption=none&fp=chrome&pbk=sSD0sNHv6R3VC1zy_etv-mOTLAurVq3xid4xWne3TxI&security=reality&sid=4730242d&sni=www.vk.com&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%B7-Osmangazi-1154ms-Ultahost%20Inc.
+vless://5f9a1e00-1a54-4b52-b9e3-e27a70858032@217.16.26.210:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=205748bc0f24a747#4Kian-6324
