@@ -1,2 +1,2 @@
-vless://27ee826f-f3a3-478f-831c-a8d1fe1e5eb2@84.32.97.14:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lt.denditop.site&fp=chrome&pbk=wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4&sid=9c2378562188c3cb&packetEncoding=xudp#4Sarina-5408
-vless://27ee826f-f3a3-478f-831c-a8d1fe1e5eb2@84.201.168.122:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&pbk=M0gprdfsmoiEpavn91rnE5xAsJnEc89ykgIlgdpnoGU&sid&packetEncoding=xudp#4Sarina-5405
+vless://47aad831-1315-4462-8107-83e5d5525143@161.104.105.101:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#4Jadi-5861
+vless://47aad831-1315-4462-8107-83e5d5525143@161.104.105.101:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ir-3.ozone.ru&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&sid=0d960275b7b0f9af#4Jadi-5860
