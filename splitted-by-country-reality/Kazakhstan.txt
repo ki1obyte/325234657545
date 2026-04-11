@@ -1,2 +1,1 @@
-vless://2a9ed01e-5455-44b4-a66a-76ee8165f0ac@77.73.232.61:19747?security=reality&sni=yahoo.com&fp=chrome&pbk=ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM&sid=2001&type=tcp&path=/#4Kian-5499
-vless://41808414-6496-4d3c-89d6-9442f76a155a@94.131.86.204:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.google.com&pbk=pl0X8gUdDuJlCmJkPIgVL3HIbD8pL9LHGVUMgqQIlio&sid=c6&spx=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B0%F0%9F%87%BF-Almaty-1469ms-%22Cloud%20Services%20Kazakhstan%22%20LLP
+vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&sid=83&type=raw&headertype=none#4Kian-7632

@@ -1,3 +1,1 @@
-vless://386ec39f-427c-4aa8-854f-8c405ec47ac9@161.104.105.122:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8&sid=d2c6d9f6e6e12bfe#4Kian-5703
-vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=modily.net&fp=firefox&security=reality&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365#4Kian-7006
-vless://386ec39f-427c-4aa8-854f-8c405ec47ac9@161.104.105.122:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=rbc.ru&pbk=9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8&sid=50e09046c0c00159#4Kian-5704
+vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=modily.net&fp=firefox&security=reality&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365#4Kian-7064
