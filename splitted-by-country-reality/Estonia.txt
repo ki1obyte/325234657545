@@ -1,1 +1,2 @@
-vless://5f98c4f8-19f4-471d-8ed5-10c0550c0423@150.241.74.1:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vMinYb8gKWa5nS3KpDcpr31s1guSnow99f_ffRKK3Dg&security=reality&sid=12af0dd9&sni=tunnel.vk-apps.com&type=tcp#4Kian-6323
+vless://1b3bd2c4-1ba7-46ff-8955-f4d2f2060bb4@158.160.238.201:4243?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=id.x5.ru&pbk=0TmBK0mMCVti_cLq-blpgsONFUgSMXranCXHhcKKjFU&sid=abcd1234#4Kian-5312
+vless://5f98c4f8-19f4-471d-8ed5-10c0550c0423@150.241.74.1:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vMinYb8gKWa5nS3KpDcpr31s1guSnow99f_ffRKK3Dg&security=reality&sid=12af0dd9&sni=tunnel.vk-apps.com&type=tcp#4Kian-6268
