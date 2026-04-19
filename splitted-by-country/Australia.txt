@@ -1,1 +1,2 @@
-vless://7a169e43-ff85-4572-9843-ba7207d07319@192.9.162.122:1443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ZIBYUH_qQSeI1T6xImXG6MEZXP2yZW3NqGa8W69Cfyk&security=reality&sid=dde50f55d81116&sni=swdist.apple.com&type=tcp#4Sarina-7100
+vless://7a169e43-ff85-4572-9843-ba7207d07319@192.9.162.122:1443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ZIBYUH_qQSeI1T6xImXG6MEZXP2yZW3NqGa8W69Cfyk&security=reality&sid=dde50f55d81116&sni=swdist.apple.com&type=tcp#4Jadi-7151
+ss://YWVzLTI1Ni1nY206U0w0dnpjdmhCSGhUV2l2RA@154.26.155.172:443#4Jadi-2056
