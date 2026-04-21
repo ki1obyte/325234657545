@@ -1,4 +1,3 @@
-ss://YWVzLTI1Ni1nY206ZjM0NTc5ZDAxNDhiMjU4MQ@45.129.3.254:60290#4Jadi-2737
-ss://YWVzLTI1Ni1nY206Z0dOMmpDUWtUWkdhemprY2p2dGhBZjExTzg3RFFkTjFqeXFZSnVMWk1RZz0@5.42.104.222:30702#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-442ms-JSC%20%22TIMEWEB%22
-vless://61e57eba-aa59-4c15-b089-3411fad94d73@176.122.27.237:503?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=apiok.ru&pbk=YVO9VVA3tbJLf--r2j1w3amoFLOUW0dnPAraRBcpmjE&sid=af133bb9dc19d297#4Sarina-6224
-ss://YWVzLTI1Ni1nY206YzVmY2RmNzgyOTExMmNiNA@45.140.169.225:10974#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-428ms-LLC%20Baxet
+ss://YWVzLTI1Ni1nY206YzVmY2RmNzgyOTExMmNiNA@45.140.169.225:10974#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-464ms-LLC%20Baxet
+vless://0c8a9f50-51b3-43b5-b1fb-09fc3131a800@5.23.54.103:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=gwapp-ru02.freenets.store&pbk=vuC_K7GAfERRLNvqVoGc0Mu8umhpEMkbtpxND0vLJQk&spx=/#4Sarina-5372
+ss://YWVzLTI1Ni1nY206ZjM0NTc5ZDAxNDhiMjU4MQ@45.129.3.254:60290#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-464ms-LLC%20Baxet
