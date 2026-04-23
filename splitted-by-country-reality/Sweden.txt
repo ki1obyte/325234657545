@@ -1,1 +1,2 @@
-vless://4b056394-2f40-11f1-bffe-46c4782ac1a7@202.155.11.73:8443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.apple.com&fp=chrome&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&sid=deadbeef42&type=tcp&headerType=none&path=/#4Kian-6150
+vless://4b056394-2f40-11f1-bffe-46c4782ac1a7@202.155.11.73:8443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.apple.com&fp=chrome&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&sid=deadbeef42&type=tcp&headerType=none&path=/#4Kian-6244
+vless://4e78dd4f-1d8f-0410-b43b-e2c662c4f956@158.160.231.77:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM&spx=/#4Kian-6296
