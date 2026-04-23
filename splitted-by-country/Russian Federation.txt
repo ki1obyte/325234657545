@@ -1,3 +1,1 @@
-ss://YWVzLTI1Ni1nY206YzVmY2RmNzgyOTExMmNiNA@45.140.169.225:10974#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-464ms-LLC%20Baxet
-vless://0c8a9f50-51b3-43b5-b1fb-09fc3131a800@5.23.54.103:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=gwapp-ru02.freenets.store&pbk=vuC_K7GAfERRLNvqVoGc0Mu8umhpEMkbtpxND0vLJQk&spx=/#4Sarina-5372
-ss://YWVzLTI1Ni1nY206ZjM0NTc5ZDAxNDhiMjU4MQ@45.129.3.254:60290#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-464ms-LLC%20Baxet
+ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ@195.58.49.220:10990#4Jadi-1840
