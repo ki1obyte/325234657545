@@ -1,1 +1,1 @@
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%AA-Tallinn-313ms-Aktsiaselts%20WaveCom
+vless://0ea7b717-212a-4c11-b5d2-95c1dee841ce@93.123.39.158:2066?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=apple.com&pbk=KV8so9DWpOxAh9W5yB6sBduzybLXHb4Q62KN_XI3HTo&sid=1b2a3f#4Jadi-5890
