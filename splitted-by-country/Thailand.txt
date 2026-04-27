@@ -1,7 +1,5 @@
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.248:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-6689
-vmess://eyJhZGQiOiAiMTE5LjQ2LjUxLjQ1IiwgImFpZCI6ICIwIiwgImFscG4iOiBudWxsLCAiZnAiOiBudWxsLCAiaG9zdCI6ICIiLCAiaWQiOiAiYmMzMGNjNjUtYmMwOC00ODQzLTg1YjYtMWNhYzJiOGE5NzUzIiwgIm5hbWUiOiAiXHVkODNjXHVkZGY5XHVkODNjXHVkZGVkIFRIIDQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTUzLCAicHMiOiAiNEphZGktMTA3MDciLCAic2N5IjogbnVsbCwgInNuaSI6IG51bGwsICJ0bHMiOiAiIiwgInR5cGUiOiBudWxsLCAidiI6IG51bGx9
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.39.100:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-6690
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTJlZTliY2M5NTcwMDk1@163.171.148.71:11201#4Jadi-243
-vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws#4Jadi-6663
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.237:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-6688
-vmess://eyJhZGQiOiAiMTE3LjE4LjEyNS4xODMiLCAiYWlkIjogIjAiLCAiYWxwbiI6IG51bGwsICJmcCI6IG51bGwsICJob3N0IjogIiIsICJpZCI6ICI4Yzk5ZTZiZi1hNzAxLTQ1MzQtY2RkZS1hYmVjZDFkNjgyNmYiLCAibmFtZSI6ICJcdWQ4M2NcdWRkZjlcdWQ4M2NcdWRkZWQgVEggMiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNTc0NjAsICJwcyI6ICI0SmFkaS0xMDcwMyIsICJzY3kiOiBudWxsLCAic25pIjogbnVsbCwgInRscyI6ICIiLCAidHlwZSI6IG51bGwsICJ2IjogbnVsbH0=
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.237:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-6325
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTJlZTliY2M5NTcwMDk1@163.171.148.71:11201#4Jadi-240
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.35.108:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.primevideo.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-6324
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.248:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-6326
+vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?security=none&encryption=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=/ws#4Jadi-6300
