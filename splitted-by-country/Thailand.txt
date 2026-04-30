@@ -1,2 +1,3 @@
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.39.100:443?encryption=none&type=tcp&security=reality&fp=random&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Sarina-5688
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.35.108:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.primevideo.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Sarina-5687
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@119.59.127.129:990#4Jadi-243
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.39.100:443?encryption=none&type=tcp&security=reality&fp=random&sni=api.digital-help-prd.autodesk.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-5699
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.35.108:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.primevideo.com&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Jadi-5698
