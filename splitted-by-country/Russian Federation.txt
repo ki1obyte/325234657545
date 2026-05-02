@@ -1,4 +1,11 @@
-ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ@195.58.49.9:40901#4Jadi-1794
-vless://b58a4390-6aba-451a-8010-61916ebe6bb3@111.88.146.74:25462?type=tcp&security=reality&encryption=none&fp=chrome&pbk=PKfGbpZj-i7I76rfgEDgJIsXZ_TqE0B2ntNN6g3qTXI&sid=9a694cfa8ebd15&sni=www.m.vk.ru#4Sarina-8499
-vless://4649d681-7f26-4959-a3f2-02eb8866230f@217.168.240.252:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg&sid=2344766a270a6298#4Sarina-6113
-ss://YWVzLTI1Ni1nY206MzE1MDQ2NjU2OGVkYTg3Yg@195.58.49.26:50123#4Jadi-1779
+vless://22f65fc9-4dee-456c-a213-2a025389af31@109.120.189.213:58652?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.apple.com&pbk=VZq5atMvE_1AW0nXcn4opuxZdrSu3zy3kP7YTdGj6EQ&sid=28&spx=/GWZCgGnbVzCEVS8#4Sarina-5393
+vless://4649d681-7f26-4959-a3f2-02eb8866230f@217.168.240.252:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg&sid=2344766a270a6298#4Sarina-5998
+ss://YWVzLTI1Ni1nY206MzE1MDQ2NjU2OGVkYTg3Yg@195.58.49.26:50123#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-StPetersburg-462ms-LLC%20Baxet
+vless://322ffd77-9adc-4e10-8302-a8bcc14555a0@147.45.219.228:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=gateway.icloud.com&pbk=-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk&sid=c6118398#4Sarina-5646
+vless://5570943f-6cc3-4a8a-bee3-d15a2b2f53a0@185.86.144.66:2053?encryption=none&type=tcp&security=reality&fp=chrome&sni=web.odindvavosem.ru&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&sid=0858af97f4e7324d#4Sarina-6236
+ss://YWVzLTI1Ni1nY206YzVmY2RmNzgyOTExMmNiNA@45.140.169.216:40412#4Jadi-2646
+ss://YWVzLTI1Ni1nY206ZjM0NTc5ZDAxNDhiMjU4MQ@185.22.154.51:9012#4Jadi-2716
+ss://YWVzLTI1Ni1nY206MWE4NzAxN2QwYmY1N2YzNA@176.32.39.99:40120#4Jadi-1757
+vless://4b481152-ba7f-4445-8cc0-d33d58546e23@193.124.130.173:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=tradingview.com&pbk=-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw&sid=50#4Sarina-6106
+ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ@195.58.49.9:40901#4Jadi-1775
+ss://YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ@46.17.42.114:40129#4Jadi-1762
