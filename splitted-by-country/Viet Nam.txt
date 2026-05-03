@@ -1,2 +1,0 @@
-vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?encryption=none&type=ws&security=none&path=/#4Sarina-8580
-vless://a3b3d7dc-3b98-4d54-8b11-6c6dc7f6a4f6@another-cf.dnsyes.kawaii520.icu:443?&security=tls&fp=chrome&sni=sd5488ghf26dfsae.another-appleid.ccwu.cc&type=ws&headerType=none&host=sd5488ghf26dfsae.another-appleid.ccwu.cc&path=%2F#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BB%F0%9F%87%B3-Ph%C3%BAc%C4%90i%E1%BB%81n-2114ms-Vietnam%20Internet%20Network%20Information%20Center
