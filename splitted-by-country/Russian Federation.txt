@@ -1,6 +1,4 @@
-vless://22f65fc9-4dee-456c-a213-2a025389af31@109.120.189.213:58652?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.apple.com&pbk=VZq5atMvE_1AW0nXcn4opuxZdrSu3zy3kP7YTdGj6EQ&sid=28&spx=/GWZCgGnbVzCEVS8#4Jadi-5457
-vless://4649d681-7f26-4959-a3f2-02eb8866230f@217.168.240.252:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg&sid=2344766a270a6298#4Jadi-6225
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1c09qQVFYbXlScWNZOGFSQUZGZ2hueVJS@83.166.250.6:51287#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-431ms-LLC%20VK
-vless://d428091c-e6eb-48f9-9a07-b44eb886ac90@217.18.61.215:443?security=reality&encryption=none&echfq=none&pbk=RsG53RnTZKpPwbKt0mnj3963DinwNFHpk3eWaHH6oG4&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=mydogcollections.com&sid=653253254366#4Jadi-8904
-vless://053cff12-7699-462a-9e8a-590ea060354e@178.236.240.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=dl.google.com&pbk=W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss#4Jadi-4982
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5Q21jUTZkRjhMRXlaVTBZc01qZ3U4@77.73.68.155:54106#4Jadi-106
+vless://4649d681-7f26-4959-a3f2-02eb8866230f@217.168.240.252:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg&sid=2344766a270a6298#4Jadi-6267
+vless://22f65fc9-4dee-456c-a213-2a025389af31@109.120.189.213:58652?encryption=none&type=tcp&security=reality&fp=chrome&sni=www.apple.com&pbk=VZq5atMvE_1AW0nXcn4opuxZdrSu3zy3kP7YTdGj6EQ&sid=28&spx=/GWZCgGnbVzCEVS8#4Jadi-5445
+vless://1e486891-f5d3-469e-9119-40793ebe4f5a@85.192.30.158:2066?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=apple.com&pbk=u4lNvUk5pLZGl0XN-QK4xQgPQBhoJiMkOP2XZoQ99GA&sid=d18f4e#4Jadi-5385
+vless://053cff12-7699-462a-9e8a-590ea060354e@178.236.240.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=dl.google.com&pbk=W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss#4Jadi-4993
