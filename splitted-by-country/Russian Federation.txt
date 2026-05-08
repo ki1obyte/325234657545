@@ -1,3 +1,2 @@
-vless://616f5216-aaf1-4983-8c79-7ee9b2dfdf02@158.160.250.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.apple.com&pbk=z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY&sid=b99e82f6d99f6e#4Sarina-6813
-vless://053cff12-7699-462a-9e8a-590ea060354e@178.236.240.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=dl.google.com&pbk=W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss#4Sarina-5112
-ss://YWVzLTI1Ni1nY206YzVmY2RmNzgyOTExMmNiNA@45.140.169.216:60129#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-523ms-LLC%20Baxet
+vless://053cff12-7699-462a-9e8a-590ea060354e@178.236.240.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=dl.google.com&pbk=W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss#4Jadi-5307
+vless://616f5216-aaf1-4983-8c79-7ee9b2dfdf02@158.160.250.161:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.apple.com&pbk=z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY&sid=b99e82f6d99f6e#4Jadi-6944
