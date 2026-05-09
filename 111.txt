@@ -1,7 +1,7 @@
 cat <<'EOF' > ~/start.sh
 #!/data/data/com.termux/files/usr/bin/sh
 
-# Обязательно переходим в домашнюю папку, так как при автозагрузке путь может быть другим
+# Переходим в домашнюю папку (важно для автозагрузки)
 cd /data/data/com.termux/files/home
 
 # === НАСТРОЙКИ СЕРВЕРА ===
@@ -21,20 +21,20 @@ export SSL_CERT_FILE=/data/data/com.termux/files/usr/etc/tls/cert.pem
 DNS_IP=$(echo $DNS_SRV | cut -d':' -f1)
 echo "nameserver $DNS_IP" > ~/resolv.conf
 
-# === ФОНОВЫЙ ЧИСТИЛЬЩИК ЛОГОВ (Log Rotator) ===
-# Он будет работать параллельно и каждый час оставлять только последние 10000 строк лога
+# Очищаем старые зависшие процессы при старте
+pkill -9 -f "olcrtc-armv7" 2>/dev/null
+
+# === ФОНОВЫЙ ЧИСТИЛЬЩИК ЛОГОВ ===
 log_rotator() {
     while true; do
         sleep 3600
         if [ -f "$LOG_FILE" ]; then
-            # Берем последние 10000 строк и аккуратно перезаписываем файл, не ломая файловый дескриптор
             tail -n 10000 "$LOG_FILE" > "$LOG_FILE.tmp"
             cat "$LOG_FILE.tmp" > "$LOG_FILE"
-            rm "$LOG_FILE.tmp"
+            rm -f "$LOG_FILE.tmp"
         fi
     done
 }
-# Запускаем чистильщика в фоне
 log_rotator &
 ROTATOR_PID=$!
 
@@ -42,19 +42,17 @@ echo "=============================================" | tee -a "$LOG_FILE"
 echo "   olcrtc Auto-Server (Realme C11 Edition)   " | tee -a "$LOG_FILE"
 echo "=============================================" | tee -a "$LOG_FILE"
 echo "Mode:      $CARRIER + $TRANSPORT" | tee -a "$LOG_FILE"
-echo "Room ID:   $ROOM_ID" | tee -a "$LOG_FILE"
-echo "Status:    Auto-restart ENABLED" | tee -a "$LOG_FILE"
-echo "Logging:   Active (Limited to 10000 lines)" | tee -a "$LOG_FILE"
+echo "Status:    Smart Auto-restart ENABLED" | tee -a "$LOG_FILE"
 echo "=============================================" | tee -a "$LOG_FILE"
 
-# Перехват Ctrl+C для нормального выхода
-trap "echo -e '\n[!] Server stopped by user. Exiting...' | tee -a '$LOG_FILE'; kill $ROTATOR_PID; exit 0" INT
+# Перехват Ctrl+C
+trap "echo '[!] Exiting...'; kill $ROTATOR_PID; pkill -9 -f olcrtc-armv7; exit 0" INT
 
-# Бесконечный цикл отказоустойчивости
+# === БЕСКОНЕЧНЫЙ ЦИКЛ ОТКАЗОУСТОЙЧИВОСТИ ===
 while true; do
     echo "[*] [$(date +'%H:%M:%S')] Starting connection..." | tee -a "$LOG_FILE"
     
-    # 2>&1 перенаправляет ошибки в общий поток, а tee пишет и в файл, и на экран
+    # Запускаем сервер и читаем его вывод построчно в реальном времени
     proot -b ~/resolv.conf:/etc/resolv.conf $BINARY \
       -mode srv \
       -carrier $CARRIER \
@@ -65,13 +63,33 @@ while true; do
       -link direct \
       -dns $DNS_SRV \
       -data data \
-      --debug 2>&1 | tee -a "$LOG_FILE"
+      --debug 2>&1 | while IFS= read -r line; do
+        
+        # 1. Пишем строку в файл и выводим на экран (для tail -f)
+        echo "$line" | tee -a "$LOG_FILE"
+        
+        # 2. УМНЫЙ АНАЛИЗАТОР: ищем фатальные ошибки
+        case "$line" in
+            *"peer connection state changed: failed"*)
+                echo "[!] Watchdog: Wi-Fi dropped! Forcing restart..." | tee -a "$LOG_FILE"
+                pkill -9 -f "olcrtc-armv7" 2>/dev/null
+                ;;
+            *"disconnected from livekit"*)
+                echo "[!] Watchdog: Disconnected from server. Forcing restart..." | tee -a "$LOG_FILE"
+                pkill -9 -f "olcrtc-armv7" 2>/dev/null
+                ;;
+            *"dial tcp: lookup stream.wb.ru"*"no such host"*)
+                echo "[!] Watchdog: DNS completely unreachable. Forcing restart..." | tee -a "$LOG_FILE"
+                pkill -9 -f "olcrtc-armv7" 2>/dev/null
+                ;;
+        esac
+    done
 
-    EXIT_CODE=${PIPESTATUS[0]}
     echo "" | tee -a "$LOG_FILE"
-    echo "[!] [$(date +'%H:%M:%S')] Connection lost (Exit code: $EXIT_CODE)." | tee -a "$LOG_FILE"
-    echo "[*] Waiting 30 seconds before reconnecting..." | tee -a "$LOG_FILE"
-    sleep 30
+    echo "[!] [$(date +'%H:%M:%S')] Process exited. Waiting 15 seconds before reconnecting..." | tee -a "$LOG_FILE"
+    
+    # Ждем 15 секунд (вместо 30) для более быстрого возвращения в сеть
+    sleep 15
 done
 EOF
 
