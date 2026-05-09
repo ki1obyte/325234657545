@@ -15,51 +15,53 @@ KEY="f3a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f"
 DNS_SRV="77.88.8.8:53"
 
 LOGFILE=~/olcrtc.log
-MAX_LINES=4000                    # Максимум строк в логе (регулируй по желанию)
+MAX_LINES=6000                    # Увеличил, т.к. логи очень подробные
 
-# === ФИКСЫ ДЛЯ ANDROID (TERMUX) ===
+# === ФИКСЫ ДЛЯ ANDROID ===
 export GODEBUG=netdns=go
 export SSL_CERT_FILE=/data/data/com.termux/files/usr/etc/tls/cert.pem
 
-# === ФУНКЦИЯ ЛОГИРОВАНИЯ С ОГРАНИЧЕНИЕМ РАЗМЕРА ===
+# === ФУНКЦИЯ ЛОГИРОВАНИЯ ===
 log() {
-    local timestamp="[$(date '+%Y-%m-%d %H:%M:%S')]"
-    echo "$timestamp $*" | tee -a "$LOGFILE"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$LOGFILE"
     
-    # Автоограничение размера лога
-    if [ -f "$LOGFILE" ] && [ $(wc -l < "$LOGFILE") -gt $((MAX_LINES + 200)) ]; then
+    # Ограничение размера лога
+    if [ -f "$LOGFILE" ] && [ $(wc -l < "$LOGFILE") -gt $((MAX_LINES + 300)) ]; then
         tail -n $MAX_LINES "$LOGFILE" > "$LOGFILE.tmp" 2>/dev/null && \
         mv "$LOGFILE.tmp" "$LOGFILE"
     fi
 }
 
-# Тихая подготовка resolv.conf
+# Подготовка resolv.conf
 DNS_IP=$(echo $DNS_SRV | cut -d':' -f1)
 echo "nameserver $DNS_IP" > ~/resolv.conf
 
-# === КРАСИВЫЙ ЗАГОЛОВОК ПРИ РУЧНОМ ЗАПУСКЕ ===
-clear
-echo "============================================="
-echo "   olcrtc Auto-Server (Realme C11 Edition)   "
-echo "============================================="
-echo "Mode:      $CARRIER + $TRANSPORT"
-echo "Room ID:   $ROOM_ID"
-echo "Client ID: $CLIENT_ID"
-echo "Status:    Auto-restart ENABLED"
-echo "Log file:  $LOGFILE"
-echo "Stop:      Press Ctrl+C"
-echo "============================================="
-echo ""
+# === КРАСИВЫЙ ЗАГОЛОВОК (только при ручном запуске) ===
+if [ -t 1 ]; then
+    clear
+    echo "============================================="
+    echo "   olcrtc Auto-Server (Realme C11 Edition)   "
+    echo "============================================="
+    echo "Mode:      $CARRIER + $TRANSPORT"
+    echo "Room ID:   $ROOM_ID"
+    echo "Client ID: $CLIENT_ID"
+    echo "Status:    Auto-restart ENABLED"
+    echo "Log file:  $LOGFILE"
+    echo "Stop:      Press Ctrl+C"
+    echo "============================================="
+    echo ""
+fi
 
 log "Server started (manual or boot)"
 
-# Перехват сигналов для красивого завершения
+# Перехват сигналов
 trap 'log "[!] Server stopped by user"; echo -e "\n[!] Server stopped by user. Exiting...\n"; exit 0' INT TERM
 
 # ======================= ОСНОВНОЙ ЦИКЛ =======================
 while true; do
     log "[*] Starting connection..."
-
+    
+    # Главное изменение: весь вывод proot + binary идёт и в терминал, и в лог
     proot -b ~/resolv.conf:/etc/resolv.conf $BINARY \
       -mode srv \
       -carrier $CARRIER \
@@ -70,11 +72,12 @@ while true; do
       -link direct \
       -dns $DNS_SRV \
       -data data \
-      --debug
+      --debug 2>&1 | tee -a "$LOGFILE"
 
-    EXIT_CODE=$?
-    log "[!] Connection lost (Exit code: $EXIT_CODE). Reconnecting in 5 seconds..."
-    sleep 5
+    EXIT_CODE=${PIPESTATUS[0]}
+    
+    log "[!] Connection lost (Exit code: $EXIT_CODE). Reconnecting in 30 seconds..."
+    sleep 30
 done
 EOF
 
