@@ -1,0 +1,1 @@
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.35.108:443?security=reality&sni=www.primevideo.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&type=tcp&path=/#4FreeIran-6187

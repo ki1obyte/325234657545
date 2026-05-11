@@ -1,1 +1,1 @@
-vless://ebf7d712-7690-4028-81f7-616c106cfd5f@79.117.121.85:35766?security=reality&encryption=none&pbk=JrsNPt4yDyRcLO2-eL0VkVlPBSM2Cp19iDl-A-enrS8&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=738b3ed2#4Mohsen-9683
+vless://00a31b83-d78a-4866-9124-bf80ab961501@isp01.myxavpn.com:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=isp01.myxavpn.com&fp=chrome&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea&type=tcp&headerType=none&path=/#4FreeIran-5139
