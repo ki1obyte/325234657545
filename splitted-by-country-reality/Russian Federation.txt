@@ -1,1 +1,0 @@
-vless://50ae3418-7795-4739-b9b8-5d4ee6604874@46.243.233.90:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=mAAUq-FTkfw2HOWITaQBSJ1oUdhfEZ5FfBsdBjqgiSo&sid=ad7dab462a323b#4FreeIran-6609
