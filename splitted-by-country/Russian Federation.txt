@@ -1,3 +1,2 @@
-vless://5d1e9449-c5da-48d9-a307-df280251a835@5.129.204.161:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=altrunet-probe.tw1.su&alpn=http/1.1,h2,h3#4Jadi-6677
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@5.188.224.71:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-464ms-EdgeCenter%20LLC
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5Q21jUTZkRjhMRXlaVTBZc01qZ3U4@77.73.68.155:54106#4Jadi-110
+vless://0e3a9376-1bf0-4b9e-a328-f28083bf6c34@46.243.233.212:2082?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=eh1.vk.com&pbk=o6zlxOHBtqwPdJNatvbmEHH_Ar6SJjJQqUViymfxHmo&sid=cead3d22ec#4Kian-5377
+vless://0e3a9376-1bf0-4b9e-a328-f28083bf6c34@46.243.233.135:2084?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=eh.vk.com&pbk=o6zlxOHBtqwPdJNatvbmEHH_Ar6SJjJQqUViymfxHmo&sid=cead3d22ec#4Kian-5375
