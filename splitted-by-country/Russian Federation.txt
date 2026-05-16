@@ -1,5 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@84.38.181.97:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-StPetersburg-424ms-JSC%20Selectel
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5Q21jUTZkRjhMRXlaVTBZc01qZ3U4@77.73.68.155:54106#4Jadi-108
-vless://0e3a9376-1bf0-4b9e-a328-f28083bf6c34@51.250.47.0:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc&sid=fb38c1c83009e1#4Jadi-5518
-vless://5b2fc182-a497-4fbe-aeb8-1841dae99022@80.90.188.250:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.com&pbk=FSq5DVYJ8UaKArP3FtCmlZKqOQ08dKkqB2fefjRkA0M#4Jadi-6815
-vless://0e3a9376-1bf0-4b9e-a328-f28083bf6c34@176.98.178.163:443?encryption=none&type=grpc&security=reality&mode=gun&fp=chrome&sni=ru3.skysafe.online&pbk=4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc&sid=fb38c1c83009e1&spx=/#4Jadi-5517
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@72.56.235.141:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-412ms-JSC%20%22TIMEWEB%22
+vless://5b2fc182-a497-4fbe-aeb8-1841dae99022@80.90.188.250:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.com&pbk=FSq5DVYJ8UaKArP3FtCmlZKqOQ08dKkqB2fefjRkA0M#4Jadi-6605
+vless://0e3a9376-1bf0-4b9e-a328-f28083bf6c34@51.250.47.0:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc&sid=fb38c1c83009e1#4Jadi-5322
