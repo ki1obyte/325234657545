@@ -1,1 +1,2 @@
-vless://a6d20e79-d326-42c1-bc20-f4cecc6dc42d@ul-mexico1.09vpn.com:8443?encryption=none&security=tls&type=ws&path=/vless/#4Jadi-8673
+vmess://eyJhZGQiOiIyMTYuMjM4Ljg2LjE1OCIsImlkIjoiOTBiZTIxNGQtMDQ4Yy00ZWEyLWE2MDItYjhlNGQ0ZTUxZTM2IiwibmV0IjoidGNwIiwicG9ydCI6MzQ0NjAsInBzIjoiaHR0cHM6Ly90Lm1lL0ZvcmNlUnVuVlBOLfCfh7Lwn4e9LVF1ZXLDqXRhcm9DaXR5LTIxNG1zLVRoZSBDb25zdGFudCBDb21wYW55IiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vless://a6d20e79-d326-42c1-bc20-f4cecc6dc42d@ul-mexico1.09vpn.com:8443?encryption=none&security=tls&type=ws&path=%2Fvless%2F#4Jadi-8607
