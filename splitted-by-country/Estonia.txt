@@ -1,3 +1,4 @@
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%AA-Tallinn-343ms-Aktsiaselts%20WaveCom
-vless://6d916d55-fead-4ff3-a3a9-83e175ea8ad7@ee18.mechvpn.online:443?allowInsecure=0&sni=ee18.mechvpn.online&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#4Jadi-7840
-vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@95.85.243.216:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#4Jadi-9017
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%AA-Tallinn-319ms-Aktsiaselts%20WaveCom
+vless://ebe186c0-1006-4b07-8a84-45deaf0bda23@150.241.74.150:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=vB4lhwE3aZhB3vzphogmjJv1VYNedlCTgd5c1Bka_F0&security=reality&sid=4a43ca&sni=addons.mozilla.org&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-1568ms-xorek.cloud%20International%20LTD
+vless://6d916d55-fead-4ff3-a3a9-83e175ea8ad7@ee18.mechvpn.online:443?allowInsecure=0&sni=ee18.mechvpn.online&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#4Jadi-8197
+vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@150.241.101.128:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A9%F0%9F%87%AA-FrankfurtAmMain-917ms-xorek.cloud%20International%20LTD
