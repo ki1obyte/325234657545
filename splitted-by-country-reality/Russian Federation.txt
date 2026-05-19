@@ -1,4 +1,1 @@
-vless://6183c1c0-2853-4e83-b31b-19527950b23b@193.233.90.70:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=2gis.ru&pbk=9mRyc2hYhZXhEtrBHO9FYcKkLxeMSxucQnmyaH3ORC8&sid=0261a5afd98b83d0#4FreeIran-6735
-vless://6183c1c0-2853-4e83-b31b-19527950b23b@31.130.155.114:8443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api.max.ru&pbk=aySWi4vGm4__zU_RFNtym1AyjtfY0AX9WoigfVG7hWA&sid=be84ee20a35bfdd2#4FreeIran-6737
-vless://280cebf8-116e-4f73-ac4e-ef108343a6cd@146.185.243.104:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=avito.ru&pbk=0t6b8m_PBAG3rF2HPOEL4yiyb-2JglciiANPKvyb2Ho#4FreeIran-5685
-vless://280cebf8-116e-4f73-ac4e-ef108343a6cd@146.185.243.104:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=eh.vk.com&pbk=0t6b8m_PBAG3rF2HPOEL4yiyb-2JglciiANPKvyb2Ho#4FreeIran-5686
+vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&type=raw&headerType=none&security=reality&fp=chrome&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&sni=ya.ru&sid=23103e1e#4FreeIran-8191
