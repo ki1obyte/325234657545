@@ -1,0 +1,1 @@
+vless://41b92d9f-6c8d-4ac3-8eeb-eb3fcf48e102@193.24.233.214:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=ub9J4LHE03BkRGnQBumiZvntwgFIagUk8vjsc5hLf2I&security=reality&sid=9c2378562188c3cb&sni=cy.kickvpn.ru&type=tcp#4Jadi-6736
