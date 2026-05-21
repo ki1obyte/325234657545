@@ -1,1 +1,1 @@
-vless://6ba2eac6-0ec9-44ca-a42b-a8e23aafb530@204.216.216.23:1114?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ&sid=79a1e14b&type=tcp&headerType=none#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Siziano-1176ms-Oracle%20Corporation
+vless://85dbb96e-1cbe-4db1-97b8-6aa6880edfd5@204.216.217.88:8443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=m75eT1Y-jispVwROxHTJd_8CyP2KCYdr5oIsJ445gHc&sni=www.airbnb.com&sid=ad8644cf#4FreeIran-9048
