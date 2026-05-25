@@ -1,3 +1,2 @@
-vless://41990152-3b7f-40a2-b692-49148d7053a5@158.160.156.172:5988?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=surfvpn24.ru&pbk=FQrOWrsi6jfp5YX7QDdXUigTUgq0HOuDKM78Cp6P50g&sid=c19de8fa#4Kian-6688
-vless://20ecee51-1044-4be3-89a9-f3c700425ead@45.67.230.230:443?encryption=none&type=raw&headerType=none&security=reality&pbk=qYg2nPdLpBYWM7-9leTq43SoqAc5nT90gFH-AHAMShY&sni=yahoo.com&sid=abb1#4Kian-5902
-vless://20ecee51-1044-4be3-89a9-f3c700425ead@45.67.230.230:443?encryption=none&type=tcp&security=reality&fp=chrome&sni=yahoo.com&pbk=qYg2nPdLpBYWM7-9leTq43SoqAc5nT90gFH-AHAMShY&sid=abb1&spx=/#4Kian-5903
+vless://0cb33f36-aa04-46f1-8727-65c933231167@83.217.220.27:50583?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=api-maps.yandex.ru&pbk=263eHzp7CQiiudy8-Iz_esgAn1suWuJ5q8tx_UzGRgs&sid=4c18a508063c9a3a#4Nika-5440
+vless://20ecee51-1044-4be3-89a9-f3c700425ead@45.67.230.230:443?encryption=none&type=raw&headerType=none&security=reality&pbk=qYg2nPdLpBYWM7-9leTq43SoqAc5nT90gFH-AHAMShY&sni=yahoo.com&sid=abb1#4Nika-5774
