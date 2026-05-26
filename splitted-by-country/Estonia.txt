@@ -1,3 +1,4 @@
-vless://ebe186c0-1006-4b07-8a84-45deaf0bda23@150.241.74.150:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&pbk=vB4lhwE3aZhB3vzphogmjJv1VYNedlCTgd5c1Bka_F0&sni=addons.mozilla.org&sid=4a43ca#4Jadi-10341
-vless://dc540911-cd1d-41e9-9301-ecb5a507b788@ru3.banovano.space:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk&sni=www.icloud.com&sid=f690c1046814dc9d#4Jadi-9964
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%AA-Tallinn-690ms-Aktsiaselts%20WaveCom
+vless://dc540911-cd1d-41e9-9301-ecb5a507b788@ru3.banovano.space:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk&sni=www.icloud.com&sid=f690c1046814dc9d#4Kian-10118
+vless://0dc17cac-7526-48aa-a3b8-976f7fd19d97@158.160.221.93:2443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=5w9AftPH_705ynMzcG03D3z61O1qegNp6WFL6jOXxRA&sid=e035146d93da51a9&spx=/#4Kian-5566
+vless://ebe186c0-1006-4b07-8a84-45deaf0bda23@150.241.74.150:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&pbk=vB4lhwE3aZhB3vzphogmjJv1VYNedlCTgd5c1Bka_F0&sni=addons.mozilla.org&sid=4a43ca#4Kian-10489
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%AA-Tallinn-620ms-Aktsiaselts%20WaveCom
