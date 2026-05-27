@@ -1,1 +1,1 @@
-vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855/?type=ws&encryption=none&path=%2F#4Kian-10362
+vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855/?type=ws&encryption=none&path=%2F#4Jadi-10389
