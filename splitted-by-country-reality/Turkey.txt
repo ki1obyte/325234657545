@@ -1,1 +1,1 @@
-vless://43488128-319e-f480-64ea-0acdc712e2a8@2.56.127.207:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=XkRQUOLTBAiIXB1MK9oJwlfn-9XnH53ykk5UE6rDyFc&security=reality&sid=d4356669ea880400&sni=store.steampowered.com&type=tcp#4Nika-6565
+vless://10e82fcc-94ec-4d09-8855-579bb55b77e4@81.177.215.29:8443?encryption=none&fp=&pbk=NDe_UBPG-k6TqnheVYUxNxlXtmgy975eDsdqK35sJhA&security=reality&serviceName=xyz&sid=6ba85179e30d4fc2&sni=eh.vk.com&type=grpc#4FreeIran-5478

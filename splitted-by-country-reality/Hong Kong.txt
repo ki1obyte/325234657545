@@ -1,3 +1,2 @@
-vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=www.amd.com&fp=chrome&security=reality&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&sid=#4Nika-8982
-vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amd.com&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#4Nika-8983
-vless://9c79aceb-4649-44ea-9698-b5e9ecf6d6da@156.224.78.8:10001?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=D_kMOsg1KCtT0tudPFVDXGuEcSqZGtUYqBB-BiIxmls&sni=www.icloud.com&sid=f7223dab#4Nika-8958
+vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=www.amd.com&fp=chrome&security=reality&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&sid=#4FreeIran-9299
+vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amd.com&fp=chrome&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&type=tcp&headerType=none#4FreeIran-9300
