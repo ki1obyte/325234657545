@@ -1,2 +1,2 @@
-vless://d2d0f796-edb0-427a-af32-ae360679f9e7@172.66.1.143:443?allowInsecure=1&encryption=none&host=rayan-007.foton.dpdns.org&path=%2F&security=tls&sni=rAyAn-007.fOtOn.dPdNs.oRg&type=ws#4Jadi-10438
-vless://b042a503-3cb9-461f-994d-28a642133b5e@193.57.138.53:40921?encryption=none&type=raw&headerType=none&security=reality&fp=chrome&pbk=heCmtLzcbUCR7Y1ZSomzRZpc45p9Qie9p_2W6Xw333A&sni=yahoo.com&sid=c42db93ba6c62c#4Jadi-9887
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.180.152.210:8881#4Kian-2708
+vless://10e82fcc-94ec-4d09-8855-579bb55b77e4@45.141.234.170:8443?&security=reality&flow=xtls-rprx-vision&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&fp=chrome&sni=www.google.com&type=tcp&headerType=none&host=www.google.com&path=%2F#4Kian-5096
