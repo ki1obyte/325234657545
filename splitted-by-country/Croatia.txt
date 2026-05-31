@@ -1,2 +1,0 @@
-vless://f00b0c6b-955c-4769-858e-e240f13ee0e1@45.136.129.70:64080?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&pbk=_-8yXon5_iwa8dGhDhQ5WaI8lHG5UhJvJuXRxyq-8Ec&sni=mozilla.org&sid=77#4Jadi-9513
-vless://f00b0c6b-955c-4769-858e-e240f13ee0e1@45.136.129.70:64080?encryption=none&flow=xtls-rprx-vision&fp=&pbk=_-8yXon5_iwa8dGhDhQ5WaI8lHG5UhJvJuXRxyq-8Ec&security=reality&sid=77&sni=mozilla.org&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%B8-LosAngeles-929ms-WorkTitans%20B.V.
