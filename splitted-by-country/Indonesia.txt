@@ -1,1 +1,2 @@
-vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@216.24.57.1:443?path=/id-pusat&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=support.zoom.us.cyylr.eu.cc&fp=chrome&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=support.zoom.us.cyylr.eu.cc#4Jadi-5305
+vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@216.24.57.1:443?security=tls&type=ws&path=/id-pusat&host=support.zoom.us.cyylr.eu.cc&alpn=http/1.1&sni=support.zoom.us.cyylr.eu.cc&fp=chrome&encryption=none#4Sarina-5524
+vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@103.18.49.100:443?security=tls&type=ws&path=/id-pusat&host=support.zoom.us.cyylr.eu.cc&alpn=http/1.1&sni=support.zoom.us.cyylr.eu.cc&fp=chrome&encryption=none#4Sarina-5523
