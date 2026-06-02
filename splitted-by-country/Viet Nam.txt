@@ -1,1 +1,0 @@
-vless://bc7c7c10-8f24-332e-b303-fb3c8943c24f@s226.okgg.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s226.okgg.top&path=&flow=xtls-rprx-vision&security=tls&sni=u712927ua6bas226.okgg.top&serviceName=&mode=&alpn=#4Jadi-8679
