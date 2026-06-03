@@ -1,2 +1,0 @@
-vless://20df9a62-5948-11f1-bf0f-5254eff7fba9@154.205.145.79:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=bQrdBuhZRuvqaYIKIT1mRcDipJmqLZPKTzE2HkLZ_j4&security=reality&sid=2046e176b80e8278&sni=cloudflare.com&type=tcp#4Jadi-5478
-vless://20df9a62-5948-11f1-bf0f-5254eff7fba9@154.205.145.79:8443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=bQrdBuhZRuvqaYIKIT1mRcDipJmqLZPKTzE2HkLZ_j4&sni=cloudflare.com&sid=2046e176b80e8278#4Jadi-5479
