@@ -1,5 +1,4 @@
-vless://ee258b89-6004-43cb-a404-69c4f1ac6b56@app.movise.org:19467?mode=auto&path=/&security=&encryption=none&type=xhttp#4Jadi-9331
-vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?security=reality&type=raw&sni=yandex.ru&fp=chrome&flow=xtls-rprx-vision&sid=98&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&encryption=none#4Jadi-7373
-vless://6778733a-23a3-4e0b-9989-28b5c2a50f65@81.177.213.222:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=bg.xenovpn.top&fp=firefox&flow=xtls-rprx-vision&sid=4c831cb36c2479d7&pbk=K3fEVntslsjyZwLldZvLm-LpCgwFnTFC_apHAwC3Ok0#4Jadi-6947
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZaY1JvUElaWnRCZG5JRUw@89.44.197.181:31348#4Jadi-243
-vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?security=reality&type=tcp&sni=yandex.ru&fp=chrome&flow=xtls-rprx-vision&sid=98&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&encryption=none#4Jadi-7374
+vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?security=reality&type=raw&sni=yandex.ru&fp=chrome&flow=xtls-rprx-vision&sid=98&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&encryption=none#4Jadi-7135
+vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?security=reality&type=tcp&sni=yandex.ru&fp=chrome&flow=xtls-rprx-vision&sid=98&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&encryption=none#4Jadi-7136
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZaY1JvUElaWnRCZG5JRUw@89.44.197.181:31348#4Jadi-255
+vless://8bb2d0ca-259b-46d0-8055-d6ecbb36f306@87.229.34.23:443?security=reality&allowInsecure=0&encryption=none&type=tcp&sni=www.samsung.com&fp=chrome&pbk=OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4&headerType=none#4Jadi-7215
