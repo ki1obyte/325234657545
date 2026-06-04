@@ -1,2 +1,3 @@
-vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@216.24.57.1:443?security=tls&type=ws&path=/id-pusat&host=support.zoom.us.cyylr.eu.cc&alpn=http/1.1&sni=support.zoom.us.cyylr.eu.cc&fp=chrome&encryption=none#4Jadi-5347
-vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@103.18.49.100:443?path=/id-pusat&security=tls&alpn=http/1.1&encryption=none&host=support.zoom.us.cyylr.eu.cc&fp=chrome&type=ws&sni=support.zoom.us.cyylr.eu.cc#4Jadi-5345
+vless://2dc797c8-9588-48a6-bc4a-265c23d87cd6@208.103.161.170:443?path=%2Fid-pusat&security=tls&encryption=none&insecure=0&host=ava.game.naver.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=ava.game.naver.com.cyylr.eu.cc#4Jadi-5701
+vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@216.24.57.1:443?security=tls&type=ws&path=/id-pusat&host=support.zoom.us.cyylr.eu.cc&alpn=http/1.1&sni=support.zoom.us.cyylr.eu.cc&fp=chrome&encryption=none#4Jadi-5282
+vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@103.18.49.100:443?path=/id-pusat&security=tls&alpn=http/1.1&encryption=none&host=support.zoom.us.cyylr.eu.cc&type=ws&sni=support.zoom.us.cyylr.eu.cc#4Jadi-5281
