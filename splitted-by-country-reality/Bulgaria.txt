@@ -1,3 +1,2 @@
-vless://8bb2d0ca-259b-46d0-8055-d6ecbb36f306@87.229.34.23:443?security=reality&allowInsecure=0&encryption=none&type=tcp&sni=www.samsung.com&fp=chrome&pbk=OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4&headerType=none#4Sarina-7238
-vless://8bb2d0ca-259b-46d0-8055-d6ecbb36f306@87.229.34.23:443?security=reality&type=raw&sni=www.samsung.com&fp=chrome&pbk=OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4&encryption=none#4Sarina-7239
-vless://6778733a-23a3-4e0b-9989-28b5c2a50f65@81.177.213.222:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=bg.xenovpn.top&fp=firefox&flow=xtls-rprx-vision&sid=4c831cb36c2479d7&pbk=K3fEVntslsjyZwLldZvLm-LpCgwFnTFC_apHAwC3Ok0#4Sarina-6758
+vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?security=reality&type=raw&sni=yandex.ru&fp=chrome&flow=xtls-rprx-vision&sid=98&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&encryption=none#4Nika-7399
+vless://85f15b9d-74da-4ea0-9ffd-5fc0bb03e3d5@185.237.223.36:13295?security=reality&type=tcp&sni=yandex.ru&fp=chrome&flow=xtls-rprx-vision&sid=98&pbk=Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho&encryption=none#4Nika-7400
