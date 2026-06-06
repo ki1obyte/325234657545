@@ -1,4 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3R20xc2RDU1JXQjQ2Q3JP@20.164.45.116:443#4Jadi-75
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-572ms-Microsoft%20Corporation
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233?type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-574ms-Microsoft%20Corporation
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowRlhrSE5RTzZxMXM5S1FY@20.87.212.31:443#4Jadi-133
