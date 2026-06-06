@@ -1,2 +1,1 @@
-vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?encryption=none&path=%2F&security=none&type=ws#4Jadi-9674
-vless://126bd9f5-4728-4b90-891e-874c43ac8112@ir.sm-network.ir:443?alpn=h2,http/1.1&encryption=none&fp=chrome&security=tls&sni=core.sm-network.ir&type=tcp#4Jadi-5227
+vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?encryption=none&path=%2F&security=none&type=ws#4Kian-9026
