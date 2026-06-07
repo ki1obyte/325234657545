@@ -1,1 +1,2 @@
-vless://28607fa7-db30-47d6-942a-f5744e4be9ad@45.130.125.96:443?path=/id-pusat&security=tls&encryption=none&insecure=0&host=dfsuporte.garena.com.ex33r.eu.cc&type=ws&allowInsecure=0&sni=dfsuporte.garena.com.ex33r.eu.cc#4Sarina-5655
+vless://28607fa7-db30-47d6-942a-f5744e4be9ad@45.130.125.96:443?encryption=none&host=dfsuporte.garena.com.ex33r.eu.cc&path=/id-pusat&security=tls&sni=dfsuporte.garena.com.ex33r.eu.cc&type=ws#4Jadi-5488
+vless://0799a47d-d446-4a20-8e75-441fa899fbb1@104.16.72.70:443?encryption=none&host=unnes.ac.id.r3xxe.eu.cc&path=/id-pusat&security=tls&sni=unnes.ac.id.r3xxe.eu.cc&type=ws#4Jadi-4876
