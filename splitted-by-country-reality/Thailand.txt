@@ -1,4 +1,1 @@
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.35.108:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.primevideo.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Nika-6181
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.237:443?security=reality&encryption=none&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=api.digital-help-prd.autodesk.com#4Nika-6183
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.248:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=api.digital-help-prd.autodesk.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#4Nika-6184
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.39.100:443?encryption=none&security=reality&sni=api.digital-help-prd.autodesk.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&type=tcp&headerType=none#4Nika-6186
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.81.36.248:443?encryption=none&security=reality&sni=api.digital-help-prd.autodesk.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&type=tcp&headerType=none#4Mohsen-6120
