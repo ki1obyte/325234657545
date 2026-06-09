@@ -1,2 +1,2 @@
-vless://a2415a12-3f92-4636-9823-9828d3ceb818@103.112.70.124:443?security=reality&sni=www.google.com&fp=firefox&pbk=zPnElIyOaaW7M9L5Ba7kWJEadJZmeMwbj1m_NnaTtgQ&sid=fa7369&type=tcp&path=/#4Mohsen-8130
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@103.112.70.124:443?security=reality&sni=www.google.com&fp=firefox&pbk=zPnElIyOaaW7M9L5Ba7kWJEadJZmeMwbj1m_NnaTtgQ&sid=fa7369&type=tcp&path=/#4Mohsen-6913
+vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750?security=reality&encryption=none&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com#4FreeIran-7860
+vless://3ade7ca1-c7e7-40a4-80f2-d1ac301b5fd6@45.38.60.52:443?security=reality&encryption=none&pbk=kYkeZ9EqtO7Wsr6mgs6nqLA4M_FD516UOlGes4jVzFE&headerType=none&fp=chrome&spx=/yq4ChH8w8pot1Qc&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=5e152318#4FreeIran-5884
