@@ -1,1 +1,0 @@
-vless://888403d1-621b-481a-b5dc-7aca518a787b@5.35.85.51:8443?&security=reality&flow=xtls-rprx-vision&pbk=BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI&sid=a987b6bd1781daa3&fp=chrome&sni=www.kinopoisk.ru&type=tcp&headerType=none&host=www.kinopoisk.ru&path=%2F#4FreeIran-7217

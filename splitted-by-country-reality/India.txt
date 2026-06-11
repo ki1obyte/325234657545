@@ -1,1 +1,1 @@
-vless://ee6ca40f-57e4-5943-8e4c-7a9b911aff44@45.89.106.4:443?security=reality&encryption=none&pbk=EHtfJCv8UREtbQCPBc0BYX-BOFgKPFaG2yvR2w7rHBw&headerType=none&fp=chrome&type=tcp&sni=microsoft.com&sid=972e3378#4FreeIran-9367
+vless://ee6ca40f-57e4-5943-8e4c-7a9b911aff44@45.89.106.4:443?encryption=none&type=tcp&security=reality&headerType=none&sni=microsoft.com&fp=chrome&insecure=1&allowInsecure=1&pbk=EHtfJCv8UREtbQCPBc0BYX-BOFgKPFaG2yvR2w7rHBw&sid=972e3378#4Mohsen-9419
