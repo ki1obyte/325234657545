@@ -1,1 +1,0 @@
-vless://cc5201c6-b6b9-4065-adad-ab6d17958b94@by01.botovod.space:443?encryption=none&security=tls&sni=by01.botovod.space&fp=chrome&alpn=h2,http/1.1&insecure=0&allowInsecure=0&type=xhttp&path=/&mode=auto#4Kian-8978
