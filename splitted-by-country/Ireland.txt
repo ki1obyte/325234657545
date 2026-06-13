@@ -1,1 +1,1 @@
-vless://9f9f18f8-2557-4f18-928d-e7c334a0b068@85.159.229.189:443?encryption=none&fp=&pbk=jRh71f3CZSR8xkOMBX9wpaMe_3EYhjrxFELmls-AW0A&security=reality&sid=e6&sni=www.google.com&type=tcp#4Jadi-8022
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaejV3Y1hpYzU4RmlxWW1Q@74.234.78.179:443#4Jadi-534
