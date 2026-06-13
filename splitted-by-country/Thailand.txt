@@ -1,4 +1,4 @@
-vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?encryption=none&host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#4Jadi-5814
-vless://85b62084-d81e-52cd-a016-944f261d34a0@bm.xq-vpn.com:80?mode=auto&path=%2F&security=&encryption=none&host=cJ-sPeEdTeSt.EbB.mY&type=xhttp#4Jadi-7186
-vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?encryption=none&host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#4Jadi-5816
-vless://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?encryption=none&host=cJ-sPeEdTeSt.EbB.mY&mode=auto&path=/&security=none&type=xhttp#4Jadi-7185
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@47.87.65.216:443?encryption=none&security=reality&sni=api.digital-help-prd.autodesk.com&fp=random&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&type=tcp&headerType=none#4Jadi-5886
+vless://3c52e091-6714-4915-949f-2149fe69951b@v2ray.simspeedup.com:80?encryption=none&host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#4Jadi-5867
+vless://3c52e091-6714-4915-949f-2149fe69951b@116.206.124.228:80?encryption=none&host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#4Jadi-5864
+vless://85b62084-d81e-52cd-a016-944f261d34a0@bm.xq-vpn.com:80?mode=auto&path=%2F&security=&encryption=none&host=cJ-sPeEdTeSt.EbB.mY&type=xhttp#4Jadi-7170
