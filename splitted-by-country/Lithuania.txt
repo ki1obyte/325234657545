@@ -1,1 +1,2 @@
-vless://e97a7931-500b-4777-82a2-4237f15bcedd@lt-cherry-01.com:8443?security=reality&type=tcp&packetEncoding=xudp&sni=storage.yandex.net&fp=chrome&flow=xtls-rprx-vision&sid=2cfb5a0ae8ab0cb0&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&encryption=none#4Jadi-9473
+vless://e6b418af-0ff1-4fe2-a079-8aaa0841781f@162.159.16.239:443?path=/lY4xhKGq8xGZL3CP2na2X60FJ&security=tls&encryption=none&host=cdn-n5.roxi.cc&fp=chrome&type=ws&sni=cdn-n5.roxi.cc#4Jadi-9199
+vless://e97a7931-500b-4777-82a2-4237f15bcedd@45.194.10.82:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&security=reality&sid=2cfb5a0ae8ab0cb0&sni=storage.yandex.net&type=tcp#4Jadi-9239
