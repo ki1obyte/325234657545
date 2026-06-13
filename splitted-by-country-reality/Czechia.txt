@@ -1,1 +1,1 @@
-vless://8bbf020e-653f-4a82-9900-1214e4e37dab@103.119.18.159:443?security=reality&encryption=none&pbk=gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=fcd9787f#4Mohsen-7356
+vless://8bbf020e-653f-4a82-9900-1214e4e37dab@103.119.18.159:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE&security=reality&sid=fcd9787f&sni=www.microsoft.com&type=tcp#4FreeIran-7233
