@@ -1,1 +1,0 @@
-vless://eaef71f6-8773-48b5-ad5b-956c48013cf8@13.140.29.123:443?flow=xtls-rprx-vision&fp=chrome&pbk=8eP4hunZeynHEGlONFchnyVPffyWcIWOrxefwK-Bw38&security=reality&sid=5fbc3141&sni=bg1.americanprime.vip&type=tcp#4Jadi-9257
