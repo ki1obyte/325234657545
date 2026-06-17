@@ -1,0 +1,2 @@
+vless://ae5ba4be-7262-4199-bd62-210ed8999b9f@188.130.208.220:5443?type=tcp&headerType=none&security=reality&encryption=none&sni=max.ru&fp=chrome&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ&flow=xtls-rprx-vision#4FreeIran-8370
+vless://4288b4c1-36b3-488f-84e8-3776b8d7e7d4@217.16.29.23:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=mtdklsqa&fp=firefox&sni=yandex.ru&pbk=DmpMjyYBIU4KdMNY-0M8TxX5OBrQQ1A5E28Y9_-VQDk&sid=aaaa#4FreeIran-6195
