@@ -1,2 +1,1 @@
-vless://fa937ff5-89cc-49a4-9bf9-da2b7285070d@104.18.152.231:2053?encryption=none&type=xhttp&security=tls&path=/&host=bulghari.appleseraj.ir&mode=auto&sni=bulghari.appleseraj.ir&alpn=h2,http/1.1&fp=chrome&insecure=0&allowInsecure=0#4Kian-9904
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.185.108.30:8880?encryption=none&security=none&type=ws&host=vms.lifetime23.workers.dev&path=%2F#4Kian-6834
+vless://fa937ff5-89cc-49a4-9bf9-da2b7285070d@104.18.152.231:2053?encryption=none&security=tls&sni=bulghari.appleseraj.ir&fp=chrome&alpn=h2,http/1.1&insecure=0&allowInsecure=0&type=xhttp&host=bulghari.appleseraj.ir&path=/&mode=auto#4Jadi-10671
