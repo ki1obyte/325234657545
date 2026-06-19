@@ -1,2 +1,1 @@
-vless://ff19693c-11f3-4df9-8713-79a85a5ca090@194.87.143.111:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=se.sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#4FreeIran-9830
-vless://039a1658-e86e-475f-a3a4-67cc249acada@81.177.212.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sw1.panel11.ru&fp=chrome&pbk=UQLa8BZNvHnwWL7pUnMbO046iRPh0jGhvA2xtjJRgQE&sid=8b263e22ba03b4c1&type=tcp&headerType=none#4FreeIran-4879
+vless://039a1658-e86e-475f-a3a4-67cc249acada@81.177.212.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sw1.panel11.ru&fp=chrome&pbk=UQLa8BZNvHnwWL7pUnMbO046iRPh0jGhvA2xtjJRgQE&sid=8b263e22ba03b4c1&type=tcp&headerType=none#4Sarina-4903
