@@ -1,1 +1,1 @@
-vless://21db6b31-6e8b-4307-9127-994c99606e15@85.90.207.152:23009?security=none&encryption=none&headerType=none&type=tcp#4Kian-5336
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.120.94.30:8880?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=vms.lifetime07.workers.dev&path=/&security=none&type=ws#4Jadi-7241
