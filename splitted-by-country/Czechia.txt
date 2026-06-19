@@ -1,1 +1,0 @@
-vless://4288b4c1-36b3-488f-84e8-3776b8d7e7d4@217.16.29.23:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=mtdklsqa&fp=firefox&sni=yandex.ru&pbk=DmpMjyYBIU4KdMNY-0M8TxX5OBrQQ1A5E28Y9_-VQDk&sid=aaaa#4Kian-6255
