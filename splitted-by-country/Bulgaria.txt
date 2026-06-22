@@ -1,3 +1,0 @@
-vless://f68435e2-ac00-4374-8c03-c1d36e171088@185.148.147.27:1443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yOUdRfWt1VaYEeJvHWtfoHoDesPHZPOCaaYe8XDwCB0&sid=0441f3e34348cb40&sni=bulg.kupivodku.top#4Jadi-10714
-vless://fa937ff5-89cc-49a4-9bf9-da2b7285070d@188.114.97.6:2053?mode=auto&path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=bulghari.appleseraj.ir#4Jadi-10856
-vless://fa937ff5-89cc-49a4-9bf9-da2b7285070d@104.18.152.231:2053?encryption=none&security=tls&sni=bulghari.appleseraj.ir&fp=chrome&alpn=h2,http/1.1&insecure=0&allowInsecure=0&type=xhttp&host=bulghari.appleseraj.ir&path=/&mode=auto#4Jadi-10851
