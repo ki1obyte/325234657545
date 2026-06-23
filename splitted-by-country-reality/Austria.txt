@@ -1,0 +1,2 @@
+vless://ba302f7c-8ded-4ea6-99be-5abfd3ab6b3e@45.151.102.99:7443/?type=grpc&encryption=none&flow=&serviceName=your-custom-path&sni=maps.apple.com&security=reality&pbk=OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY&sid=2da4299da566b7#4FreeIran-10047
+vless://0dd1365f-4765-4502-a20d-1e09516ae8f5@45.146.131.154:8545?encryption=none&security=reality&type=grpc&serviceName=service&mode=multi&fp=chrome&sni=www.microsoft.com&pbk=4IOWxdtudwyVdmZl1Z2CINSbYHgMk94Bet0hVlgkrXo&sid=c4e8a1f29b3d6075#4FreeIran-5194
