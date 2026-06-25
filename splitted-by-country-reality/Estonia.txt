@@ -1,1 +1,0 @@
-vless://b0f08ae1-7cf9-4612-ad61-72681e0b92da@ee-1.coinbridge.nl:443?mode=gun&security=reality&encryption=none&pbk=kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI&fp=chrome&type=grpc&serviceName=data-sync&sni=google.com&sid=d5c7f84e37e0c12d#4FreeIran-9862
