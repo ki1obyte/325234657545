@@ -1,3 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaNm15TGpuOVpxckN2bzRq@20.166.126.19:443#4Kian-563
-vless://538d4749-33ba-435f-8fbb-57d7f22f996b@176.34.140.103:31660?security=none&encryption=none&headerType=none&type=tcp#4Kian-7537
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTW5HbVJlaG1qODZYTFM4@20.223.240.226:443#4Kian-281
+vless://538d4749-33ba-435f-8fbb-57d7f22f996b@176.34.140.103:31660?security=none&encryption=none&headerType=none&type=tcp#4Jadi-7561
