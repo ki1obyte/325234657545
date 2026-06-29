@@ -1,1 +1,2 @@
-vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@love.ns.cloudflare.com:443?path=%2Fsea&security=tls&encryption=none&insecure=0&host=imblo.fastcitylab-byte.info&type=ws&allowInsecure=0&sni=imblo.fastcitylab-byte.info#4Jadi-8702
+vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@162.159.38.119:443?encryption=none&type=ws&security=tls&path=%2Fsea&host=imblo.fastcitylab-byte.info&sni=imblo.fastcitylab-byte.info&insecure=1&allowInsecure=1#4Sarina-8947
+vless://8ad6f598-cd8d-4fca-848e-05fc9be15ff3@love.ns.cloudflare.com:443?path=%2Fsea&security=tls&encryption=none&insecure=0&host=imblo.fastcitylab-byte.info&type=ws&allowInsecure=0&sni=imblo.fastcitylab-byte.info#4Sarina-8948
