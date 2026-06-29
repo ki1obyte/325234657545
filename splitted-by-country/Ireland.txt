@@ -1,1 +1,2 @@
-vless://538d4749-33ba-435f-8fbb-57d7f22f996b@176.34.140.103:31660?security=none&encryption=none&headerType=none&type=tcp#4Jadi-7561
+vless://538d4749-33ba-435f-8fbb-57d7f22f996b@176.34.140.103:31660?security=none&encryption=none&headerType=none&type=tcp#4Sarina-7628
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0WTVqbktsZnlOVWo2aUpL@168.63.52.145:443#4Sarina-16
