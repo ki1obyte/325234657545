@@ -1,1 +1,0 @@
-vless://5daac0ff-2a31-47da-90c3-7c7259992e63@150.251.113.8:8443?security=reality&encryption=none&pbk=6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0&host=Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=be0191cc#4Jadi-7799
