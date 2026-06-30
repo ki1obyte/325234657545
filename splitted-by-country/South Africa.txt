@@ -1,3 +1,3 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-572ms-Microsoft%20Corporation
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFN2c1Y05Qd3Vuakk3ZTRp@20.164.200.100:443#4Jadi-311
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233?type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-574ms-Microsoft%20Corporation
-vless://9c3f61dc-ab33-48d3-b829-bc1cad0f31f7@34.35.11.97:24822?security=reality&encryption=none&pbk=tZ1ioVafOFT_0m30INlvEDNFSj6tcNnG21aJQRy3zVo&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=32a8bfa2939125#4Sarina-9610
