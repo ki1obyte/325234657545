@@ -1,0 +1,1 @@
+vless://12acdd85-2964-4484-8db3-dfb97ed61c7c@84.201.144.254:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=web.max.ru&pbk=FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ&sid=27e53bbcab7593d7#4Kian-5796
