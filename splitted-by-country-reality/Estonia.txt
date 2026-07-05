@@ -1,2 +1,3 @@
-vless://e9c6c758-3718-0008-9b04-76b046308b74@79.174.95.68:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=8pexAJEIm7ZL48OkKjYWzVUjzlCcpkx1bv2O6ghUm2o#4FreeIran-11034
-vless://c918927a-a4cf-45ad-a5c8-e135129ee1d4@37.9.4.168:443?encryption=none&type=grpc&security=reality&mode=multi&serviceName=gun&fp=firefox&sni=centos.ubuntuhosting.host&pbk=xSBUeRP0UXGevxr3zKTskWvYG6vJSjlZYc4lYIIurmU&sid=ee#4FreeIran-10343
+vless://e9c6c758-3718-0008-9b04-76b046308b74@79.174.95.157:443?flow=xtls-rprx-vision&fp=chrome&pbk=8pexAJEIm7ZL48OkKjYWzVUjzlCcpkx1bv2O6ghUm2o&security=reality&sid=&sni=5post-gate.x5.ru&type=tcp#4FreeIran-11394
+vless://e9c6c758-3718-0008-9b04-76b046308b74@79.174.95.68:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=8pexAJEIm7ZL48OkKjYWzVUjzlCcpkx1bv2O6ghUm2o#4FreeIran-11396
+vless://c918927a-a4cf-45ad-a5c8-e135129ee1d4@37.9.4.168:443?encryption=none&type=grpc&security=reality&mode=multi&serviceName=gun&fp=firefox&sni=centos.ubuntuhosting.host&pbk=xSBUeRP0UXGevxr3zKTskWvYG6vJSjlZYc4lYIIurmU&sid=ee#4FreeIran-10711
