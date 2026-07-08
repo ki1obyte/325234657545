@@ -1,1 +1,1 @@
-vless://28607fa7-db30-47d6-942a-f5744e4be9ad@45.130.125.96:443?path=/id-pusat&security=tls&encryption=none&insecure=1&host=dfsuporte.garena.com.ex33r.eu.cc&type=ws&allowInsecure=1&sni=dfsuporte.garena.com.ex33r.eu.cc#4Sarina-6451
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@50.62.195.30:8880?security=none&type=ws&path=/&host=vms.lifetime38.workers.dev&packetEncoding=xudp&encryption=none#4Sarina-8986
