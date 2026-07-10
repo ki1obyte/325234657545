@@ -1,2 +1,1 @@
-vless://------BanV2ray-----@37.156.44.233:56102?security=reality&encryption=none&pbk=HLYPbzsOMGFz118_7LkL4tled8aYwma2rR06EuSk3Ag&headerType=none&fp=chrome&spx=/HZ56GM2munGEGum&type=tcp&sni=chi.yahoo.com&sid=e2c2c722e826#4Sarina-5747
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499#4Sarina-2678
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-258ms-M247%20Europe%20SRL
