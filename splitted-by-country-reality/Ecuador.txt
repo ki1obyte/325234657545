@@ -1,1 +1,0 @@
-vless://497631c4-a1a4-009d-a86a-f42873473bb6@130.94.117.28:8443?security=reality&type=tcp&packetEncoding=xudp&sni=auto.quattro-tech.ru&fp=qq&flow=xtls-rprx-vision&sid=43dcff53849b81e6&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc#4Kian-7627
