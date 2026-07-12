@@ -1,1 +1,1 @@
-vless://2797a040-443c-4249-ab49-546b37519642@94.126.204.73:5443?encryption=none&type=xhttp&security=reality&path=/&mode=stream-one&extra=null&fp=qq&sni=api-maps.yandex.ru&pbk=GDAE47AZLxgYihOLHNgZdSrRQBSzEEJhrKZx4vm6PgE&sid=9c4d6cc74ba8968d#4Sarina-6169
+vless://ab51054f-de76-4a0f-9f3a-b44c8df86a6c@45.155.71.170:50443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.icloud.com&fp=firefox&pbk=hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ&type=tcp&headerType=none#4Sarina-9660
