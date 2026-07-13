@@ -1,1 +1,0 @@
-vless://f8cae104-2eaa-4b16-b258-65be28281b70@cand.appcodes.ir:2026?security=reality&encryption=none&pbk=484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=ca930e5d4a603c6a#4Mohsen-11853
