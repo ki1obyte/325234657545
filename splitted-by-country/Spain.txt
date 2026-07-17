@@ -1,3 +1,5 @@
-vmess://eyJhZGQiOiI4NS45MC4yMTcuNDIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwibmF0aW9uIjoiIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiaHR0cHM6Ly90Lm1lL0ZvcmNlUnVuVlBOLfCfh6rwn4e4LU1hZHJpZC0zMzJtcy1HLUNvcmUgTGFicyBTLkEuIiwic2N5IjoiYXV0byIsInNlcnZlclBvcnQiOjAsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1A@140.174.184.5:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-345ms-Psychz%20Networks
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY@108.181.121.226:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-343ms-Psychz%20Networks
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY@108.181.121.226:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-274ms-Psychz%20Networks
+vless://df0e61f6-dd51-49d6-bee7-6d5ff06ae44b@sp.foot8all.ir:56625?encryption=none&security=reality&sni=icloud.com&fp=chrome&pbk=sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM&sid=d5e4b75249e38cbb&type=grpc#4Jadi-10927
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206NU1uWVN1Z3c2RHAvcjRISWhvUmtvUUk2ak0zU3dMOStpN0dOUkx4QldIbz06bEVFaG1hUHlKQ0ZKU2M3SWxGMTIwYyt0b1dVbFFOdGVnbXpTd1MvTC8vcz0@80.91.86.179:1070#4Jadi-3
+vless://59da5351-5151-417d-b2f7-6923848b717e@spain2.helper-internet.com:443?security=reality&encryption=none&pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=spain2.helper-internet.com&sid=ff776ff77be48b88#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-427ms-Green%20Floid%20LLC
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1A@140.174.184.5:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-290ms-Psychz%20Networks
