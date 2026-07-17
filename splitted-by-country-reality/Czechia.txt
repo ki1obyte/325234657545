@@ -1,1 +1,1 @@
-vless://598b823c-d3fc-4013-aae5-837f10080f7a@api.kinomir.fun:40443?security=reality&encryption=none&pbk=cZF84xUCciKRXxTA39vNnh0U8CjUZiUSjLzuNTMOzV8&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=33e48a03db900ff3#4Kian-7022
+vless://a77cedab-f429-40bb-b6d4-fd9dd681e675@45.91.54.113:443?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=qq&sni=ads.x5.ru&pbk=OD-2VgiGzoTEekLuLg5sEsGmlxgqUML3n2OR9Qj6YT0&sid=135f6d63#4Mohsen-9680
