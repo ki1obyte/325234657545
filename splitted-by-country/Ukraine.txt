@@ -1,2 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcjA2clVfdjF2RlBZZVhxOXpic0FB@194.54.80.37:1080#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BA%F0%9F%87%A6-Mykolayiv-581ms-SERVER.UA%20LLC
-vless://111841ae-8ee4-4ac7-b750-717d46f17492@144.31.218.79:10443?encryption=none&type=tcp&security=reality&flow=xtls-rprx-vision&sni=www.tesla.com&pbk=6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0&sid=be0191cc&fp=firefox#4Jadi-5924
+vless://111841ae-8ee4-4ac7-b750-717d46f17492@144.31.218.79:10443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.tesla.com&fp=firefox&pbk=6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0&sid=be0191cc&type=tcp&headerType=none#4Sarina-7481
