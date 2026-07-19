@@ -1,0 +1,1 @@
+vless://111841ae-8ee4-4ac7-b750-717d46f17492@144.31.218.79:10443?encryption=none&type=tcp&security=reality&flow=xtls-rprx-vision&sni=www.tesla.com&pbk=6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0&sid=be0191cc&fp=firefox#4Mohsen-7828
