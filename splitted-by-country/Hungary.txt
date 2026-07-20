@@ -1,1 +1,0 @@
-vless://077a3761-6c63-41a2-a602-b299f20ca73a@79.174.93.8:443?security=reality&type=raw&packetEncoding=xudp&sni=5post-gate.x5.ru&fp=firefox&flow=xtls-rprx-vision&sid=2715592069f36fe7&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&encryption=none#4Sarina-7257
