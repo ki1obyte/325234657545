@@ -1,2 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXUjVIbzh2VnFuRGFINDlXTGg5OE5j@130.49.189.158:10792#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B1-Tirana-395ms-Global%20Connectivity%20Solutions%20LLP
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWHBEZjdXVjZsZkQ2bjlocHo3SEYy@157.22.240.141:57925#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B1-Tirana-390ms-Global%20Connectivity%20Solutions%20LLP
+vless://44571db4-ba07-4528-a63c-acfa7f6c7113@103.133.1.20:8443?encryption=none&security=tls&sni=ramzes.dotatwotimoments.de&insecure=0&allowInsecure=0&type=xhttp&host=ramzes.dotatwotimoments.de&path=/&mode=auto#4Jadi-8329
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWHBEZjdXVjZsZkQ2bjlocHo3SEYy@157.22.240.141:57925#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B1-Tirana-409ms-Global%20Connectivity%20Solutions%20LLP
+vless://44571db4-ba07-4528-a63c-acfa7f6c7113@www.speedtest.net:2096?encryption=none&security=tls&sni=saberlight.dotatwotimoments.de&insecure=0&allowInsecure=0&type=xhttp&host=saberlight.dotatwotimoments.de&path=/&mode=auto#4Jadi-8334
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXUjVIbzh2VnFuRGFINDlXTGg5OE5j@130.49.189.158:10792#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B1-Tirana-414ms-Global%20Connectivity%20Solutions%20LLP
