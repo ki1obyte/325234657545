@@ -1,1 +1,2 @@
-vless://806b803b-7dad-4f13-b525-f3b1ab50e44e@78.159.245.115:2032?flow=xtls-rprx-vision&encryption=none&type=raw&security=reality&fp=firefox&sni=ads.x5.ru&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&sid=6ba7b8109dad11d1#4Mohsen-10430
+vless://806b803b-7dad-4f13-b525-f3b1ab50e44e@78.159.245.115:2032?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&security=reality&sid=6ba7b8109dad11d1&sni=ads.x5.ru&type=raw#4FreeIran-11021
+vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.116:448?encryption=none&fp=chrome&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&security=reality&sid=e1bdc95c1554c8eb&sni=www.samsung.com&type=tcp#4FreeIran-12818

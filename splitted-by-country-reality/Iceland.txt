@@ -1,1 +1,2 @@
-vless://f82944fe-9863-494a-9a2d-0f3120a774c6@82.22.53.30:448?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.googletagmanager.com&fp=chrome&pbk=0B7XMJC-mBqvUkf_on0wPZeW1iVmZIbEPVyvz-V_jRI&sid=60d7a9bbacadc0fb&type=tcp&headerType=none#4Mohsen-14672
+vless://777bcc23-6bc8-5819-a40d-7f2a743419a1@147.90.12.48:443?security=reality&type=tcp&packetEncoding=xudp&sni=is1.sky-dragon.ru&fp=firefox&flow=xtls-rprx-vision&sid=7e4f3e58d2c7&pbk=cGEbFYzIFNKPNIYfu2gidJOgQv67sdsoSUbvmQ0fL28#4FreeIran-10626
+vless://f82944fe-9863-494a-9a2d-0f3120a774c6@82.22.53.30:448?security=reality&type=tcp&packetEncoding=xudp&sni=www.googletagmanager.com&fp=firefox&flow=xtls-rprx-vision&sid=60d7a9bbacadc0fb&pbk=0B7XMJC-mBqvUkf_on0wPZeW1iVmZIbEPVyvz-V_jRI&encryption=none#4FreeIran-15224
