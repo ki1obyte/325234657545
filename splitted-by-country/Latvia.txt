@@ -1,8 +1,4 @@
-vless://b7725d23-840a-4f8e-993c-69b40424cfc0@91.218.143.194:43798?security=reality&encryption=none&pbk=W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU&headerType=none&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=f71c22#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%BB-Riga-2453ms-RETN%20Limited
-vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@193.28.186.215:443?security=reality&type=raw&packetEncoding=xudp&sni=www.wikihow.com&fp=chrome&flow=xtls-rprx-vision&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&encryption=none#4Sarina-11995
-vless://7e5e2a1d-6234-4ad0-ab9a-4d918368cbd8@90.156.255.166:36100?security=none&encryption=none&headerType=none&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%BB-Riga-2259ms-RETN%20Limited
-vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@193.28.186.215:443?security=reality&encryption=none&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.wikihow.com#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%BB-Riga-2776ms-RETN%20Limited
-vless://eeb6c1bf-5fb4-49b1-bf74-049eb9b06300@31.57.29.46:8443?&type=ws&headerType=none&path=/chunkycorp#4Sarina-14555
-vless://5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3@90.156.254.164:19562?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws&sid=9e&spx=%2F&type=tcp&headerType=none#4Sarina-9444
-vless://7e5964d036b843ff885b86c4d3bfd466@85.159.228.250:25703?security=none&type=raw&packetEncoding=xudp&encryption=none#4Sarina-10710
-vless://7e5964d036b843ff885b86c4d3bfd466@85.159.228.250:25703?security=none&type=tcp&packetEncoding=xudp#4Sarina-10711
+vless://eeb6c1bf-5fb4-49b1-bf74-049eb9b06300@31.57.29.46:8443?encryption=none&path=/chunkycorp&security=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%BB-Riga-559ms-CGI%20GLOBAL%20LIMITED
+vless://7e5964d036b843ff885b86c4d3bfd466@85.159.228.250:25703?security=none&type=tcp&packetEncoding=xudp#4Sarina-11557
+vless://7e5e2a1d-6234-4ad0-ab9a-4d918368cbd8@90.156.255.166:36100?security=none&encryption=none&headerType=none&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B1%F0%9F%87%BB-Riga-1376ms-RETN%20Limited
+vless://b7725d23-840a-4f8e-993c-69b40424cfc0@91.218.143.194:43798?security=reality&encryption=none&pbk=W3aiFnhZRvZuZP0Zyfy7888t-NbHc0RmMEyFa7fYShU&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=yahoo.com&sid=f71c22#4Sarina-13299
