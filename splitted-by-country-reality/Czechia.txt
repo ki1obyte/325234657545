@@ -1,2 +1,1 @@
-vless://598b823c-d3fc-4013-aae5-837f10080f7a@api.kinomir.fun:40443?security=reality&type=tcp&packetEncoding=xudp&sni=deepl.com&fp=chrome&flow=xtls-rprx-vision&sid=33e48a03db900ff3&pbk=cZF84xUCciKRXxTA39vNnh0U8CjUZiUSjLzuNTMOzV8&encryption=none#4FreeIran-9772
-vless://a77cedab-f429-40bb-b6d4-fd9dd681e675@103.119.18.192:443?security=reality&encryption=none&pbk=OrLSHSvLuAgKZqxfnPszRZdZvYVTPNozRP6-NX3JGDI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amd.com&sid=5c83ae5368d1f1b5#4FreeIran-12358
+vless://401164a7-e027-4fe9-be93-5b477a06f9c4@cz.sv.temas-bor.ir:22005/?type=tcp&encryption=none&flow=&sni=login.yahoo.com&security=reality&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&sid=c6e19c434dc87df7#4Mohsen-7763
