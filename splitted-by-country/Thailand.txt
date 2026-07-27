@@ -1,2 +1,7 @@
-vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?path=%2F&security=&encryption=none&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-2912ms-VP%20InfoTech%20Co.%20Ltd.
-vless://f27894bf-349c-44e6-a0ce-4c787e18476f@www.true.th:80?&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=/GDkX4xpB/#4Sarina-12599
+vless://f27894bf-349c-44e6-a0ce-4c787e18476f@www.true.th:80?&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=%2FGDkX4xpB%2F#4Sarina-14728
+vless://564150f0-c0ad-46d1-8cf1-71e1900322e8@170.114.45.6:8080?security=none&type=ws&path=/mvpnpph2026&host=pphfree3.mvpnpvpn.de5.net&packetEncoding=xudp&encryption=none#4Sarina-9603
+vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?path=%2F&security=&encryption=none&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-970ms-VP%20InfoTech%20Co.%20Ltd.
+vless://f27894bf-349c-44e6-a0ce-4c787e18476f@18.244.214.28:80?host=duatoup3wk8q2.cloudfront.net&path=%2FGDkX4xpB%2F&type=ws#4Sarina-14727
+vless://f27894bf-349c-44e6-a0ce-4c787e18476f@18.238.109.28:80?host=duatoup3wk8q2.cloudfront.net&path=%2FGDkX4xpB%2F&type=ws#4Sarina-14726
+vless://564150f0-c0ad-46d1-8cf1-71e1900322e8@170.114.46.6:8080?security=none&type=ws&path=/mvpnpph2026&host=pphfree3.mvpnpvpn.de5.net&packetEncoding=xudp&encryption=none#4Sarina-9604
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkN3poMmxNclhOSDUrOCs4cEt6bHhpQ1U5Tk4wMjJpaCt1QXl4ajVkNHFvPQ@102.129.229.85:31700#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-586ms-DEXSERVER%20by%20CSNE%20CO.%20LTD.
