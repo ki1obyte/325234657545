@@ -1,2 +1,0 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?security=none&type=ws&path=/&host=uae.unixzone.us&sni=uae.unixzone.us#4Sarina-9131
-vless://f4faf67e-c5cf-4307-a0e5-a3c3940a6931@81.85.93.67:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=5lL4swHKHg_KiM1mjrQ5imwilSx7qgtiza_BwypXX0M&security=reality&sid=3149e7e043&sni=biosmod.partners.nvidia.com&spx=/3e063ff67abadad&type=tcp#4Sarina-15086
