@@ -1,5 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkN3poMmxNclhOSDUrOCs4cEt6bHhpQ1U5Tk4wMjJpaCt1QXl4ajVkNHFvPQ@102.129.229.85:31700#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-511ms-DEXSERVER%20by%20CSNE%20CO.%20LTD.
-vless://89c3b66f-c849-4602-a5a8-84b6f06af478@www.true.th:80?allowInsecure=0&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#4Sarina-8397
-vless://9abf5e0c-e98a-44a3-bd0b-1a6dd065eb0f@157.85.96.11:8443?&type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Lamphun-475ms-READYIDC%20CO
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsaHVVTFJ3TzRzbE02azI2MnBBQzRjYnE1QTFINno4ZWFPSFYyN3ZpN1l3PQ@47.81.56.202:44617#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-572ms-Alibaba.com%20LLC
-vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?path=%2F&security=&encryption=none&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-924ms-VP%20InfoTech%20Co.%20Ltd.
+vless://19668b6f-e215-41e6-8102-b8d29fb5b8ae@dtac.exp.dog:80?&type=ws&headerType=none&host=duatoup3wk8q2.cloudfront.net&path=%2Ffnet50#4Jadi-5488
+vless://89c3b66f-c849-4602-a5a8-84b6f06af478@www.true.th:80?host=d2pwbkmfr5lxa4.cloudfront.net&path=%2F&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws#4Jadi-8505
+vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?path=%2F&security=&encryption=none&host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-2503ms-VP%20InfoTech%20Co.%20Ltd.
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsaHVVTFJ3TzRzbE02azI2MnBBQzRjYnE1QTFINno4ZWFPSFYyN3ZpN1l3PQ@47.81.56.202:44617#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-554ms-Alibaba.com%20LLC
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkN3poMmxNclhOSDUrOCs4cEt6bHhpQ1U5Tk4wMjJpaCt1QXl4ajVkNHFvPQ@102.129.229.85:31700?#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-841ms-DEXSERVER%20by%20CSNE%20CO.%20LTD.
+vless://9abf5e0c-e98a-44a3-bd0b-1a6dd065eb0f@157.85.96.11:8443?&type=tcp&headerType=none&path=/#4Jadi-9044
