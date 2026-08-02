@@ -1,2 +1,2 @@
-vless://a5bea439-6176-4b5d-a891-bd31fc3530c9@ga.speedserver.site:5039?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=2e8424a2696cb606#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-835ms-OVH%20SAS
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-381ms-M247%20Europe%20SRL
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%AC-Sofia-371ms-M247%20Europe%20SRL
+vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@185.82.219.152:443?flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=qq&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&type=tcp&path=/#4Jadi-11559
