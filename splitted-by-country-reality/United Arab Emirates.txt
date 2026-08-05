@@ -1,1 +1,0 @@
-vless://c46e2605-be24-4555-b7db-0fc6773ad004@81.85.92.246:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=yahoo.com&fp=firefox&pbk=CC8vVe5trg8COtHkcR-cC3rl7hJh-Tr0RI5KmzzBNWo&type=tcp&path=/#4Kian-11751
