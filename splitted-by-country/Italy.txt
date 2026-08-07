@@ -1,10 +1,5 @@
-vless://6ba2eac6-0ec9-44ca-a42b-a8e23aafb530@204.216.216.23:1114?security=reality&type=tcp&packetEncoding=xudp&sni=yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=79a1e14b&pbk=WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ&encryption=none#4Sarina-0933a340d0
-vless://6ba2eac6-0ec9-44ca-a42b-a8e23aafb530@204.216.216.23:1114?security=reality&type=raw&packetEncoding=xudp&sni=yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=79a1e14b&pbk=WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ&encryption=none#4Mohsen-c01c2713f0
-vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=tcp&packetEncoding=xudp&encryption=none#4Mohsen-dab9705769
 vless://5d02517f-63d5-3e9f-b467-1bcf4d4e25d3@185.119.19.105:443?encryption=none&type=tcp&headerType=&fp=firefox&host=39d0c1b5s8746.gogocs.xyz&path=&flow=xtls-rprx-vision&security=tls&sni=u695099u39d0c1b5s8746.gogocs.xyz&serviceName=&mode=&alpn=h2%2Chttp%2F1.1#4Nika-0009dfc345
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&type=raw&encryption=none#4Kian-b941b802bd
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&headerType=none&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Siziano-5362ms-Oracle%20Corporation
 vless://5d02517f-63d5-3e9f-b467-1bcf4d4e25d3@s8748.gogocs.xyz:443?encryption=none&type=tcp&headerType=&fp=firefox&host=39d0c1b5s8746.gogocs.xyz&path=&flow=xtls-rprx-vision&security=tls&sni=u695099u39d0c1b5s8746.gogocs.xyz&serviceName=&mode=&alpn=h2%2Chttp%2F1.1#4Mohsen-1bdb2b1318
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@62.76.234.75:10901#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Palermo-444ms-Baxet%20Group%20Inc.
-vless://b3051b10-716d-455b-9811-aefcce3d633e@ov-italy1.09vpn.com:80?security=none&type=ws&path=/vless/&host=ov-italy1.09vpn.com&packetEncoding=xudp&encryption=none#4Mohsen-45d91a477c
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Milan-327ms-BrainStorm%20Network%20Inc
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@it2.levikogjgfdd.ir:10901#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Palermo-450ms-Baxet%20Group%20Inc.
-vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?security=none&type=ws&path=/vless/&packetEncoding=xudp&encryption=none#4FreeIran-fc680c88be
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%B9-Milan-277ms-BrainStorm%20Network%20Inc
