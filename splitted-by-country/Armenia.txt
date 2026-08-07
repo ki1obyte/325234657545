@@ -1,2 +1,3 @@
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&type=tcp&packetEncoding=xudp&sni=yahoo.com&fp=chrome&sid=0e&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&encryption=none#4Kian-690af282f0
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&type=raw&packetEncoding=xudp&sni=yahoo.com&fp=chrome&sid=0e&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&encryption=none#4Nika-9329e9f317
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.4.130:443?security=tls&type=ws&path=/Qv2raychannel&host=iotreeow.ir&alpn=http/1.1,h2,h3&sni=iotreeow.ir&fp=chrome&encryption=none#4Jadi-914b20092e
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&type=tcp&packetEncoding=xudp&sni=yahoo.com&fp=chrome&sid=0e&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&encryption=none#4Kian-690af282f0
