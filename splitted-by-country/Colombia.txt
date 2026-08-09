@@ -1,6 +1,5 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.188.226:62145?type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%B4-Cota-158ms-Oracle%20Corporation
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.168.29:62145?type=tcp&headerType=none&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%B4-Cota-168ms-Oracle%20Corporation
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.185.126:62145?&type=tcp&headerType=none&path=/#4Mohsen-8250b7a7e7
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.227.216:62145?&type=tcp&headerType=none&path=%2F#4FreeIran-593fec56f9
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.190.95:62145?security=none&type=tcp&path=/#4Sarina-066625f4b8
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.180:62145?&type=tcp&headerType=none&path=/#4Nika-7df1739989
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.177.227:62145?&type=tcp&headerType=none&path=%2F#4Jadi-7fe17d9fb1
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.224.100:62145?&type=tcp&headerType=none&path=%2F#4Nika-250e073fd6
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.190.70:62145?security=none&type=tcp#4Kian-2ec620f4bb
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.225.218:62145?security=none&type=tcp#4Sarina-9ccacb7a43
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.235.27:62145?security=none&type=tcp#4Jadi-1c6c2f39c8
