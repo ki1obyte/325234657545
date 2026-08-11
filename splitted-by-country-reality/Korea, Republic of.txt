@@ -1,0 +1,3 @@
+vless://5822b465-036b-4a3b-89d0-b3e52ae20815@52.141.0.244:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=fI-eoLmyyeYXgUHr2SWzHcwxkhxmDj2QBnivpUPYfVY&security=reality&sid=e3db542f549f5504&sni=www.stanford.edu&type=tcp#4FreeIran-a23cc030be
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?security=reality&type=raw&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=48050fab&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0#4Mohsen-9da1859dc0
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=48050fab&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0#4Mohsen-fbee1b77e1
