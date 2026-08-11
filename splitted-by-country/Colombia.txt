@@ -1,4 +1,1 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.224.180:62145?security=none&type=tcp#4Nika-6120a1fb73
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.162.116:62145?security=&encryption=none&headerType=&type=tcp#4Sarina-1d2394b4f4
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.229.129:62145?security=none&type=tcp#4Kian-a14125e0e7
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.191.17:62145?&type=tcp&headerType=none&path=%2F#4FreeIran-5a9c4d0a0d
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.106:62145?security=none&type=tcp#4Mohsen-998f27c37e
