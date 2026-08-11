@@ -1,1 +1,0 @@
-vless://916e3030-6eac-418b-9402-7508ca7d6280@fast.nanniang.top:8443?security=tls&type=ws&path=/&host=mo-akile.nanniang.top&packetEncoding=xudp&sni=mo-akile.nanniang.top&fp=chrome#4FreeIran-4f3e284ad4
