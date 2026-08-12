@@ -1,1 +1,2 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.106:62145?security=none&type=tcp#4Mohsen-998f27c37e
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.235.27:62145?security=none&type=tcp#4Jadi-1c6c2f39c8
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.231.73:62145?&type=tcp&headerType=none&path=/#4Sarina-68635a304b
