@@ -1,2 +1,1 @@
-vless://8d6a1672-1afa-4143-f45e-958b80f5f676@185.126.236.181:31407?encryption=none&type=ws&host=www.icloud.com&path=/#4Jadi-870e8bb7b4
-vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@as.tunnelx.space:443?flow=xtls-rprx-vision&security=reality&sni=as.tunnelx.space&fp=firefox&pbk=UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA&sid=4e9b0c2d1a3f5768&type=tcp&path=/#4Mohsen-ad8a7d078a
+vless://8f127368-8f47-4989-ec81-60c32953856f@185.126.236.181:8880?encryption=none&type=ws&path=/&host=www.icloud.com#4Kian-c188380c1e
