@@ -1,1 +1,1 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.224.189:62145?security=none&type=tcp#4Kian-0d0ac38c74
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@149.104.107.41:8090#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%B4-Bogot%C3%A1-276ms-Bedge%20CO%20Limited
