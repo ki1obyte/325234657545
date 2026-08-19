@@ -1,1 +1,0 @@
-vless://928e6cce-8ced-4243-9a48-a6642edd09b0@47.80.59.17:13779?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tesla.com&fp=chrome&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&sid=af1bdd293097b664&type=tcp&headerType=none#4Mohsen-292c9757a1
