@@ -1,2 +1,0 @@
-vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@youtube.superbuba.top:443?security=reality&type=tcp&packetEncoding=xudp&sni=youtube.superbuba.top&fp=chrome&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs&encryption=none#4Mohsen-f0f58ee9e2
-vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@130.49.189.41:443?security=reality&type=tcp&packetEncoding=xudp&sni=youtube.superbuba.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs#4Jadi-52b2a2fdf9
