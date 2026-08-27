@@ -1,1 +1,2 @@
 vless://6fbdbd3c-7696-4b9a-9a10-bcecc26e0f6f@212.227.235.66:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=866af6e56606f2bc&pbk=XrPOJwmpnq8NeCXu6K68Mp59gQ56Dr4YYboxI70kqzA#4Sarina-523eecae0e
+vless://2297ea1f-2415-4a2c-be20-4a3a978283a2@193.238.154.18:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=es1.hat.onl&fp=chrome&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&sid=76132b3b39704c44&allowInsecure=1#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AA%F0%9F%87%B8-Barcelona-439ms-Green%20Floid%20LLC
