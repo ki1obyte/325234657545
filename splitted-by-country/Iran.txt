@@ -1,0 +1,1 @@
+vless://c895720b-1b6e-45bf-904c-f2fdce03fd6e@62.238.51.238:3443?encryption=none&security=tls&type=ws&headerType=none&path=/&sni=tehran.chapjavan.ir&fp=chrome&pcs=8c11501c6042dd5e11d5b55c99ac535b0976ebe9bc55b67fd47dd7bafd9c55c1&alpn=http/1.1#4Jadi-4036ede3b5
