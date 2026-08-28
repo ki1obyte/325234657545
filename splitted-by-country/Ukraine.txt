@@ -1,5 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@155.46.167.30:8880?encryption=none&security=none&type=ws&host=vms.lifetime50.workers.dev#4Nika-fe55181350
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=chrome&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&allowInsecure=1#4Jadi-66f6245d7b
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?security=reality&type=raw&packetEncoding=xudp&sni=eu-central.cendora.ru&fp=chrome&flow=xtls-rprx-vision&sid=00bca5982f82d083&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&encryption=none#4Nika-627d815d2d
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@173.245.49.30:8880?security=none&type=ws&path=/&host=vms.lifetime36.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-a64abd33e2
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.207.196.30:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime11.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-ed617ae780
