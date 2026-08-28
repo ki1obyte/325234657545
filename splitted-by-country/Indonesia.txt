@@ -1,1 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.161.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime08.workers.dev&packetEncoding=xudp#4Sarina-919ab22024
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@199.181.197.40:8880?encryption=none&security=none&type=ws&host=vms.lifetime19.workers.dev&path=%2F%3Fed%3D2560#4FreeIran-cdb9aa4c34
