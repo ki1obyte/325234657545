@@ -1,4 +1,2 @@
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6RldsVUNBUzlJQk5nKzVGb1orVTBrUnMzZGN6K29RblFrakdJL2lLWk1SMD0=@146.235.25.6:59319#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%B7-S%C3%A3oPaulo-301ms-Oracle%20Corporation
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6R1JlLzBKK2dwSklMYXpGTXU4bjRMbzZKMUFqb0lHMittZENvUjdSbVg3ND0@144.22.225.161:59319#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%B7-S%C3%A3oPaulo-304ms-Oracle%20Corporation
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6dE5ZTUlpeEFoTVJscHR6bElHUXJueDZ5MjRPTmdmTHJibEIzcW1WendEWT0@137.131.200.22:59319#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%B7-S%C3%A3oPaulo-314ms-Oracle%20Corporation
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.135.235.30:8880?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=vms.lifetime07.workers.dev&path=%2F&security=none&type=ws#4Jadi-24c292d7c3
+vless://30610baf-4645-4c7b-9a22-0d0a0a79eab5@172.64.145.202:443?security=tls&sni=mao.kipfel.kdns.fr&type=ws&host=mao.kipfel.kdns.fr&path=/glasspanel/guest000_0_5de14443985f/&fp=chrome#4Jadi-724a1c0f1b
+vless://30610baf-4645-4c7b-9a22-0d0a0a79eab5@nexusmods.com:443?fp=chrome&host=mao.kipfel.kdns.fr&path=/glasspanel/guest000_0_5de14443985f/&security=tls&sni=mao.kipfel.kdns.fr&type=ws#4Jadi-918d1de1eb
