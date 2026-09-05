@@ -1,1 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-140ms-Unknown
+vless://5a92a9d2-3067-49cd-bfc5-989bbdfc5d52@166.1.221.122:1443?security=reality&encryption=none&pbk=BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo&host=--v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ir.aeternavpn.space&sid=a1b2c3d4#4FreeIran-4616b62c93
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-235ms-Unknown
