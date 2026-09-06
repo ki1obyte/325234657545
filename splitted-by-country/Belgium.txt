@@ -1,0 +1,2 @@
+vless://50414e45-4c5f-5a45-5553-b45978f6d773@172.64.84.228:443?security=tls&type=ws&path=/stream/PANEL_ZEUS/b45978f6d773/loc-1&host=ljz5fuexub6s.nova-705deb.workers.dev&packetEncoding=xudp&sni=ljz5fuexub6s.nova-705deb.workers.dev&fp=unsafe&encryption=none#4Mohsen-fec69e5574
+vless://73796e63-0000-4000-8000-000000000007@vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev:2086?security=none&type=ws&path=/sync&host=vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev&packetEncoding=xudp&sni=vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev&encryption=none#4Kian-9a4904f45d
