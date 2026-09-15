@@ -1,1 +1,2 @@
-ss://YWVzLTI1Ni1nY206b3dWZE5uUWNkUGd0aFN5WA@216.128.168.190:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%B7-Osasco-314ms-The%20Constant%20Company%20LLC
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@139.64.235.30:8880?security=none&type=ws&path=/&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#4Kian-51c202ae78
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@173.245.49.30:8880?security=none&type=ws&path=/&host=vms.lifetime36.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-a64abd33e2
