@@ -1,3 +1,3 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-603ms-Oracle%20Corporation
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?encryption=none&host=uae.unixzone.us&path=/&security=none&type=ws#4Jadi-e392bdc534
-vless://5245cd34-f70c-4770-8bb8-7e143d6a6144@uae.irchatgpt.sbs:31729?security=reality&encryption=none&pbk=Va_L4Xfe5283dn2vQkLL8gLhXqO203nueKZVgfFMFh4&headerType=&fp=chrome&spx=/vTf6Vvhppq6eIrg&type=tcp&flow=xtls-rprx-vision&sni=digikala.com&sid=31861a46#4Nika-c7d7d7e9eb
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?encryption=none&host=uae.unixzone.us&path=/&security=none&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-687ms-Oracle%20Corporation
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-709ms-Oracle%20Corporation
+vless://dc8a9493-c54a-459e-d060-81a700000001@45.130.125.201:80?encryption=none&host=nahan-core.netizo09.workers.dev&path=%2Fsync&security=none&type=ws#4Nika-30533017ee
