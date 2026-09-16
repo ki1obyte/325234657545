@@ -1,2 +1,0 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@72.167.243.30:8880?security=none&type=ws&path=/&host=vms.lifetime55.workers.dev&packetEncoding=xudp#4FreeIran-0fc2d5a6da
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?security=none&type=ws&path=/&host=vms.lifetime06.workers.dev&packetEncoding=xudp#4Mohsen-9b38fc6da8
