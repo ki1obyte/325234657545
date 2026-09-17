@@ -1,2 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0WDFyVm83RjhUQW55VDFv@52.236.68.0:443?outline=1&prefix=POST#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-249ms-Unknown
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6emlYSERPRlhjNHFSam9q@20.107.184.151:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-253ms-Unknown
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@ir-new.failspace.top:443?alpn=h2&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=ir-new.failspace.top&type=tcp#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AE%F0%9F%87%AA-Dublin-341ms-FDCservers.net
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMjBZNkFGRU4xcFM3TEpY@94.245.88.26:443?outline=1&prefix=POST#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-142ms-Unknown
