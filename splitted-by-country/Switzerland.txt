@@ -1,1 +1,2 @@
-vless://5d16ac22-6eea-426f-b778-6f4c2961faef@185.151.240.3:9882?security=reality&encryption=none&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&fp=chrome&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aabb#4Sarina-26420f1e5a
+vless://f6b5a6a3-f3e1-63ca-bb68-bdc400000000@104.18.28.234:443?path=/&security=tls&encryption=none&insecure=0&host=netlivpn5505.ffffdsaaa.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=netlivpn5505.ffffdsaaa.workers.dev#4Kian-6db67dbcf6
+vless://be83425f-74c5-4b03-9c4b-20aa16322698@94.26.35.139:25720?security=reality&encryption=none&pbk=OueudVX2rTpyeEb2bNW3Jx3WtgSX4zFERs6yt8Szv0E&headerType=none&fp=chrome&type=tcp&sni=www.samsung.com&sid=fddf99d4a4f55a48#4FreeIran-18cdf93853
