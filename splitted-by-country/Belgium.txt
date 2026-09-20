@@ -1,0 +1,2 @@
+vless://73796e63-0000-4000-8000-000000000008@172.67.155.136:2095?security=none&type=ws&path=/sync&host=vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev&packetEncoding=xudp&sni=vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev#4Jadi-8809c9bf36
+vless://73796e63-0000-4000-8000-000000000007@172.67.155.136:2086?security=none&type=ws&path=/sync&host=vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev&packetEncoding=xudp&sni=vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev#4Jadi-3b1fc9ed43
