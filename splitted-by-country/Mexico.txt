@@ -1,3 +1,0 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@50.62.91.30:8880?security=none&type=ws&path=/&host=vms.lifetime28.workers.dev&packetEncoding=xudp&encryption=none#4FreeIran-60e52e287c
-vless://878fb7f7-fc65-465e-a352-17c7216c6f3d@185.47.254.251:443?security=reality&encryption=none&pbk=6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gateway.icloud.com&sid=6c059ecfddf9b179#4Mohsen-dccd4daf05
-ss://YWVzLTI1Ni1nY206Qld5UFBUdXNGS2hHZ3pLaA@64.177.90.30:8388#4Sarina-10b17606f3
