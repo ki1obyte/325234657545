@@ -1,1 +1,1 @@
-vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&security=none&type=grpc&authority=&serviceName=security.debian.org&mode=gun#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%AC%F0%9F%87%B7-Athens-601ms-ONEPROVIDER
+vless://c18b978e-1c4e-415c-8bea-07942b563a64@38.54.29.210:2053?&security=tls&fp=chrome&sni=shuma.ccwu.cc&type=ws&headerType=none&host=shuma.ccwu.cc&path=%2F#4Jadi-97eddc4f05
