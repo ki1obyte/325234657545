@@ -1,0 +1,2 @@
+vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443?security=reality&type=raw&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=ca672c53fbbac555&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw#4Jadi-ff9cba571f
+vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=ca672c53fbbac555&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw#4Mohsen-7a8533c5c6
