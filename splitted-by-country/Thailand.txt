@@ -1,5 +1,2 @@
-vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443?security=reality&type=raw&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=ca672c53fbbac555&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw#4Jadi-ff9cba571f
 vless://3c52e091-6714-4915-949f-2149fe69951b@104.16.10.185:443?security=tls&fp=unsafe&sni=v2ray.simspeedup.com&type=ws&headerType=none&host=v2ray.simspeedup.com&path=/ws#4Sarina-6b0680a02d
-vless://2b1d0c2a-9c80-4b72-892e-93d0500b9210@34.15.162.1:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=ca672c53fbbac555&pbk=LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw#4Mohsen-7a8533c5c6
 vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?encryption=none&security=none&type=ws&host=aIs.SpEeDtEsT.nEt&path=%2Fws#4Jadi-1af39469b4
-vless://742dc674-a491-4a42-a551-b3ea6dd2f447@34.15.176.240:443?&security=reality&pbk=Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U&sid=856c0a3cd1426a5c&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#4Jadi-c15f07471f
