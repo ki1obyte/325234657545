@@ -1,3 +1,2 @@
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform113.golnamakcert.top:80?encryption=none&host=platform113.halalkhor.info&path=/platform113&security=none&type=ws#4Nika-b0cfc90572
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?encryption=none&host=platform118.halalkhor.info&path=/platform118&security=none&type=ws#4Jadi-37019be949
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform117.golnamakcert.top:80?encryption=none&host=platform117.halalkhor.info&path=/platform117&security=none&type=ws#4Sarina-ea2f441610
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.80.110.30:8880?security=none&type=ws&path=/&host=vms.lifetime51.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-7d3f084d5d
+vless://83b4af70-376e-427c-8c11-a025bec6b085@fserver-worker-001.mapleridgeway.top:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=fserver-worker-001.mapleridgeway.top&type=ws&headerType=none&host=fserver-worker-001.mapleridgeway.top&path=%2Fcdn%2F99294c014f2c7791%3Fed%3D2056#4Sarina-f35c4e3c88
