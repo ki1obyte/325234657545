@@ -1,2 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.80.110.30:8880?security=none&type=ws&path=/&host=vms.lifetime51.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-7d3f084d5d
-vless://83b4af70-376e-427c-8c11-a025bec6b085@fserver-worker-001.mapleridgeway.top:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=fserver-worker-001.mapleridgeway.top&type=ws&headerType=none&host=fserver-worker-001.mapleridgeway.top&path=%2Fcdn%2F99294c014f2c7791%3Fed%3D2056#4Sarina-f35c4e3c88
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.194.12.40:8880?security=none&type=ws&path=/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳&host=vms.lifetime35.workers.dev&packetEncoding=xudp#4Sarina-503177d8e3
