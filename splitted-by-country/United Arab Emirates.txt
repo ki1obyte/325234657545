@@ -1,5 +1,2 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-606ms-Oracle%20Corporation
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.192.224.30:8880?security=none&type=ws&path=/&host=vms.lifetime17.workers.dev&packetEncoding=xudp&encryption=none#4Kian-bd71eabc0e
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.193.29.40:8880?security=none&type=ws&path=/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳&host=vms.lifetime08.workers.dev&packetEncoding=xudp#4FreeIran-c78cfdbce3
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573/?type=ws&encryption=none&flow=&host=uae.unixzone.us&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-662ms-Oracle%20Corporation
 vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&path=/&host=uae.unixzone.us&packetEncoding=xudp#4Mohsen-3122fd4d62
-vless://dc8a9493-c54a-459e-d060-81a700000001@45.130.125.201:80?encryption=none&host=nahan-core.netizo09.workers.dev&path=%2Fsync&security=none&type=ws#4Nika-30533017ee
