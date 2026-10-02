@@ -1,2 +1,4 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573/?type=ws&encryption=none&flow=&host=uae.unixzone.us&path=/#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%AA-Dubai-662ms-Oracle%20Corporation
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.79.30:8880?security=none&type=ws&path=/&host=vms.lifetime35.workers.dev&packetEncoding=xudp#4Sarina-22ced7b432
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.30:8880?security=none&type=ws&path=/&host=vms.lifetime08.workers.dev&packetEncoding=xudp#4Sarina-e5ebe9fabd
 vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&path=/&host=uae.unixzone.us&packetEncoding=xudp#4Mohsen-3122fd4d62
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?security=none&type=ws&path=/&host=uae.unixzone.us&packetEncoding=xudp&sni=uae.unixzone.us#4Mohsen-9297940775
