@@ -1,1 +1,0 @@
-vless://454431fc-71e2-42b1-b375-5b55dd06666a@147.45.116.19:443?security=reality&encryption=none&pbk=aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU&headerType=none&fp=chrome&type=tcp&sni=br.monkora.org#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A7%F0%9F%87%B7-S%C3%A3oPaulo-413ms-Global%20Connectivity%20Solutions%20LLP
