@@ -1,1 +1,1 @@
-vless://817b61c8-9bf0-4365-8a52-e43dfad274a6@103.71.23.244:443?sni=shin-ra.ccwu.cc&type=ws&host=shin-ra.ccwu.cc&path=/fp=unsafe&security=tls#4Nika-b5617e17e7
+vless://fc00adfb-232a-46ce-8b93-0c70e516aa8a@62.60.159.81:2053?mode=gun&security=reality&encryption=none&pbk=ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw&fp=chrome&type=grpc&serviceName=grpce5bb9e71&sni=www.samsung.com&sid=d0ea1847066af5a6#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-1272ms-Aeza%20International%20LTD
