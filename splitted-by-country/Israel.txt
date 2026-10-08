@@ -1,3 +1,1 @@
-vless://4f34bc04-479c-49ba-91a8-6bb9ed15031c@177.3.208.65:443?security=tls&type=ws&path=/vless-il&host=tgmansion.site&packetEncoding=none&allowInsecure=1&sni=tgmansion.site&fp=firefox#4Kian-3f2ebef803
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?security=none&type=ws&path=/&host=vms.lifetime06.workers.dev&packetEncoding=xudp#4Mohsen-9b38fc6da8
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.4.30:8880?security=none&type=ws&path=/&host=vms.lifetime59.workers.dev&packetEncoding=xudp&encryption=none#4Mohsen-5f74772f9c
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@80.93.202.40:8880?encryption=none&security=none&type=ws&host=vms.lifetime02.workers.dev&path=%2F#4Mohsen-6a739f3353
