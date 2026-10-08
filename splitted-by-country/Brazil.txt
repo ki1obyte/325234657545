@@ -1,5 +1,2 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@173.245.49.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime36.workers.dev&packetEncoding=xudp&encryption=none#4Kian-7d82d9e4c9
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.50:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime08.workers.dev&packetEncoding=xudp#4Kian-4c419514f6
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.12.30.40:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime28.workers.dev&packetEncoding=xudp#4Mohsen-046d0fff7b
-vmess://eyJhZGQiOiI4OS4zOS4xNjEuMTU3IiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImFrc2FpLm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmFtZSI6IkJSIPCfh6fwn4e3IHwgQFJheWRpa2FseCB8IDgxNDhBMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6NDQzLCJwcyI6Imh0dHBzOi8vdC5tZS9Gb3JjZVJ1blZQTi3wn4en8J+Hty1Tw6NvUGF1bG8tNTkwbXMtRy1Db3JlIExhYnMgUy5BLiIsInNjeSI6ImF1dG8iLCJzbmkiOiJha3NhaS5vcmciLCJ0bHMiOiJ0bHMiLCJ2IjoiMiJ9
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.210.30:8880?security=none&type=ws&path=/&host=vms.lifetime05.workers.dev&packetEncoding=xudp&sni=vms.lifetime05.workers.dev#4Kian-2ffcf590fa
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?security=none&type=ws&path=/&host=vms.lifetime06.workers.dev&packetEncoding=xudp#4Mohsen-9b38fc6da8
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.30:8880?security=none&type=ws&path=/&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#4Mohsen-99103ba7f8
