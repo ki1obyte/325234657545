@@ -1,1 +1,0 @@
-vless://c0dd6d59-1573-43af-8b70-1470b2632a6d@208.69.78.217:2053/?type=tcp&encryption=none&flow=&sni=www.apple.com&security=reality&pbk=A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0&sid=ad86e2d52ff40ebd#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-435ms-Ontario%20Inc.
