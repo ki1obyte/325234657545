@@ -1,7 +1,4 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@77.75.199.30:8880?security=none&type=ws&path=/&host=vms.lifetime59.workers.dev&packetEncoding=none#4Jadi-c8897d518a
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@156.243.83.30:8880?security=none&type=ws&path=/&host=vms.lifetime54.workers.dev&packetEncoding=xudp#4Jadi-ccb96c6d5f
-vless://2b781b4a-5942-48e0-a7f3-5a07b7b488c1@185.147.26.207:443?encryption=none&security=reality&sni=ru-pro.sworkingvpn.com&fp=firefox&pbk=AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI&sid=15bcc0a77c3cacdf&type=grpc&authority=&serviceName=API&mode=gun#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-508ms-Kviktel%20LLC
+vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&fp=qq&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&security=reality&sid=23103e1e&sni=ya.ru&type=raw#4Kian-a678214298
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.197.64.30:8880?path=/&security=&encryption=none&host=vms.lifetime36.workers.dev&type=ws#4Jadi-8224f6d767
 vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?security=reality&type=tcp&packetEncoding=xudp&sni=ya.ru&fp=chrome&sid=23103e1e&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&encryption=none#4Sarina-bffffd50a5
-vless://633f424e-2b11-48da-a6b3-a849dd71456f@45.12.75.242:26424?encryption=none&fp=firefox&pbk=l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0&security=reality&sid=23103e1e&sni=ya.ru&type=raw#4Jadi-d9bd6bd5a7
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.185.108.50:8880?security=none&type=ws&path=/?https://t.me/youtube@ZYFXSfp=chrome&host=vms.lifetime23.workers.dev&packetEncoding=xudp#4Jadi-c178a0c743
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@23.227.60.30:8880?security=none&type=ws&path=/&host=vms.lifetime18.workers.dev&packetEncoding=xudp#4Jadi-0d61e16186
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.148.104.30:8880?security=none&type=ws&path=/&host=vms.lifetime51.workers.dev&packetEncoding=xudp&encryption=none#4Mohsen-61d92073da
