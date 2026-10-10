@@ -1,7 +1,5 @@
-vless://d042a74a-c305-4eec-a89f-39a348022c92@208.103.161.5:443?encryption=none&fp=chrome&host=dry-butterfly-8eb9.tmpgnacio83.workers.dev&path=%2F&security=tls&sni=dry-butterfly-8eb9.tmpgnacio83.workers.dev&type=ws#4FreeIran-41feaf7045
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@173.245.49.30:8880?security=none&type=ws&path=/&host=vms.lifetime36.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-a64abd33e2
+vless://948df76f-505d-4608-9c76-a933ee3ccc76@46.250.240.80:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=4cc9dc65f7770115&pbk=CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E#4Kian-4326aa4413
 vless://42026ed0-7d74-4585-8e46-0fe6aa4d665a@104.18.155.229:443?security=tls&type=ws&path=/au-do&host=www.genflix.co.id.r3xxe.eu.cc&packetEncoding=xudp&sni=www.genflix.co.id.r3xxe.eu.cc&fp=chrome&encryption=none#4Sarina-268b5d1adb
 vless://36e89875-9c53-482b-bc41-d3890e9da176@51.161.204.244:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&flow=xtls-rprx-vision&sid=0ad08b47f498efd2&pbk=gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk#4Sarina-141cbcb4c1
-vless://948df76f-505d-4608-9c76-a933ee3ccc76@46.250.240.80:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=4cc9dc65f7770115&pbk=CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E#4Kian-4326aa4413
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.251.82.30:8880?security=none&type=ws&path=/&host=vms.lifetime08.workers.dev&packetEncoding=xudp&encryption=none#4Sarina-ee8d1ce457
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.142.120.30:8880?security=none&type=ws&path=/&host=vms.lifetime08.workers.dev&packetEncoding=xudp&encryption=none#4FreeIran-01e07368c3
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.12.30.40:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime28.workers.dev&packetEncoding=xudp#4Mohsen-046d0fff7b
+vless://a14b736b-a92a-48d6-a596-5d31f7378ded@51.161.204.242:443?&security=reality&flow=xtls-rprx-vision&pbk=a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE&sid=d15c17cef9b2e456&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#4Sarina-6dcda5c6a5
