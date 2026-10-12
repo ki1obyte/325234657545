@@ -1,2 +1,2 @@
-vless://e75ad2eb-6c1f-45ce-8023-f5f10875df66@185.104.63.173:443?security=reality&encryption=none&pbk=Dj1TD7Sy_TciG915ffXFpMu_pYHnrpGo_ypyyDw44Uc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=zsat.eu-cdn294.com&sid=8fbdc8d37cc76852#4Kian-8e1d263297
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@82.110.60.9:19999#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B9-Vienna-342ms-Datacamp%20Limited
+vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@kozyavka.yandex-api.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=kozyavka.yandex-api.com&fp=random&pbk=_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ&sid=a9dc98a7dc87a7dc&type=tcp&headerType=none#4FreeIran-4270b99c43
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@82.110.60.9:19999#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A6%F0%9F%87%B9-Vienna-323ms-Datacamp%20Limited
