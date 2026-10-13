@@ -1,2 +1,1 @@
-vless://3fcec4e4-a674-44d2-8cae-c253cec43b9c@81.94.148.104:2096?encryption=none&fp=random&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#4Sarina-2b69d0600f
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-1024ms-Alexhost%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-317ms-Alexhost%20SRL
