@@ -1,3 +1,2 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@103.116.7.30:8880?security=none&type=ws&path=/&host=vms.lifetime35.workers.dev&packetEncoding=xudp#4FreeIran-63ee17b451
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.185.108.30:8880?security=none&type=ws&path=/&host=vms.lifetime23.workers.dev&packetEncoding=xudp&encryption=none#4Sarina-e418753811
-ss://YWVzLTI1Ni1nY206b3dWZE5uUWNkUGd0aFN5WA@216.128.168.190:8388#4FreeIran-ad83342e94
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.193.213.30:8880?security=none&type=ws&path=/&host=vms.lifetime23.workers.dev&packetEncoding=xudp&encryption=none#4Jadi-361b9b25fe
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.30:8880?security=none&type=ws&path=/&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#4Mohsen-99103ba7f8
