@@ -1,1 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@23.227.60.30:8880?security=none&type=ws&path=/&host=vms.lifetime18.workers.dev&packetEncoding=xudp#4Jadi-0d61e16186
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.135.234:8880?security=none&type=ws&path=/&host=vms.lifetime54.workers.dev&packetEncoding=xudp&encryption=none#4Mohsen-e3f142477a
