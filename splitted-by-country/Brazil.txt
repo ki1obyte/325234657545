@@ -1,3 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@212.183.88.30:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime23.workers.dev&packetEncoding=xudp&sni=212.183.88.30&encryption=none#4Kian-16c4c3c241
-vless://d9109567-3fc3-4e08-9cac-4d9162ef5a9f@8dwou5alze.chhbuv.cn:34534?&security=reality&flow=xtls-rprx-vision&pbk=AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo&sid=41b9cb10b696&fp=chrome&sni=www.tue.nl&type=tcp&headerType=none&host=www.tue.nl&path=%2F#4Mohsen-4ac4e26754
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@80.93.202.40:8880?encryption=none&security=none&type=ws&host=vms.lifetime02.workers.dev&path=%2F#4Mohsen-6a739f3353
+vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@104.64.59.9:443?&security=tls&fp=chrome&sni=snip.edgeoneai.cc.cd&type=ws&headerType=none&host=snip.edgeoneai.cc.cd&path=%2F#4Mohsen-e9cdec7bc0
