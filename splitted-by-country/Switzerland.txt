@@ -1,4 +1,2 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?path=/&security=none&encryption=none&host=vms.lifetime06.workers.dev&type=ws#4Jadi-52c8c3c34b
-vless://a04c750d-3b71-493b-b2c1-6473ff1209dd@79.132.141.248:8443/?type=tcp&encryption=none&flow=&sni=npdev.uk&security=reality&pbk=rp_TkuctK207nrtJP6AYTvsWWkHToQLtRLOSYP3zpg0&sid=ac6bf30f3e#4Mohsen-f98ac4671f
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.0.63.30:8880?security=none&type=ws&path=/&host=vms.lifetime36.workers.dev&packetEncoding=xudp&encryption=none#4Mohsen-6a9bf4df09
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw==@132.243.175.144:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-337ms-Alexhost%20SRL
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.0.54.30:8880?security=none&type=ws&path=/&host=vms.lifetime35.workers.dev&packetEncoding=xudp#4Jadi-b1de663920
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOEtnUzhmRDB5RHFZRnBnTjRHNXBpQ090OWFGeXFBMw@132.243.175.144:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%A8%F0%9F%87%AD-Zurich-336ms-Alexhost%20SRL
