@@ -1,2 +1,2 @@
-vless://9784bb19-3833-43ad-83b0-27ef8fc04ef2@70.34.214.205:443?encryption=none&security=tls&type=ws&host=20664.pages.dev&path=%2F%3Fed%3D2048&sni=20664.pages.dev&fp=random#4Jadi-7ffae8abe9
-vless://80de563a-cac8-40ea-8cb0-4cb082dd92f9@5.178.109.174:14430?&sni=5.178.109.174&type=ws&headerType=none&host=5.178.109.174&path=/vless#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B8%F0%9F%87%AA-Stockholm-507ms-Baykov%20Ilya%20Sergeevich
+vless://80de563a-cac8-40ea-8cb0-4cb082dd92f9@5.178.109.174:14430?sni=5.178.109.174&type=ws&host=5.178.109.174&path=/vless#4Sarina-06e238084a
+ss://YWVzLTI1Ni1nY206QXhJWVd0c2tKV0lJYWVmVw@70.34.212.124:8388#4Nika-6e48beb595
