@@ -1,5 +1,6 @@
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:56415?security=reality&encryption=none&pbk=EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4&headerType=&type=tcp&flow=xtls-rprx-vision&sni=www.kaidee.com&sid=cbd39bea0805e2#4FreeIran-bb277a0c7b
-vless://3c52e091-6714-4915-949f-2149fe69951b@104.16.10.185:443?security=tls&fp=unsafe&sni=v2ray.simspeedup.com&type=ws&headerType=none&host=v2ray.simspeedup.com&path=/ws#4Sarina-6b0680a02d
 ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0@103.107.52.106:52351#4Mohsen-b36df3e301
-ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0@pphfree2.mvpnpvpn.de5.net:52351#4Jadi-c9298dfdde
-vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-Bangkok-577ms-Bangmod%20Enterprise%20Co.%20Ltd.
+vless://3c52e091-6714-4915-949f-2149fe69951b@104.16.10.185:443?security=tls&fp=unsafe&sni=v2ray.simspeedup.com&type=ws&headerType=none&host=v2ray.simspeedup.com&path=/ws#4Sarina-6b0680a02d
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@154.21.203.106:21033?security=reality&encryption=none&pbk=EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.kaidee.com&sid=cbd39bea0805e2#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-NakhonSawan-2780ms-Eons%20Data%20Communications%20Limited
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?path=/ws&security=&encryption=none&host=aIs.SpEeDtEsT.nEt&type=ws#4Sarina-6f45b2dc5e
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:56415?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.kaidee.com&pbk=EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4&sid=cbd39bea0805e2&type=tcp&headerType=none#4FreeIran-d4a934aa50
+ss://YWVzLTI1Ni1nY206c3hhakNUd3JsSzB6bCt6bUhwWDBwMGpYSWZhdG56bEx6V2xTUTk1MEwxYz0=@pphfree2.mvpnpvpn.de5.net:52351#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B9%F0%9F%87%AD-BanWangMan-1393ms-READYIDC%20CO
