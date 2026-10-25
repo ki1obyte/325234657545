@@ -1,7 +1,6 @@
-vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU&sid=d06d78e974491b6e&type=tcp&headerType=none#4FreeIran-764782bc25
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@81.181.166.197:443?&security=tls&fp=chrome&sni=snip.edgeoneai.cc.cd&type=ws&headerType=none&host=snip.edgeoneai.cc.cd&path=%2F#4Kian-78fd3ea673
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#4Kian-d5e2c15042
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%B4-Voluntari-2937ms-Dotro%20Telecom%20SRL
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVODN1OU9HcHZTYXRJVVc3THNXZmZy@194.68.44.42:64546#4Sarina-0ff8b3cae2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4SlVpdjZRMW1CUHVSdjF5UTgtZHFGRXNzMEhvNEZ0RQ@irnamh.g44mozgh.ir:1001#4Kian-a625729e1d
 vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?security=reality&type=raw&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=d06d78e974491b6e&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU#4Mohsen-b3b385bd71
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVODN1OU9HcHZTYXRJVVc3THNXZmZy@194.68.44.42:64546#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%B4-Bucharest-2072ms-M247%20Europe%20SRL
-vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@212.81.59.35:443?&security=tls&fp=chrome&sni=snip.edgeoneai.cc.cd&type=ws&headerType=none&host=snip.edgeoneai.cc.cd&path=%2F#4Sarina-d18a6306f0
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%B4-Voluntari-2887ms-Dotro%20Telecom%20SRL
+vless://d1a6a033-fdbd-46a6-a177-3370ba042b9f@46.28.67.55:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU&sid=d06d78e974491b6e&type=tcp&headerType=none#4FreeIran-764782bc25
