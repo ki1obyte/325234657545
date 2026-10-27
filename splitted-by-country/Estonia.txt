@@ -1,0 +1,2 @@
+vless://4f35274e-006f-43e7-87be-c8cba4882b0c@132.243.65.82:443?encryption=none&fp=&mode=auto&path=%2F&pbk=UZKrOusu0M0i3gnqDanh2yXXkTibNEjj41Hsvah2XlI&security=reality&sni=player.vimeo.com&type=xhttp#4FreeIran-1630dd36e6
+vless://a9e5d7ed-ce1a-48eb-9767-4de54fcfaba7@est.luxes.network:8443?encryption=none&security=tls&sni=est.luxes.network&fp=chrome&alpn=http/1.1&type=ws&path=/assets#4Kian-505f85565c
