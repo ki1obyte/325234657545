@@ -1,3 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVUUZNSXJqZnVDZ0VsZnBs@20.164.41.194:443#4Jadi-bcf5dd1ba8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-487ms-Microsoft%20Corporation
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-496ms-Microsoft%20Corporation
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-521ms-Microsoft%20Corporation
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%BF%F0%9F%87%A6-Johannesburg-529ms-Microsoft%20Corporation
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMzltMVpZSTBIa2s4aWVi@20.164.212.103:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-531ms-Unknown
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVUUZNSXJqZnVDZ0VsZnBs@20.164.41.194:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-536ms-Unknown
