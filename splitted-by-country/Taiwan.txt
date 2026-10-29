@@ -1,0 +1,2 @@
+vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@152.32.167.33:443?security=reality&sni=www.amazon.com&fp=chrome&flow=xtls-rprx-vision&pbk=Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4&sid=cff998a4#4Sarina-16324f166f
+vless://a1de0630-5786-48a0-84f6-dc6f2de10d6d@151.242.189.40:443?encryption=none&security=tls&sni=vlso5.1d.mom&fp=chrome&type=ws&path=%2F&host=vlso5.1d.mom#4Kian-c46c07b06c
