@@ -1,0 +1,2 @@
+vless://52536080-a587-4331-966c-96582e089d40@190.93.244.117:2053?path=/stream/DEVCOP/96582e089d40/loc-0&security=tls&encryption=none&insecure=0&host=vidag-xqtz.mml007.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=vidag-xqtz.mml007.workers.dev#4FreeIran-457683ea2c
+vless://52536080-a587-4331-966c-96582e089d40@188.114.97.202:2053?path=/stream/DEVCOP/96582e089d40/loc-0&security=tls&encryption=none&insecure=0&host=vidag-xqtz.mml007.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=vidag-xqtz.mml007.workers.dev#4Nika-6439fb7318
