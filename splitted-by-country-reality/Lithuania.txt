@@ -1,0 +1,1 @@
+vless://4ce73e66-1337-466b-8308-2abb812f9682@93.115.24.135:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=admin.betust.net&fp=firefox&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&sid=3e137406&type=tcp&headerType=none#4FreeIran-473b444efc
