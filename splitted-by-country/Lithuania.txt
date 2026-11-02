@@ -1,1 +1,2 @@
-vless://4ce73e66-1337-466b-8308-2abb812f9682@93.115.24.135:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=admin.betust.net&fp=firefox&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&sid=3e137406&type=tcp&headerType=none#4FreeIran-473b444efc
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@185.178.208.167:443?alpn=http/1.1&host=lorettmay.top&path=/blog/posts&security=tls&sni=lorettmay.top&type=ws&fp=chrome#4Nika-a26a43659e
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@lorettmay.top:443?type=ws&security=tls&path=/blog/posts&host=lorettmay.top&sni=lorettmay.top&fp=firefox&alpn=http/1.1&encryption=none#4FreeIran-745f17a2ff
