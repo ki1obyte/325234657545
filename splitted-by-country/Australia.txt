@@ -1,3 +1,2 @@
 vless://948df76f-505d-4608-9c76-a933ee3ccc76@46.250.240.80:2053?fp=chrome&pbk=CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E&security=reality&sid=4cc9dc65f7770115&sni=www.cloudflare.com&type=tcp#4Nika-2b188e2997
-vless://6033ee9d-7c2a-4f37-a055-0c0d2d8487f0@207.148.80.199:443?&security=reality&flow=xtls-rprx-vision&pbk=hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ&fp=chrome&sni=ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com&type=tcp&headerType=none&host=ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com&path=%2F#4Sarina-c1df72a275
 vless://42026ed0-7d74-4585-8e46-0fe6aa4d665a@104.18.155.229:443?encryption=none&security=tls&sni=www.genflix.co.id.r3xxe.eu.cc&fp=chrome&type=ws&host=www.genflix.co.id.r3xxe.eu.cc&path=%2Fau-do#4Jadi-809f790f5a
