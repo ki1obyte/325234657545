@@ -1,1 +1,1 @@
-vless://0d607d84-0ae0-4b9c-a4f3-1766ab456e02@uae.purchasebot.net:443?flow=xtls-rprx-vision&fp=chrome&pbk=_0hmzeEAGEx6boacV3d-FrFGaFBYfdvJno39FxveJwM&security=reality&sid=e7c5f2a9&sni=bunny.net&type=tcp#4Sarina-11bbe7920a
+vless://dc413f44-7dce-4cc4-b2c7-878ef70ce464@46.8.125.64:443?security=reality&encryption=none&pbk=9MgNwdrftjPf18DG8qYo6iHJw7IG7uSnULScDQ0WDy4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=dubai-cdn-keno.keno.su&sid=0123456789abcdef#4Mohsen-7df8bfbfc9
