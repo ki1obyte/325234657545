@@ -1,2 +1,3 @@
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@185.178.208.167:443?alpn=http/1.1&host=lorettmay.top&path=/blog/posts&security=tls&sni=lorettmay.top&type=ws&fp=chrome#4Nika-a26a43659e
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@lorettmay.top:443?type=ws&security=tls&path=/blog/posts&host=lorettmay.top&sni=lorettmay.top&fp=firefox&alpn=http/1.1&encryption=none#4FreeIran-745f17a2ff
+vless://95d0e214-eab0-4701-93ed-fea4f1b56062@admin.betust.net:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=admin.betust.net&fp=firefox&security=reality&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&sid=3e137406#4Mohsen-3ff9fa7387
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@lorettmay.top:443?alpn=http/1.1&encryption=none&host=lorettmay.top&path=/blog/posts&security=tls&sni=lorettmay.top&type=ws&fp=ios#4Nika-2bced63fe4
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@185.178.208.167:443?alpn=http%2F1.1&host=lorettmay.top&path=%2Fblog%2Fposts&security=tls&sni=lorettmay.top&type=ws&fp=safari#4Jadi-b802aa5566
