@@ -1,3 +1,3 @@
 vless://3bb97d46-789b-4229-88f6-9beb222a4137@147.45.148.6:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yoy-api.bachidze.com&fp=chrome&security=reality&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&sid=#4Nika-6487d539d1
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@85.193.85.231:443?security=reality&encryption=none&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=yoy-api.bachidze.com#4Sarina-0cf5cf6cd4
+vless://3bb97d46-789b-4229-88f6-9beb222a4137@85.193.85.231:443?security=reality&encryption=none&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yoy-api.bachidze.com#4Nika-e42ea1eb60
 vless://3bb97d46-789b-4229-88f6-9beb222a4137@yoy-api.bachidze.com:443?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=chrome#4FreeIran-473954a0c2
