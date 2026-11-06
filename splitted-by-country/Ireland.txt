@@ -1,4 +1,2 @@
-vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@ie1.fox-lisa.ru:443?security=reality&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&fp=firefox&type=raw&flow=xtls-rprx-vision&sni=ie1.fox-lisa.ru&sid=027af64166562b09#4Mohsen-ba87dbe930
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NWRNMFpyTmRBazRPSGlN@20.107.206.186:443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-233ms-Unknown
 vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@86.54.83.33:443?flow=xtls-rprx-vision&fp=firefox&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&security=reality&sid=027af64166562b09&sni=ie1.fox-lisa.ru&type=raw#4Mohsen-b4f547a32e
-vless://1b7ee703-fa08-4305-8469-ae3e30e61e44@45.132.176.61:443?flow=xtls-rprx-vision&fp=firefox&pbk=_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ&security=reality&sid=a9dc98a7dc87a7dc&sni=sopelka.yandex-api.com&type=tcp#4Kian-c884f2d263
+vless://ccb8ff48-3934-4250-b4ec-bb76b95d154f@ie1.fox-lisa.ru:443?security=reality&pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs&fp=firefox&type=raw&flow=xtls-rprx-vision&sni=ie1.fox-lisa.ru&sid=027af64166562b09#4Mohsen-ba87dbe930
