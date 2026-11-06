@@ -1,12 +1,8 @@
-vless://2e69b088-6ef3-417f-8247-125cf257fafd@179.254.126.164:443/?type=grpc&encryption=none&flow=&sni=www.google.com&fp=firefox&security=reality&pbk=9-toGMQSTcKzSjjvJpjzhPG9le56hMNqRvx4_YKwIgY&sid=5dba4e0c74ce97dc#4FreeIran-a7ab60c4c8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ@90.156.203.62:5112#4Mohsen-ecdf5b9737
-ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA@185.22.153.192:18443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-445ms-LLC%20Baxet
-vless://645168d4-22a4-4217-9b3e-d94b7ab5bffa@89.19.223.227:443?security=reality&pbk=lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI&fp=firefox&type=raw&flow=xtls-rprx-vision&sni=d3-ru.cloud-cdn.xyz&sid=0f19f0c8102dc695#4Sarina-7d8ba69a97
 vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xsru1.ddnsfree.com:443?encryption=none&security=tls&sni=xsru1.ddnsfree.com&fp=chrome&type=grpc&serviceName=grpc-ru&mode=gun#4FreeIran-840b39827a
 vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xssite.webredirect.org:443?security=tls&serviceName=grpc-ru&sni=xssite.webredirect.org&type=grpc#4Nika-fa2ca5c1a3
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@85.193.85.231:443?security=reality&encryption=none&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yoy-api.bachidze.com#4Nika-e42ea1eb60
+vless://32b5ca9b-3f81-4031-965d-e8b074216e8d@201.24.121.243:443/?type=grpc&encryption=none&flow=&serviceName=vlgrpc&security=tls&sni=kk-ru24a1.testkknegr.online&alpn=h2&fp=chrome#4Jadi-6e924493be
 vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xsru2.freeddns.org:443?fp=chrome&host=xsru2.freeddns.org&path=%2Fwsru&security=tls&sni=xsru2.freeddns.org&type=ws#4Jadi-c7befe3b21
-vless://32b5ca9b-3f81-4031-965d-e8b074216e8d@201.24.121.243:443?allowInsecure=0&sni=kk-ru24a1.testkknegr.online&alpn=h2&type=grpc&serviceName=vlgrpc&fp=chrome&security=tls#4Kian-f8c3b7927d
-vless://3bb97d46-789b-4229-88f6-9beb222a4137@147.45.148.6:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yoy-api.bachidze.com&fp=chrome&security=reality&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&sid=#4Nika-6487d539d1
 vless://c90395e6-2140-47ad-a54d-9b166729d3ef@147.45.175.81:443?fp=random&security=tls&serviceName=grpc-ru&sni=xsru1.ddnsfree.com&type=grpc#4Sarina-fa64cbd678
 vless://3bb97d46-789b-4229-88f6-9beb222a4137@yoy-api.bachidze.com:443?encryption=none&flow=xtls-rprx-vision&pbk=ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI&security=reality&sni=yoy-api.bachidze.com&type=tcp&fp=chrome#4FreeIran-473954a0c2
+vless://c90395e6-2140-47ad-a54d-9b166729d3ef@147.45.175.81:443?fp=edge&host=xsru1.ddnsfree.com&path=%2Fwsru&security=tls&sni=xsru1.ddnsfree.com&type=ws#4Mohsen-701952d1a5
+ss://YWVzLTEyOC1nY206ODcyMmRlNTZiNmMwYjNmNmE0ZDAxY2Y5MWMwN2U2YWE@38.60.223.125:13108#4Nika-f1cc70e329
