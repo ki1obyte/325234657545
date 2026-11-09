@@ -1,0 +1,1 @@
+vless://7af8ad56-33ce-4f3d-ad15-ef32a71d67f7@50.7.42.43:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=9RfJDCFKCykiqgKvUggHX9CtzaOIADK-cZcSKdo1ITw&security=reality&sid=8fbee7b12cdb537a&sni=cdnportu.uk&type=tcp#4Sarina-164717c0a2
