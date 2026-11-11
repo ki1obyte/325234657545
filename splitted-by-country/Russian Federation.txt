@@ -1,8 +1,6 @@
-vless://c8c2ddff-825a-46c3-bbdd-4a101de468a7@188.130.209.212:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=thumbs.mycdn-io.ru&fp=chrome&pbk=6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc&sid=11979c0c9b2da371&spx=/HesarWeb#4FreeIran-4e0acce601
-ss://YWVzLTEyOC1nY206ODcyMmRlNTZiNmMwYjNmNmE0ZDAxY2Y5MWMwN2U2YWE@38.60.223.125:13108#4Nika-f1cc70e329
-vless://c5f59ef3-9540-49fa-bd1e-c6c2f79df49a@92.243.66.79:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ru-mow.probe.geomyip.com&fp=chrome&security=reality&pbk=siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o&sid=8d03c10b6a874a9c#4Jadi-0ad62f113f
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@vps3.nemnogogo.com:443?encryption=none&type=grpc&security=tls&sni=vps3.nemnogogo.com&fp=firefox&alpn=h2&serviceName=mobile.api.Event#4Mohsen-899630e7f5
-vless://32b5ca9b-3f81-4031-965d-e8b074216e8d@201.24.121.243:443?alpn=h2&fp=chrome&security=tls&serviceName=vlgrpc&sni=kk-ru24a1.testkknegr.online&type=grpc#4Jadi-584e5f57f4
 vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?encryption=none&type=grpc&security=tls&sni=vps3.nemnogogo.com&fp=firefox&serviceName=mobile.api.Event#4Nika-0c98d65b2c
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ@90.156.203.62:5112#4Mohsen-ecdf5b9737
-ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA@185.22.153.117:18443#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B7%F0%9F%87%BA-Moscow-461ms-LLC%20Baxet
+vless://c5f59ef3-9540-49fa-bd1e-c6c2f79df49a@92.243.66.79:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ru-mow.probe.geomyip.com&fp=chrome&security=reality&pbk=siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o&sid=8d03c10b6a874a9c#4Jadi-0ad62f113f
+ss://YWVzLTEyOC1nY206ODcyMmRlNTZiNmMwYjNmNmE0ZDAxY2Y5MWMwN2U2YWE=@38.60.223.125:13108#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%8F%81-405ms-Unknown
+vless://32b5ca9b-3f81-4031-965d-e8b074216e8d@201.24.121.243:443?alpn=h2&fp=chrome&security=tls&serviceName=vlgrpc&sni=kk-ru24a1.testkknegr.online&type=grpc#4Jadi-584e5f57f4
+ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA@185.22.153.117:18443#4FreeIran-5ba98f02e7
+vless://c8c2ddff-825a-46c3-bbdd-4a101de468a7@188.130.209.212:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=thumbs.mycdn-io.ru&fp=ios&pbk=6vubZmkLVtaiFF8JyGFy7XSy2pc7ywN4P625QLKw8wc&sid=11979c0c9b2da371&spx=/HesarWeb#4Sarina-187403c01b
