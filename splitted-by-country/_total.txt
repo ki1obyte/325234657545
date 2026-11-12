@@ -1,1 +1,1 @@
-Total working proxies: 1258
+Total working proxies: 1183
