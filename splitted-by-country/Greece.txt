@@ -1,3 +1,4 @@
 vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@85.90.197.159:443?&security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F#4Sarina-1d402db624
-vless://8f704ed6-9a1a-4d04-94dd-1bff501716de@85.90.197.220:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4&sid=94acb54627612d43&allowInsecure=1#4Kian-e024336e71
+vless://9a5e7b1c-bf39-4b1f-891f-ac87824ee38f@23.95.72.244:50121?flow=xtls-rprx-vision&security=reality&sni=api.adidas.com&fp=ios&pbk=wwVM0-8EUXMZthXS6SAGpu3xSPbf2kjWB_A3i-TCOS0&sid=888cb24cb698#4FreeIran-67293d625e
+vless://8f704ed6-9a1a-4d04-94dd-1bff501716de@85.90.197.220:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4&security=reality&sid=94acb54627612d43&sni=www.cloudflare.com&type=raw#4Nika-1501656d0c
 vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@85.90.197.158:443?&security=tls&fp=chrome&sni=fs.qicai99.com&type=ws&headerType=none&host=fs.qicai99.com&path=%2F#4Jadi-18fcc7efbd
