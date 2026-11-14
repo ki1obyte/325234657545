@@ -1,2 +1,1 @@
-vless://39a390af-1f90-4c0e-89e4-4e2023732e4b@147.78.1.253:443?security=reality&encryption=none&pbk=TefL2KtNcNLPmUY8TKlu5pA7ffipqgmbBN6gpyzyklk&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com#4Jadi-8bcea773e9
-ss://YWVzLTI1Ni1nY206Qld5UFBUdXNGS2hHZ3pLaA==@64.177.90.30:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B2%F0%9F%87%BD-Quer%C3%A9taroCity-89ms-The%20Constant%20Company%20LLC
+ss://YWVzLTI1Ni1nY206Qld5UFBUdXNGS2hHZ3pLaA==@64.177.90.30:8388#https:%2F%2Ft.me%2FForceRunVPN-%F0%9F%87%B2%F0%9F%87%BD-Quer%C3%A9taroCity-113ms-The%20Constant%20Company%20LLC
