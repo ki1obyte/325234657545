@@ -1,0 +1,1 @@
+vless://2eca7953-0a12-4379-bc28-8f8b02aa4a95@mtrc.yandex-app.net:41863?mode=gun&security=reality&encryption=none&pbk=QzAJlxEbGf1Ia_trncHmVN-fRDxpedCih7ci1qMZ5Ho&fp=chrome&type=grpc&serviceName=2a71c0f1&sni=usher.ttvnw.net&sid=caea3bd372e0af07#4Jadi-3bd412594e
