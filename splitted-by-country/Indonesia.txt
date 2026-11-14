@@ -1,1 +1,1 @@
-vmess://eyJhZGQiOiAiemZkLWJvYXJkdjIua3VubHVuMDFkbnMuY29tIiwgImFpZCI6ICIwIiwgImlkIjogIjA4MDJhYzAzLTc5NzMtMzllZi1hMDE5LWJhMDJkZTZjMDFlMSIsICJuZXQiOiAidGNwIiwgInBvcnQiOiAiMTYyOTgiLCAicHMiOiAiNE1vaHNlbi0zN2FhZGEwOTQyIiwgInNjeSI6ICJhdXRvIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@31.58.213.230:443?flow=xtls-rprx-vision&security=reality&sni=cron.jarbook.net&fp=firefox&pbk=kZT-TcQzZQL0sTmcsipzIgE7qO2vdZom4Res0KbnbQ0&sid=295f8129#4Kian-55f7f2ae45
