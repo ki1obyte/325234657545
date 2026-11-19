@@ -1,1 +1,0 @@
-vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@193.243.189.64:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=no1.gofizz.in&fp=ios&security=reality&pbk=631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg&sid=b12c3119d219dc#4Kian-854ae5c0b5
