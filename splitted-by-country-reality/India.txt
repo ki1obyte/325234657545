@@ -1,3 +1,3 @@
 vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@178.212.35.198:443?fp=chrome&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp#4Kian-9a3bae04fc
-vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?fp=chrome&path=%2F&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp#4Jadi-37c4e4f768
+vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?encryption=none&fp=&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp#4FreeIran-bef0e88e46
 vless://7d53c50c-3abf-4cb5-9d58-e7a42ce1d1c6@148.113.5.22:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&headerType=none&pbk=Z427KvuqeeUvrRo-BDKuc9xG5t0z0y4zAnhA_NIFFwI&security=reality&sid=7ff98efcced3fd5b&sni=www.cloudflare.com&type=tcp#4Sarina-f4db9b7a38
