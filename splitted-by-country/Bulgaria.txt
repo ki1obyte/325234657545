@@ -1,2 +1,1 @@
 vless://6589c320-db68-43cd-a273-b46299bab355@195.123.226.21:443?flow=xtls-rprx-vision&fp=chrome&pbk=rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo&security=reality&sid=77bb0d07bddbc832&sni=gateway.icloud.com&type=tcp#4Nika-9f291ab7d7
-vless://bd24111c-b3ee-4d30-a097-d74c2d1c5c89@md-kiv-1.blook.network:443?flow=xtls-rprx-vision&fp=firefox&pbk=rc7lXHj8W1qb-DhJzxTQPJ3TL9IAKkc4kqXCfCsRlXo&security=reality&sid=f7a0607a94b2&sni=md-kiv-1.blook.network#4FreeIran-9b6d739290
