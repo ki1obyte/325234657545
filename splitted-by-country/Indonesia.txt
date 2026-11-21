@@ -1,1 +1,1 @@
-vless://12d67d2b-ae5c-4d56-9f14-d71d96f7826f@104.17.3.81:443?path=%2Fvlessws&security=tls&encryption=none&host=natan.srpcom.cloud&type=ws&sni=natan.srpcom.cloud#4Nika-f129e66b7a
+vmess://eyJhZGQiOiAiemZkLWJvYXJkdjIua3VubHVuMDFkbnMuY29tIiwgImFpZCI6ICIwIiwgImlkIjogIjA4MDJhYzAzLTc5NzMtMzllZi1hMDE5LWJhMDJkZTZjMDFlMSIsICJuZXQiOiAidGNwIiwgInBvcnQiOiAiMTYyOTgiLCAicHMiOiAiNE1vaHNlbi0zN2FhZGEwOTQyIiwgInNjeSI6ICJhdXRvIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
