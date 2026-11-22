@@ -1,2 +1,1 @@
 vless://a7595994-695d-484e-bfcb-e9fbb73cfa39@83.141.92.168:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY&security=reality&sid=7a7d19880a9ee786&sni=sladovna.russianpiwo.fun&type=tcp#4Nika-62bcfd83b7
-vless://b34a52cb-cd52-49a8-9362-b8e97c151d49@212.102.38.25:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=udemy.com&fp=ios&pbk=23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE&sid=e90360ec7cc61b20&type=tcp&path=/#4FreeIran-94bda95844
