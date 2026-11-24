@@ -1,2 +1,0 @@
-vless://92e8d9dc-8e3b-4f81-a278-d18c6bf1b962@194.71.227.213:443?encryption=none&security=tls&sni=app-base-njw3ky.pages.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=app-base-njw3ky.pages.dev&path=%2Fws%3Fip%3D194.71.227.213%3A443#4Sarina-4940a72e31
-vless://92e8d9dc-8e3b-4f81-a278-d18c6bf1b962@35.210.99.51:443?encryption=none&security=tls&sni=app-base-njw3ky.pages.dev&fp=chrome&alpn=http%2F1.1&type=ws&host=app-base-njw3ky.pages.dev&path=%2Fws%3Fip%3D35.210.99.51%3A443#4Nika-859f1947df
