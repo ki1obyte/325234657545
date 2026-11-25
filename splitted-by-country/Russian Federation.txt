@@ -1,6 +1,7 @@
-vless://c90395e6-2140-47ad-a54d-9b166729d3ef@147.45.175.81:443?encryption=none&fp=chrome&host=xsru2.freeddns.org&path=wsru&security=tls&sni=xsru2.freeddns.org&type=ws#4Sarina-2804d5bad6
-vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?encryption=none&security=tls&type=grpc&serviceName=mobile.api.Event&mode=gun&sni=vps3.nemnogogo.com&fp=chrome#4Mohsen-c91188d793
-vless://c90395e6-2140-47ad-a54d-9b166729d3ef@147.45.175.81:443?fp=random&security=tls&serviceName=grpc-ru&sni=xsru1.ddnsfree.com&type=grpc#4Sarina-fa64cbd678
-vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xsru2.freeddns.org:443?fp=chrome&host=xsru2.freeddns.org&path=%2Fwsru&security=tls&sni=xsru2.freeddns.org&type=ws#4Jadi-c7befe3b21
-vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xsru1.ddnsfree.com:443?security=tls&serviceName=grpc-ru&sni=xsru1.ddnsfree.com&type=grpc#4Mohsen-ba36a241dc
+vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xssite.webredirect.org:443?encryption=none&security=tls&type=grpc&serviceName=grpc-ru&mode=gun&sni=xssite.webredirect.org&fp=chrome#4Mohsen-9c51d16fd7
 vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@leviko-ru4448.shopingggg.ir:443?security=tls&alpn=h2&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=mobile.api.Event&allowInsecure=0&sni=vps3.nemnogogo.com#4Mohsen-055aa6bf93
+vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xsru1.ddnsfree.com:443?security=tls&serviceName=grpc-ru&sni=xsru1.ddnsfree.com&type=grpc#4Mohsen-ba36a241dc
+vless://c90395e6-2140-47ad-a54d-9b166729d3ef@147.45.175.81:443?fp=random&security=tls&serviceName=grpc-ru&sni=xsru1.ddnsfree.com&type=grpc#4Sarina-fa64cbd678
+vless://c90395e6-2140-47ad-a54d-9b166729d3ef@147.45.175.81:443?encryption=none&fp=chrome&host=xsru2.freeddns.org&path=wsru&security=tls&sni=xsru2.freeddns.org&type=ws#4Sarina-2804d5bad6
+vless://c90395e6-2140-47ad-a54d-9b166729d3ef@xsru2.freeddns.org:443?fp=chrome&host=xsru2.freeddns.org&path=%2Fwsru&security=tls&sni=xsru2.freeddns.org&type=ws#4Jadi-c7befe3b21
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?encryption=none&security=tls&type=grpc&serviceName=mobile.api.Event&mode=gun&sni=vps3.nemnogogo.com&fp=chrome#4Mohsen-c91188d793
