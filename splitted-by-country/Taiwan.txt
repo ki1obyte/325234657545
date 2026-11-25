@@ -1,1 +1,2 @@
-vless://b59bcb5b-5150-4c6b-9227-681886197014@85.237.207.221:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=dl.google.com&fp=chrome&pbk=lJz7AGWUC-ZTEIJaU5y1GRrROWJ9J_VzQRyrYPmOygs&sid=fd2fa5e06670120b#4Mohsen-9f4b9ebd10
+vless://bf14dc50-e9f2-49fd-8642-620446edeafb@83.147.14.62:8443?security=tls&encryption=none&insecure=0&host=v3-duz.pages.dev&fp=firefox&type=ws&allowInsecure=0#4Mohsen-17cf3eaf33
+vless://b59bcb5b-5150-4c6b-9227-681886197014@85.237.207.221:443?security=reality&type=tcp&packetEncoding=xudp&sni=dl.google.com&fp=chrome&flow=xtls-rprx-vision&sid=fd2fa5e06670120b&pbk=lJz7AGWUC-ZTEIJaU5y1GRrROWJ9J_VzQRyrYPmOygs&encryption=none#4Jadi-d8ff43296d
