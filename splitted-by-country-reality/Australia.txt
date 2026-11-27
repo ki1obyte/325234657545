@@ -1,2 +1,2 @@
 vless://f7fa5a16-1279-46ba-ac18-001b41884080@46.250.240.80:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=chrome&sid=3611e663b53177f2&pbk=nrG0dLD2wazG9wHwqCDb7sF6UNRophzBmCX3hDxuqAE&encryption=none#4Mohsen-00cc938f7e
-vless://3c778768-d511-4221-8be3-3eba45640e9e@51.161.204.242:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24&security=reality&sid=d432fe14bbdc17f6&sni=www.cloudflare.com&type=tcp#4Nika-9e29b08bd3
+vless://3c778768-d511-4221-8be3-3eba45640e9e@51.161.204.242:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=l0I4SmPtUDyjp1PAeSxBJ5qr9vubCOl9w3b-eDI4x24&sid=d432fe14bbdc17f6#4Kian-6023ed7afd
