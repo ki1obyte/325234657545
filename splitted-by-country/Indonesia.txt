@@ -1,1 +1,1 @@
-vless://341832cc-ba98-425b-8225-b3db621a0da3@104.25.0.1:2096?&security=tls&fp=chrome&sni=rainfall0705.cc.cd&type=ws&headerType=none&host=rainfall0705.cc.cd&path=%2Ffp%3Dchrome#4FreeIran-68212c20e7
+vless://3b01a777-55e7-49f6-8637-d94ee69607c6@kozel.cc.cd:443?&security=tls&fp=chrome&sni=kozel.cc.cd&type=ws&headerType=none&host=kozel.cc.cd&path=%2F118.151.222.66%3D17317#4Mohsen-b7fb188db9
