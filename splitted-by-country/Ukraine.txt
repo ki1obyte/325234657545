@@ -1,2 +1,1 @@
-vless://d8b58872-cc25-4bb2-badb-b86399c075fa@31.222.235.81:443?security=reality&encryption=none&pbk=L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk&headerType=none&fp=chrome&type=tcp&sni=www.cloudflare.com&sid=d8b58872#4FreeIran-6f9c8dc010
-vless://d8b58872-cc25-4bb2-badb-b86399c075fa@netx.smrtai.top:443?fp=chrome&pbk=L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk&security=reality&sid=d8b58872&sni=www.cloudflare.com&type=tcp#4Sarina-16a61e4206
+vless://41bcd5ea-f90c-4227-ab6f-23de50b0a226@uatun.electrowizard.ir:5562?encryption=none&type=xhttp&security=reality&sni=aparat.com&fp=chrome&pbk=0Eq-tv-EhXNmeJRGK27F3I9kLsoQqIny0PUzjJcw1QM&sid=d8f710114c8cf60f&allowInsecure=1#4Kian-65fa78accf
